@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shinies on Tom Bishop</title>
+    <link>/shiny/</link>
+    <description>Recent content in Shinies on Tom Bishop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Apr 2017 16:43:08 +0100</lastBuildDate>
+    
+	<atom:link href="/shiny/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stratton</title>
+      <link>/shiny/stratton/</link>
+      <pubDate>Mon, 10 Apr 2017 16:43:08 +0100</pubDate>
+      
+      <guid>/shiny/stratton/</guid>
+      <description>Slide slideUp   slideDown   Slide Up Slide Down $(&amp;rsquo;#element&amp;rsquo;).animation(&amp;lsquo;slideUp&amp;rsquo;); $(&amp;rsquo;#element&amp;rsquo;).animation(&amp;lsquo;slideDown&amp;rsquo;);  Fade fadeIn   fadeOut   Fade In Fade Out $(&amp;rsquo;#element&amp;rsquo;).animation(&amp;lsquo;fadeIn&amp;rsquo;); $(&amp;rsquo;#element&amp;rsquo;).animation(&amp;lsquo;fadeOut&amp;rsquo;);  Flip flipIn   flipOut   Flip In Flip Out $(&amp;rsquo;#element&amp;rsquo;).animation(&amp;lsquo;flipIn&amp;rsquo;); $(&amp;rsquo;#element&amp;rsquo;).animation(&amp;lsquo;flipOut&amp;rsquo;);  Zoom zoomIn   zoomOut   Zoom In Zoom Out $(&amp;rsquo;#element&amp;rsquo;).animation(&amp;lsquo;zoomIn&amp;rsquo;); $(&amp;rsquo;#element&amp;rsquo;).animation(&amp;lsquo;zoomOut&amp;rsquo;);  Rotate rotate   Rotate $(&amp;rsquo;#element&amp;rsquo;).animation(&amp;lsquo;rotate&amp;rsquo;);  Shake shake   Shake $(&amp;rsquo;#element&amp;rsquo;).animation(&amp;lsquo;shake&amp;rsquo;);  Pulse pulse   Pulse $(&amp;rsquo;#element&amp;rsquo;).</description>
+    </item>
+    
+  </channel>
+</rss>

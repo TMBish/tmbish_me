@@ -1,0 +1,29 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Tom Bishop"
+theme = "kube"
+description = "A place to store my thoughts."
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "Tom Bishop" # add your company name
+  github = "TMBish" # add your github profile name
+  twitter = "bigbishdog" # add your twitter profile
+  email = "tomwbish@gmail.com"
+
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+[[menu.main]]
+    name = "About Me"
+    weight = -100
+    url = "/aboutme/"
+[[menu.main]]
+    name = "Shiny"
+    weight = -100
+    url = "/shiny/"
+[[menu.main]]
+    name = "Posts"
+    weight = -100
+    url = "/post/"
