@@ -1,5 +1,5 @@
 +++
-description = "You were born to be a pawn, but I'm a bishop"
+description = "Listen in."
 title = "Tom Bishop"
 draft = false
 

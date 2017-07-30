@@ -9,11 +9,22 @@
       </p>
 
     </div> 
-    <div id="kube-component" class="content">
-    {{ partial "toc" .}}
 
-    {{ .Content}}
-<!-- Inject script tag in this template  -->
+    <div id="kube-component" class="content">
+
+      <h2> Looks Like </h2>
+
+      <figure>
+        <img alt="Add Your Screencap For This App" src= {{ (printf "/img/shiny/%s.png" .Params.screencap) }}>
+      </figure>
+
+      <!--  This is the details section --> 
+      {{ .Content}}
+
+        <div id="action-buttons">
+           <a class="button outline big" href= {{ .Params.link }}> Through to App </a>
+       </div>
+    <!-- Inject script tag in this template  -->
     {{if .Params.script}}
      {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
     {{ partial (string $script) .}}
@@ -21,3 +32,8 @@
     </div>
     </div>
 {{ end }}
+
+
+
+
+

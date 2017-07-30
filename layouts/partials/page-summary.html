@@ -1,4 +1,4 @@
-<div itemscope itemtype="http://schema.org/CreativeWork">
+<!-- <div itemscope itemtype="http://schema.org/CreativeWork">
     <h2 class="title">
         <a href="{{ .Permalink }}" itemprop="headline">{{ .Title }}</a>
     </h2>
@@ -6,4 +6,19 @@
     {{ if .Description }}
     <p itemprop="about">{{ .Description }}</p>
     {{ end }}
+</div> -->
+
+<div class="row gutters align-middle">
+    <div class="col col-3">
+	    <h2 class="title">
+	        <a href="{{ .Permalink }}" itemprop="headline">{{ .Title }}</a>
+	    </h2>
+    </div>
+    <div class="col col-9" style="display:flex;justify-content:center;align-items:center;">
+		{{ if .Description }}
+			<p itemprop="about">{{ .Description }}</p>
+		{{ else }}
+			<p itemprop="about"> Description not available. </p>
+		{{ end }}
+    </div>
 </div>

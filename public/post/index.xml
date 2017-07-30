@@ -6,20 +6,19 @@
     <description>Recent content in Posts on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>R Markdown Test</title>
+      <link>/post/r-markdown-test/</link>
+      <pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/post/r-markdown-test/</guid>
+      <description>OverviewHey. Just testing the Rmd funcitonality of this page. Maybe I’m interested in the BMI of human star wars characters. Maybe. Let’s see how this goes:
+library(dplyr)library(ggplot2)starwars %&amp;gt;%filter(species == &amp;quot;Human&amp;quot;) %&amp;gt;%ggplot(aes(y=height, x=mass, colour=species)) +geom_point() +geom_smooth() +theme_bw() +ggtitle(&amp;quot;Starwars BMI&amp;quot;)</description>
     </item>
     
   </channel>

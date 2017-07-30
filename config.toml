@@ -11,10 +11,7 @@ Paginate = 4
   twitter = "bigbishdog" # add your twitter profile
   email = "tomwbish@gmail.com"
 
-[[menu.main]]
-    name = "Blog"
-    weight = -100
-    url = "/blog/"
+
 [[menu.main]]
     name = "About Me"
     weight = -100
