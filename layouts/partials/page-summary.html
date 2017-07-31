@@ -8,7 +8,77 @@
     {{ end }}
 </div> -->
 
-<div class="row gutters align-middle">
+<!-- <div class="row gutters align-middle post">
+
+    <div class="col col-3">
+        <img src="/img/posts/r_markdown_test.png">
+    </div>
+
+    <div class="col col-9">
+
+        <div class="row">
+
+            <div class="title-box col col-9">
+                <h2 class="title">
+                    <a href="{{ .Permalink }}" itemprop="headline">{{ .Title }}</a>
+                </h2>
+            </div>
+
+            <div class="meta-box col col-3">
+                <p>test</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="desc-box col col-12">
+               <p> {{ .Description}} </p>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="row gutters align-middle post">
+
+    <div class="col col-3">
+        <img src="/img/posts/r_markdown_test.png">
+    </div>
+
+    <div class="col col-6">
+
+        <div class="row">
+
+            <div class="title-box col col-12">
+                <h2 class="title">
+                    <a href="{{ .Permalink }}" itemprop="headline">{{ .Title }}</a>
+                </h2>
+            </div>
+
+            <div class="desc-box col col-12">
+               <p> {{ .Description}} </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col col-3">
+
+            <div class="meta-box">
+               <p>
+               { <br>
+
+                 &emsp; &emsp; date: <span class="value-test"> 20/1/2017 </span>, <br>
+                 &emsp; &emsp; good_read: <span class="value-test"> TRUE </span> <br>
+
+               } <br>
+              </p>
+            </div>
+    </div>
+</div>
+
+
+<!-- <div class="row gutters align-middle">
     <div class="col col-3">
 	    <h2 class="title">
 	        <a href="{{ .Permalink }}" itemprop="headline">{{ .Title }}</a>
@@ -21,4 +91,4 @@
 			<p itemprop="about"> Description not available. </p>
 		{{ end }}
     </div>
-</div>
+</div> -->
