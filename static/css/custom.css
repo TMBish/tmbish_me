@@ -84,43 +84,30 @@ h2 {
 }
 
 .post {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 #posts .title-box {
   border-bottom: 2px solid #f8f8f8;
   border-right: 2px solid #f8f8f8;
-  height: 75px;
-  align-items: center;
-  justify-content: center;
+  height: 50px;
   margin:auto;
   margin-bottom: 10px;
 }
 
-#posts h2 a {
+#posts .title-box h2 a {
+  height:100%;
+  font-size: 30pt;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: left;
   color: #FF6A5C;
-  text-decoration: none; 
-}
 
-/*#posts .meta-box {
-  border-bottom: 2px solid #f8f8f8;
-  height: 75px;
-}
-*/
-
-#posts .meta-box {
-  text-align: left;
-}
-
-.value-test {
-  font-weight: bold;
-  color: #056571;
-  font-family: Consolas,monaco,monospace; 
 }
 
 #posts .desc-box {
   text-align: left;
   min-height: 75px;
   border-right: 2px solid #f8f8f8;
-
 }
