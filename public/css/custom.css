@@ -36,6 +36,40 @@
 
 }
 
+.logo {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
+
+.logo img {
+  height: 150px;
+  width: 150px;
+}
+
+.logo .slider {
+    margin-top: 10px;
+    height: 5px;
+    width: 0%;
+    transition: width 1s ease;
+}
+
+.black {
+    background-color: #000;
+}
+.blue {
+    background-color: #007BB5;
+}
+.red {
+    background-color: #F1635A;
+}
+
+
+.logo:hover .slider {
+    width: 75%;
+}
+
 #kube-faq {
   max-width: 1000px;
   margin: auto;
@@ -113,4 +147,14 @@ h2 {
   text-align: left;
   min-height: 75px;
   border-right: 2px solid #f8f8f8;
+}
+
+.indented {
+  padding-left: 40px;
+}
+
+.technology {
+  background-color: #ffd2ce;
+  color:#FF6A5C;
+  font-weight: bold;
 }

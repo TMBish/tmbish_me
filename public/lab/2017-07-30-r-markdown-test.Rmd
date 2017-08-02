@@ -1,0 +1,30 @@
+---
+title: R Markdown Test
+author: ~
+date: '2017-07-30'
+slug: r-markdown-test
+categories: []
+tags: []
+highlight: "kate"
+description: "Just testing an rmarkdown doc in this website. Wish me luck."
+img: "r_markdown_test"
+---
+
+# Overview
+
+Hey. Just testing the Rmd funcitonality of this page. Maybe I'm interested in the BMI of human star wars characters. Maybe. Let's see how this goes:
+
+```{r, warning=FALSE, message=FALSE}
+
+library(dplyr)
+library(ggplot2)
+
+starwars %>%
+  filter(species == "Human") %>%
+  ggplot(aes(y=height, x=mass, colour=species)) +
+    geom_point() +
+    geom_smooth() +
+    theme_bw() +
+    ggtitle("Starwars BMI")
+```
+

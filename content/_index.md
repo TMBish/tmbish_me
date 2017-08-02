@@ -1,5 +1,5 @@
 +++
-description = "Listen in."
+description = "Data Scientist."
 title = "Tom Bishop"
 draft = false
 

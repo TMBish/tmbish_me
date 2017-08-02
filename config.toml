@@ -21,6 +21,6 @@ Paginate = 4
     weight = -100
     url = "/shiny/"
 [[menu.main]]
-    name = "Posts"
+    name = "Lab"
     weight = -100
-    url = "/post/"
+    url = "/lab/"

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Labs on Tom Bishop</title>
+    <link>/lab/</link>
+    <description>Recent content in Labs on Tom Bishop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/lab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Second Tester</title>
+      <link>/lab/second-tester/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/second-tester/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown Test</title>
+      <link>/lab/r-markdown-test/</link>
+      <pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/r-markdown-test/</guid>
+      <description>OverviewHey. Just testing the Rmd funcitonality of this page. Maybe I’m interested in the BMI of human star wars characters. Maybe. Let’s see how this goes:
+library(dplyr)library(ggplot2)starwars %&amp;gt;%filter(species == &amp;quot;Human&amp;quot;) %&amp;gt;%ggplot(aes(y=height, x=mass, colour=species)) +geom_point() +geom_smooth() +theme_bw() +ggtitle(&amp;quot;Starwars BMI&amp;quot;)</description>
+    </item>
+    
+  </channel>
+</rss>

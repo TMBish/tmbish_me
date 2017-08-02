@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/second-tester/</loc>
+    <loc>/lab/second-tester/</loc>
     <lastmod>2017-07-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,7 +18,7 @@
   </url>
   
   <url>
-    <loc>/post/r-markdown-test/</loc>
+    <loc>/lab/r-markdown-test/</loc>
     <lastmod>2017-07-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,13 +28,13 @@
   </url>
   
   <url>
-    <loc>/aboutme/</loc>
+    <loc>/lab/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/aboutme/</loc>
   </url>
   
   <url>

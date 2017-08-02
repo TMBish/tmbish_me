@@ -21,16 +21,47 @@
     </div>
 </div>
 
-<br><h1> Timeline of My Working Life </h1>
 
 
-<div id="container" style="width:100%; height:400px"></div>
+<br><br>
 
-<h1> Skillz </h1>
+<p> I'm a data analytics professional currently working as data science consultant in Melbourne. </p> 
+<p> Thing I'm really into: </p>
+<ul class="indented">
+  <li> Statistical programming ( particularly <span class="label upper outline error"> R </span> ); </li>
+  <li> Creating aesthetic data visualisations ( particularly <span class="label upper outline error"> Highcharts </span> ); </li> 
+  <li> Scraping data from the web ( <span class="label upper outline error"> Scrapy </span>, <span class="label upper outline error"> Beautiful Soup </span>, <span class="label upper outline error"> Rvest </span> ); and </li>
+  <li> Building data oriented web sites and web applications ( I'm an vociferous <span class="label upper outline error"> Shiny </span> enthusiast ). </li>
+</ul>
 
-<h1> Get in Touch </h1>
+<p> A more detailed description of my technical skills can be found in my CV. </p>
 
+<br>
+<hr>
+<h1>Professional Timeline</h1>
+<div id="container" style="width:100%; height:500px"></div>
 
+<br><br>
+<br>
+
+<hr>
+<h1>Get In Touch</h1>
+<br>
+
+<div class="row gutters align-middle">
+    <div class="col col-4 logo">
+      <a href="mailto:tomwbish@gmail.com"><img src="/img/aboutme/mail.svg" class="logo"></a>
+      <span class="slider red"></span>  
+    </div>
+    <div class="col col-4 logo">
+      <a href="https://www.linkedin.com/in/tom-bishop-a60b77a1/"> <img src="/img/aboutme/linkedin.svg" class="logo"> </a>
+      <span class="slider blue"></span>  
+    </div>
+    <div class="col col-4 logo">
+      <a href="https://github.com/TMBish"><img src="/img/aboutme/github.svg" class="logo"></a>
+      <span class="slider black"></span>  
+    </div>
+</div>
 
 <script type="text/javascript">
     $(function () { 
@@ -40,7 +71,7 @@
             inverted: true,
             backgroundColor: "transparent",
             style: {
-                fontFamily: "Roboto",
+                fontFamily: "Lato",
             },
         },
         xAxis: {
@@ -50,30 +81,45 @@
         yAxis: {
             type: "datetime",
             min: Date.UTC(2008, 10),
-            max: Date.UTC(new Date().getFullYear(),  new Date().getMonth() + 3, 29),
-            title: {
-                text: 'Time'
-            }
+            max: Date.UTC(new Date().getFullYear(),  new Date().getMonth() + 6, 29),
+            gridLineWidth: 0,
+            title: {text: ""}
         },
 
         legend: {
             enabled: false
         },
 
+        title: {
+
+          text: "",
+          style: {
+            fontSize: 24,
+            fontWeight: "bold",
+            textDecoration: "underline"
+          }
+
+        },
+
+        credits: {
+          href: "http://jkunst.com/about/",
+          text: "Inspired by Josh Kunst's site"
+        }, 
+
         tooltip: {
                 formatter: function() {
                  details = {
                       "Bachelors Degree": "Bachelor of Science",
-                      "Masters Degree": "Master of Operations Research",
-                      "Grad": "Risk Graduate",
+                      "Masters Degree": "Masters of Operations Research",
+                      "Graduate": "Risk Graduate",
                       "Analyst": "Credit Risk Model Developer",
-                      "Senior Analyst": "Credit Cards",
+                      "Senior Analyst": "Senior Credit Cards Analyst",
                       "Data Scientist": "Senior Data Science Consultant"
                     };
                   org = {
                       "Bachelors Degree": "The University of Melbourne",
                       "Masters Degree": "The University of Melbourne",
-                      "Grad": "National Australia Bank",
+                      "Graduate": "National Australia Bank",
                       "Analyst": "National Australia Bank",
                       "Senior Analyst":"National Australia Bank",
                       "Data Scientist": "Ernst & Young"
@@ -82,59 +128,61 @@
                     date_format = Math.round(this.y * 3.8052e-10);
                           //Highcharts.dateFormat('%m', new Date(this.x));
 
-                    return "<b>Organisation: </b>" + org[this.point.name] + "<br> <b>Role: </b>" + details[this.point.name] + "<br> <b>Length: </b> " + date_format + "months";
+                    return "<b>Organisation: </b>" + org[this.point.name] + "<br> <b>Role: </b>" + details[this.point.name] + "<br> <b>Time Period: </b> " + date_format + " months";
                 }
             },
         series: [{
             upColor: Highcharts.getOptions().colors[2],
             color: Highcharts.getOptions().colors[3],
+            borderWidth: 0,
             data: [
             {
-                name: 'Did I exist?',
+                name: 'Existence?',
                 y: Date.UTC(2008, 9),
-                color: '#BF0B23'
+                color: 'rgba(158,158,158,0.5)'
             },
             {
                 name: 'Bachelors Degree',
                 y: Date.UTC(2012, 2) - Date.UTC(2008, 9),
-                color: '#01579b'
+                color: 'rgba(1,87,155,0.5)'
             }, {
                 name: 'Masters Degree',
                 y: Date.UTC(2014, 1) - Date.UTC(2012,2),
-                color: '#01579b'
+                color: 'rgba(1,87,155,0.5)'
             }, {
-                name: 'Grad',
+                name: 'Graduate',
                 y: Date.UTC(2015, 4) - Date.UTC(2014,2),
-                color: '#be0d00'
+                color: 'rgba(190,13,0,0.5)'
             },
             {
                 name: 'Analyst',
                 y: Date.UTC(2016, 2) - Date.UTC(2015,4),
-                color: '#be0d00'
+                color: 'rgba(190,13,0,0.5)'
             },
             {
                 name: 'Senior Analyst',
                 y: Date.UTC(2017, 2) - Date.UTC(2016,3),
-                color: '#be0d00'
+                color: 'rgba(190,13,0,0.5)'
             },
             {
                 name: 'Data Scientist',
                 y: Date.UTC(new Date().getFullYear(),  new Date().getMonth()+1) - Date.UTC(2017,2),
-                color: '#FFE700'
+                color: 'rgba(255,231,0,0.5)'
             }],
             dataLabels: {
                 enabled: true,
+                y: 30,
                 style: {
-                    color: '#FFFFFF',
+                    color: '#000000',
                     fontWeight: 'bold'
                     },
                 formatter: function() {
                     details = {
                       "Bachelors Degree": "Bachelor of Science",
                       "Masters Degree": "Master of Operations Research",
-                      "Grad": "Risk Graduate",
+                      "Graduate": "Risk Graduate",
                       "Analyst": "Credit Risk Model Developer",
-                      "Senior Analyst": "Credit Cards",
+                      "Senior Analyst": "Senior Credit Cards Analyst",
                       "Data Scientist": "Senior Data Science Consultant"
                     };
                     
