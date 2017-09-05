@@ -1,0 +1,26 @@
+{{ define "title"}} {{ "Bishop's Bulletin"}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+<div id="main">
+  <div id="hero">
+    <h1>Bishop's Bulletin</h1>
+    <p> A collection of data analytics and visualisation essays about any topic that interests me. </p>
+  </div>
+  <div id="components" class="bulletin">
+    <div class="row gutters">
+      {{ range .Data.Pages.ByWeight }}
+      <div class="col col-4 item">
+        <figure class="box">
+          <img alt="Add Your Screencap For This App" src= {{ (printf "/img/bulletin/%s.png" .Params.screencap) }}>
+        </figure>
+        <h4><a href="{{ .Permalink }}"> {{ .Params.edition }} </a></h4>
+        <p>{{ .Params.description }}</p>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "footer"}} {{ partial "footer" .}} {{end}}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Scraping on Tom Bishop</title>
+    <link>/categories/web-scraping/</link>
+    <description>Recent content in Web Scraping on Tom Bishop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/web-scraping/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Films - Age &amp; Gender</title>
+      <link>/lab/films/</link>
+      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/films/</guid>
+      <description>Questions?Let’s say we had a couple of questions about actors and directors:
+Do actors and directors improve with age?
+Are female actors generally cast than their male counterparts?
+To answer these questions we’re going to need some data.</description>
+    </item>
+    
+  </channel>
+</rss>

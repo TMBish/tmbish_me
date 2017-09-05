@@ -1,13 +1,13 @@
-{{ define "title"}} {{ .Title}} {{end}}
+{{ define "title"}} {{ "The Lab"}} {{end}}
 {{ define "header"}} {{ partial "header" .}} {{end}}
 
 {{ define "main" }}
 
 <div id="hero" class="wrap">
   <h1> The Lab </h1>
-    <p> In the lab I cook up scripts, models, charts and generally opine on things. </p>
+    <p> In the lab I cook up code, models, charts and opine on technical topics. </p>
 </div>
-<ul id="posts">
+<ul id="posts" class="lab">
 
  {{ range .Paginator.Pages.ByWeight }} {{ partial "page-summary" . }} {{ end }}
   <section>{{ partial "pagination" .}}</section>

@@ -6,18 +6,20 @@
     <description>Recent content on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Second Tester</title>
-      <link>/lab/second-tester/</link>
-      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      <title>The Prime of their Life: The Halflife of Acting Talent</title>
+      <link>/bulletin/edition-1-halflfe-of-acting/</link>
+      <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/lab/second-tester/</guid>
-      <description></description>
+      <guid>/bulletin/edition-1-halflfe-of-acting/</guid>
+      <description>Nah but actually The Intern was ok.
+
+Much analysis has been completed regarding the performing peak of athletes and sportspeople. Statistically, swimmers peak at around 24, marathon runners between 30-31, gymnasts at a mere 18, NBA players generally peak between 26-29, professional hockey players between 27-28, and chess players at 30-35.</description>
     </item>
     
     <item>
@@ -26,7 +28,16 @@
       <pubDate>Sun, 30 Jul 2017 10:26:46 +1000</pubDate>
       
       <guid>/shiny/stratton/</guid>
-      <description>Details Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</description>
+      <description>Details Stratton interfaces three different film data sources (IMDB, Rotten Tomatoes, and Box Office Mojo) to provide a reasonably comprehensive dataset of film data for an actor or director of your choice. Use the analytics functionality in the app (charting, loess regression and kmeans clustering) to uncover an interesting, data-evidenced story about an actor or director - much like the 538 article it was inspired by.</description>
+    </item>
+    
+    <item>
+      <title>Under Construction</title>
+      <link>/bulletin/tbd/</link>
+      <pubDate>Sun, 30 Jul 2017 10:26:46 +1000</pubDate>
+      
+      <guid>/bulletin/tbd/</guid>
+      <description>Overview I told you not to look in here.</description>
     </item>
     
     <item>
@@ -35,7 +46,7 @@
       <pubDate>Sun, 30 Jul 2017 10:26:46 +1000</pubDate>
       
       <guid>/shiny/tbd/</guid>
-      <description>Details Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</description>
+      <description>Overview What were you expecting mate.</description>
     </item>
     
     <item>

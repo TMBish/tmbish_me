@@ -24,3 +24,7 @@ Paginate = 4
     name = "Lab"
     weight = -100
     url = "/lab/"
+[[menu.main]]
+    name = "Bulletin"
+    weight = -100
+    url = "/bulletin/"

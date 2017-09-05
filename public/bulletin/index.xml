@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bulletins on Tom Bishop</title>
+    <link>/bulletin/</link>
+    <description>Recent content in Bulletins on Tom Bishop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/bulletin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Prime of their Life: The Halflife of Acting Talent</title>
+      <link>/bulletin/edition-1-halflfe-of-acting/</link>
+      <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/bulletin/edition-1-halflfe-of-acting/</guid>
+      <description>Nah but actually The Intern was ok.
+
+Much analysis has been completed regarding the performing peak of athletes and sportspeople. Statistically, swimmers peak at around 24, marathon runners between 30-31, gymnasts at a mere 18, NBA players generally peak between 26-29, professional hockey players between 27-28, and chess players at 30-35.</description>
+    </item>
+    
+    <item>
+      <title>Under Construction</title>
+      <link>/bulletin/tbd/</link>
+      <pubDate>Sun, 30 Jul 2017 10:26:46 +1000</pubDate>
+      
+      <guid>/bulletin/tbd/</guid>
+      <description>Overview I told you not to look in here.</description>
+    </item>
+    
+  </channel>
+</rss>
