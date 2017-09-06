@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Tom Bishop"
 theme = "kube"
 description = "A place to store my thoughts."
+disqusShortname = "tmbish"
 Paginate = 4
 [Params]
   RSSLink = "/index.xml"
