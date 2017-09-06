@@ -25,15 +25,14 @@
         <div id="action-buttons">
            <a class="button outline big" href= {{ .Params.link }}> Through to App </a>
        </div>
-    Inject script tag in this template 
+    <!-- Inject script tag in this template  -->
     {{if .Params.script}}
      {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
     {{ partial (string $script) .}}
     {{end }}
     </div>
-    </div>
-    
-    {{ if .Site.DisqusShortname }}
+
+        {{ if .Site.DisqusShortname }}
     <div class="push-center">
     <article>
         {{ template "_internal/disqus.html" . }}
@@ -41,6 +40,9 @@
     </div>
     {{ end }}
     
+    </div>
+    
+
 {{ end }}
 
 {{ define "footer"}} {{ partial "footer" .}} {{end}}
