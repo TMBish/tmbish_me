@@ -32,12 +32,10 @@
     {{end }}
     </div>
 
-        {{ if .Site.DisqusShortname }}
-    <div class="push-center">
+    {{ if .Site.DisqusShortname }}
     <article>
         {{ template "_internal/disqus.html" . }}
     </article>
-    </div>
     {{ end }}
     
     </div>
