@@ -8,7 +8,6 @@ screencap: "tbd"
 link: "https://www.youtube.com/embed/dQw4w9WgXcQ"
 ---
 
-
-## Overview
+## Details
 
 Mate I told you it was under developments. Don't look in here please.

@@ -32,9 +32,11 @@
 </div>
 
 <div id="action-buttons">
- <button class="button outline big" href= {{ .Params.link }}>
- Launch App</button>
-</div>
+  <a href = {{ .Params.link }}>
+   <button class="button outline big">
+     Launch App</button>
+   </a>
+ </div>
 
 </div>
 
@@ -45,10 +47,10 @@
 
 <div style = "margin: auto; max-width: 1128px;">
   {{ if .Site.DisqusShortname }}
-<article>
-  {{ template "_internal/disqus.html" . }}
-</article>
-{{ end }}
+  <article>
+    {{ template "_internal/disqus.html" . }}
+  </article>
+  {{ end }}
 
 </div>
 
