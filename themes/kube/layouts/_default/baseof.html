@@ -8,8 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-
   {{ with .Description }}
   <meta name="description" content="{{ . }}"> {{ end }}
   <!-- noindex meta -->

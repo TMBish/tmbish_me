@@ -32,15 +32,16 @@
 </div>
 
 <div id="action-buttons">
- <button data-component="toggleme" class="button outline big" data-target="#app-iframe" data-text="Close App">Launch App</button>
+ <button class="button outline big" href= {{ .Params.link }}>
+ Launch App</button>
 </div>
 
 </div>
 
-<div id = "app-iframe" class = "togglebox-box hide" style = "overflow: hidden;">
+<!-- <div id = "app-iframe" class = "togglebox-box hide" style = "overflow: hidden;">
   <iframe src= {{ .Params.link }} height="1200" width="100%" allowfullscreen="" frameborder="0">
   </iframe>
-</div>
+</div> -->
 
 <div style = "margin: auto; max-width: 1128px;">
   {{ if .Site.DisqusShortname }}
