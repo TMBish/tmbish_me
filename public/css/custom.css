@@ -6,7 +6,9 @@
 /* TEAL: #056571 */
 /* Light Neurtral: #f8f8f8*/
 
-/* RANDOM ELEMENTS*/
+/* -------------------------- */
+/*      Global Elements       */
+/* -------------------------- */
 #hero p:before {
   position: absolute;
   content: '';
@@ -33,6 +35,29 @@
   margin-bottom: 0px; 
 }
 
+.bishop {
+  height: 75px;
+  width: 75px;
+}
+
+/* Datatables Alterations */
+.dataTables_length select {
+  width: 66px;
+}
+
+/* -------------------------- */
+/*          Home Page         */
+/* -------------------------- */
+
+.home-page a {
+  color: #FFF; 
+}
+
+.home-page a:hover {
+  color: #FF6A5C;
+}
+
+
 /* Posts Section */
 
 #posts {
@@ -51,16 +76,19 @@
     color: #FF6A5C;
 }
 
-/* ABOUT ME*/
+/* -------------------------- */
+/*         About Me Page      */
+/* -------------------------- */
 
+/* Photos of Me */
 .profile-pic {
   width: 70%;
   border-radius: 7px;
   box-shadow: 0 5px 5px rgba(0,0,0,0.22);
   margin-left:50px;
-
 }
 
+/* Logos for Email, Github and Linkedin + Styling */
 .logo {
   display:flex;
   justify-content:center;
@@ -90,7 +118,6 @@
     background-color: #F1635A;
 }
 
-
 .logo:hover .slider {
     width: 75%;
 }
@@ -105,7 +132,10 @@
 }
 
 
-/* SHINY LIST PAGE*/
+/* -------------------------- */
+/*       Shiny List Page      */
+/*       Bulletin List Page   */
+/* -------------------------- */
 #components .item {
     background: #f8f8f8;
     padding: 10px 10px 30px 10px;
@@ -144,15 +174,53 @@ h2 {
     color: #FF6A5C;
 }
 
-/*Lab*/
+/* -------------------------- */
+/*            Lab             */
+/* -------------------------- */
 
 #posts.lab h2 {
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-/* POSTS */
+/* -------------------------- */
+/* Bulletin Section - General */
+/* -------------------------- */
 
+/* Finding Box*/
+.finding {
+  background-color:#414141;
+  height: 125px;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  text-align:center;
+}
+  
+.finding .sidebar { 
+  padding-top:15px;
+  width: 20%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.finding .body {
+  width: 75%;
+  text-align:left;
+  font-size: 16px;
+  padding-right:10px
+}
+
+.finding .body p {
+  margin-bottom:0;
+}
+
+.finding img {
+  display : block;
+  margin : auto;
+}
+
+ /* Page Size */
 #posts {
   max-width: 1000px; 
 }
@@ -160,6 +228,8 @@ h2 {
 .post {
   margin-bottom: 60px;
 }
+
+/* Headers */
 
 #posts h2 {
   color: #000;
@@ -212,44 +282,11 @@ h2 {
   flex-direction: row;
 }
 
-.bishop {
-  height: 75px;
-  width: 75px;
-}
+/* ---------------------------------------- */
+/* Specific Post: Halflife of Acting Talent */
+/* ---------------------------------------- */
 
-/*HALFLIFE OF ACTING ARTICLE
-*/
-.finding {
-  background-color:#414141;
-  height: 125px;
-  color: #FFF;
-  display: flex;
-  align-items: center;
-  text-align:center;
-}
-  
-.finding .sidebar { 
-  padding-top:15px;
-  width: 20%;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.finding .body {
-  width: 75%;
-  text-align:left;
-  font-size: 16px;
-  padding-right:10px
-}
-
-.finding .body p {
-  margin-bottom:0;
-}
-
-.finding img {
-  display : block;
-  margin : auto;
-}
+/*Images in the post*/
 
 #snatch img {
   height: 200px; 
@@ -269,6 +306,7 @@ h2 {
   margin: 0 auto;
 }
 
+/* Tooltip Conditional Formatting */
 .sus-tool-red {
   color: #F44336;
   font-weight: bold;
@@ -282,9 +320,4 @@ h2 {
 .sus-tool-amber {
   color: #FFC107;
   font-weight: bold;
-}
-/*Datatables Alterations
-*/
-.dataTables_length select {
-  width: 66px;
 }
