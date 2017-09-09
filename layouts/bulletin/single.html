@@ -15,13 +15,13 @@
 		{{ .Content}}
 	</div>
 
-	{{ if .Site.DisqusShortname }}
-    <div class="push-center">
-    <article>
-        {{ template "_internal/disqus.html" . }}
-    </article>
-    </div>
-	{{ end }}
+<div style = "margin: auto; max-width: 1128px;">
+  {{ if .Site.DisqusShortname }}
+<article>
+  {{ template "_internal/disqus.html" . }}
+</article>
+{{ end }}
+</div>
 
 </div>
 

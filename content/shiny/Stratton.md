@@ -5,7 +5,7 @@ draft: true
 description: "A movie and actor exploration tool inspired by a 538 article."
 bref: "Inspired by a 538 article, stratton interactively scrapes film data from the web and presents it for analysis"
 screencap: "stratton"
-link: "http://34.209.8.96/shiny/Stratton/"
+link: "https://34.209.8.96/shiny/Stratton/"
 ---
 
 ## Details
