@@ -18,6 +18,21 @@
   background: #FF6A5C; 
 }
 
+#kube-features {
+  margin-top: 50px;
+}
+
+#kube-component img {
+  display:block;
+  margin:auto;
+}
+
+.togglebox-box {
+  padding: 0px;
+  background: #FFF;
+  margin-bottom: 0px; 
+}
+
 /* Posts Section */
 
 #posts {
@@ -254,6 +269,20 @@ h2 {
   margin: 0 auto;
 }
 
+.sus-tool-red {
+  color: #F44336;
+  font-weight: bold;
+}
+
+.sus-tool-green {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.sus-tool-amber {
+  color: #FFC107;
+  font-weight: bold;
+}
 /*Datatables Alterations
 */
 .dataTables_length select {
