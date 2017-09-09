@@ -1,5 +1,5 @@
 ---
-title: "The Prime of their Life: The Halflife of Acting Talent"
+title: "The Prime of Their Life: The Halflife of Acting Talent"
 author: ~
 date: '2017-09-04'
 slug: edition-1-halflfe-of-acting
@@ -19,7 +19,7 @@ edition: "Edition 1"
 
 Much analysis has been completed regarding the performing peak of athletes and sportspeople. Statistically, swimmers peak at around 24, marathon runners between 30-31, gymnasts at a mere 18, NBA players generally peak between 26-29, professional hockey players between 27-28, and chess players at 30-35. 
 
-Does the idea of a performing prime extend to artists, specifically actors and directors? There are obvious reasons to be skeptical. Importantly there's no major physical component to acting that would decay as the body does, and unlike chess you wouldn't think there's the need for an exreme state of concentration and cognition which might be unreachable at older ages. 
+Does the idea of a performing prime extend to artists, specifically actors and directors? There are obvious reasons to be skeptical. Importantly there's no major physical component to acting that would decay as the body does, and unlike chess you wouldn't think there's the need for an extreme state of concentration and cognition which might be unreachable at older ages. 
 
 There are some confounding factors that might prevent us from answering this question difinitively (which I'll discuss later) but let's dig into the data.
 
@@ -146,13 +146,13 @@ genders %>%
 
 <bt>
 
-So generally this is looking pretty, pretty good. Things get dicey with unisex names like Sandy; however, the package must know that Sandy was more commonly used for females in the 1930s, which is consistent with my [1 data other point.](https://www.youtube.com/watch?v=cxbMk-8701M)
+So generally this is looking pretty good. Things get dicey with unisex names like Sandy; however, the underlying logic and database must know that Sandy was more commonly used for females in the 1930s, which is consistent with my [1 data other point.](https://www.youtube.com/watch?v=cxbMk-8701M)
 
 # What's the deal with female directors?
 
 To add a layer to this analysis I wanted to group people by gender and film production role (actor vs director). So we think we'd be working with 4 groups; however, I was suprised to see that of our 250 top directors only 25 were female. A consequence of history but appaling nonetheless.
 
-This got me thinking about the rest of the dataset. Given our **12,258** film dataset isn't limited to director credits in our top 250 (films in the set are contributed by both actor and director credits) we can get a bit of a better idea of the broader gender split for film directors. I've captured a lot of the key numbers in the following chart.
+This got me thinking about the rest of the dataset. Given our **12,258** film dataset isn't limited to director credits in our top 250 (films in the set are contributed by both out 1,000 actor list and our 250 director list) we can get a bit of a better idea of the broader gender split for film directors. I've captured a lot of the key numbers in the following chart.
 
 ```{r}
 # Join back the gender back to the main data
@@ -414,7 +414,7 @@ After looking through a few rotten tomatoes pages it seems limiting to the top 3
 
 So we'll limit this dataset to the top 3 actors in each film. 
 
-There are few other things we want to control for here. I don't necessarily want to plot raw film critical rating because this might be prone to idiosyncracies within groups or ages - for example, high performing directors might generally wait until they are experienced enough to direct their first film.
+There are few other things we want to control for here. I don't necessarily want to plot raw film critical rating because this might be prone to idiosyncracies within groups or ages. For example, it's possible that talented directors generally wait until they feel experienced enough to direct their first film, leading us to the false conclusion that directors get better with age and experience.
 
 Instead we'll plot, for each individual and film, how well they have perfomed relative to their career average (the average tomatometer across all that individual's films). To illustrate this approach let's look at Denzel Washington's films. Denzel has a healthy mean tomatometer of 68%.
 
@@ -453,7 +453,7 @@ master %>%
 ```
 <br>
 
-So based on this 10 film sample Denzel had a solid early 40s where his films (**Hurricane** and **Courage Under Fire** etc) averaged a rotten tomatoes rating about 20% above his career average. He looks like he dropped off after 50 with a few flops like **Deja Vu** (which I didn't mind) and **Safe House**. Check the chart below to see how he's partially rebounded with flicks like **Flight** and **Fences**. 
+So based on this 10 film sample, Denzel had a solid early 40s where his films (**Hurricane** and **Courage Under Fire** etc) averaged a rotten tomatoes rating about 20% better than his career average. He looks like he dropped off after 50 with a few flops like **Deja Vu** and **Safe House**. Check the chart below to see how he's partially rebounded with flicks like **American Gangster** and **Fences**. 
 
 <br>
 
@@ -533,7 +533,7 @@ graphs
 
 ## The Upshot
 
-So let's extend this approach and plot out the median tomato index by age at production, giving us an idea of the **average performance above or below the career average** at each age.
+So let's extend this approach and plot out the median performance rating by age at production. This will give us an idea of the **average performance above or below the career average** at each age; allowing us to identify trends across age groups.
 
 ```{r}
 
@@ -672,9 +672,9 @@ actor_prime_finding
 While it appears that actors and directors have their prime between the ages of 27-35 we can't say with confidence that this is **caused** by a natural skill trajectory. Some caveats that could potentially explain this trend without our skills and abilities narrative:
 
 * Most films (and by extension good films) typically have non-elderly main characters; limiting the ability for an older, but still skillful, actor to be cast in these roles.
-* Seperating an actor's role **choice** vs their **performance** given they chose a particular role highlights the problem we see with De Niro above. It's quite possible that after career success and personal skill based accolades, actor and directors prioritise different things (eg. **$ Cash Money $**) in the twiglight of their careers.
+* Seperating an actor's role **choice** vs their **performance** given they chose a particular role highlights the problem we see with De Niro above. It's quite possible that after career success and personal skill based accolades, actors and directors prioritise different things (eg. **$ Cash Money $**) in the twiglight of their careers.
 
-All we can say for sure is that the prime of your acting life - defined by the quality of the films you're appear in - happens between 27-35. Whether that's becuase you were at the peak of your abilities, or you were more likely to be seeking critically acclaimed roles (hunting that first Oscar), or you were just given opportunities you wouldn't be afforded later in life we'll have to leave to another day. To spend more time exploring film data head over to my film data shiny app [Stratton](http://www.tmbish.me/shiny/stratton/) in the Shiny section of my website.
+All we can say for sure is that the prime of your acting life - defined by the quality of the films you appear in - happens between 27-35 years old. Whether the true cause is because you were at the peak of your abilities, or you were more likely to be seeking critically acclaimed roles (hunting that first Oscar), or you were just given opportunities you wouldn't be afforded later in life, we'll have to leave to another day. To spend more time exploring film data head over to my film data shiny app [Stratton](http://www.tmbish.me/shiny/stratton/).
 
 <script>
 
