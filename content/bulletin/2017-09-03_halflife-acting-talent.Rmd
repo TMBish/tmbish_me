@@ -13,9 +13,11 @@ edition: "Edition 1"
 ---
 <br>
 
-![Nah but actually The Intern was ok.](/img/lab/01/deniro.jpg)
+![Nah but actually The Intern was ok.](/img/bulletin/01/deniro.jpg)
 
 <br>
+
+> Sidenote: If you're technically inclined, head over to [the lab](/lab/bulletin-edition-1-with-source/) to read this article with full source code in-line.
 
 Much analysis has been completed regarding the performing peak of athletes and sportspeople. Statistically, swimmers peak at around 24, marathon runners between 30-31, gymnasts at a mere 18, NBA players generally peak between 26-29, professional hockey players between 27-28, and chess players at 30-35. 
 
@@ -402,15 +404,15 @@ After looking through a few rotten tomatoes pages it seems limiting to the top 3
 
 ### Snatch
 
-![](/img/lab/01/snatch.png)
+![](/img/bulletin/01/snatch.png)
 
 ### No Country For Old Men
 
-![](/img/lab/01/no-country-for-old-men.png)
+![](/img/bulletin/01/no-country-for-old-men.png)
 
 ### The Departed
 
-![](/img/lab/01/the-departed.png)
+![](/img/bulletin/01/the-departed.png)
 
 So we'll limit this dataset to the top 3 actors in each film. 
 

@@ -1,20 +1,10 @@
-<!-- <div itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="title">
-        <a href="{{ .Permalink }}" itemprop="headline">{{ .Title }}</a>
-    </h2>
-    <hr>
-    {{ if .Description }}
-    <p itemprop="about">{{ .Description }}</p>
-    {{ end }}
-</div> -->
-
 <div class="row gutters align-middle post">
 
     <div class="col col-3">
-        <img src="/img/posts/r_markdown_test.png">
+        <img src= {{ (printf "/img/lab/%s.png" .Params.img) }} >
     </div>
 
-    <div class="col col-9">
+    <div class="col col-7">
 
         <div class="row">
 
@@ -31,17 +21,22 @@
             <div class="desc-box col col-12">
                <p> {{ .Description }} </p>
                 <p>
-                <span class="label upper outline"> {{ .Params.Date }} </span>
-
-
                 {{ range $index, $element := .Params.tags }}            
-                         <span class="label upper outline warning"> {{ $element }} </span>
+                         <span class="label upper badge outline default"> {{ $element }} </span>
                 {{ end }}
 
                 </p>
 
             </div>
         </div>
+    </div>
+
+    <div class="col col-2 post-date">
+
+        <p> {{ .Params.Day }} </p>
+        <p class="month"> {{ .Params.Month }} </p>
+        <p class="year"> {{ .Params.Year }} </p>
+
     </div>
 
 

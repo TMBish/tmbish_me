@@ -1,10 +1,13 @@
 ---
 title: R Markdown Test
 author: ~
-date: '2017-07-30'
+date: "`r Sys.time()`"
+day: "`r format(Sys.Date(), '%d')`"
+month: "`r format(Sys.Date(), '%b')`"
+year: "`r format(Sys.Date(), '%Y')`"
 slug: r-markdown-test
 categories: []
-tags: []
+tags: ["ggplot", "dplyr"]
 highlight: "kate"
 description: "Just testing an rmarkdown doc in this website. Wish me luck."
 img: "r_markdown_test"
@@ -14,7 +17,7 @@ img: "r_markdown_test"
 
 Hey. Just testing the Rmd funcitonality of this page. Maybe I'm interested in the BMI of human star wars characters. Maybe. Let's see how this goes:
 
-```{r, warning=FALSE, message=FALSE}
+```{r, warning=FALSE, message=FALSE, class.source="language-r"}
 
 library(dplyr)
 library(ggplot2)
@@ -26,5 +29,5 @@ starwars %>%
     geom_smooth() +
     theme_bw() +
     ggtitle("Starwars BMI")
-```
 
+```

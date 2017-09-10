@@ -6,9 +6,64 @@
     <description>Recent content in Tags on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2017 13:38:47 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dplyr</title>
+      <link>/tags/dplyr/</link>
+      <pubDate>Sun, 10 Sep 2017 13:38:47 +0000</pubDate>
+      
+      <guid>/tags/dplyr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dt</title>
+      <link>/tags/dt/</link>
+      <pubDate>Sun, 10 Sep 2017 13:38:47 +0000</pubDate>
+      
+      <guid>/tags/dt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gender</title>
+      <link>/tags/gender/</link>
+      <pubDate>Sun, 10 Sep 2017 13:38:47 +0000</pubDate>
+      
+      <guid>/tags/gender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ggplot</title>
+      <link>/tags/ggplot/</link>
+      <pubDate>Sun, 10 Sep 2017 12:45:10 +0000</pubDate>
+      
+      <guid>/tags/ggplot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Highcharts</title>
+      <link>/tags/highcharts/</link>
+      <pubDate>Sun, 10 Sep 2017 13:38:47 +0000</pubDate>
+      
+      <guid>/tags/highcharts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Htmltools</title>
+      <link>/tags/htmltools/</link>
+      <pubDate>Sun, 10 Sep 2017 13:38:47 +0000</pubDate>
+      
+      <guid>/tags/htmltools/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -183,6 +183,57 @@ h2 {
   margin-top: 0px;
 }
 
+div.col.col-2.post-date {
+  margin-left: 0px;
+  padding: 5px;
+}
+
+.post-date p {
+  font-size: 18pt;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.post-date p.month {
+  font-size: 32pt;
+}
+
+.post-date p.year {
+  margin-bottom: 0px;
+}
+
+#posts .title-box {
+  border-bottom: 2px solid #f8f8f8;
+  height: 50px;
+  margin:auto;
+  margin-bottom: 10px;
+  display: flex;
+
+}
+
+#posts .title-box h2 a {
+  height:100%;
+  font-size: 22pt;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: left;
+  color: #FF6A5C;
+
+}
+
+#posts .title-box h2 {
+  vertical-align:middle;
+}
+
+#posts .desc-box {
+  text-align: left;
+  min-height: 75px;
+}
+
+
 /* -------------------------- */
 /* Bulletin Section - General */
 /* -------------------------- */
@@ -241,30 +292,6 @@ h2 {
 #posts h1 {
   margin-bottom: 30px;
   margin-top: 30px;
-}
-#posts .title-box {
-  border-bottom: 2px solid #f8f8f8;
-  border-right: 2px solid #f8f8f8;
-  height: 50px;
-  margin:auto;
-  margin-bottom: 10px;
-}
-
-#posts .title-box h2 a {
-  height:100%;
-  font-size: 30pt;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  justify-content: left;
-  color: #FF6A5C;
-
-}
-
-#posts .desc-box {
-  text-align: left;
-  min-height: 75px;
-  border-right: 2px solid #f8f8f8;
 }
 
 .indented {

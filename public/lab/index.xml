@@ -6,15 +6,26 @@
     <description>Recent content in Labs on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Sep 2017 13:38:47 +0000</lastBuildDate>
     
 	<atom:link href="/lab/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Bulletin Edition 1 with Source</title>
+      <link>/lab/bulletin-edition-1-with-source/</link>
+      <pubDate>Sun, 10 Sep 2017 13:38:47 +0000</pubDate>
+      
+      <guid>/lab/bulletin-edition-1-with-source/</guid>
+      <description>Nah but actually The Intern was ok.
+
+Much analysis has been completed regarding the performing peak of athletes and sportspeople. Statistically, swimmers peak at around 24, marathon runners between 30-31, gymnasts at a mere 18, NBA players generally peak between 26-29, professional hockey players between 27-28, and chess players at 30-35.</description>
+    </item>
+    
+    <item>
       <title>R Markdown Test</title>
       <link>/lab/r-markdown-test/</link>
-      <pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Sep 2017 12:45:10 +0000</pubDate>
       
       <guid>/lab/r-markdown-test/</guid>
       <description>OverviewHey. Just testing the Rmd funcitonality of this page. Maybe I’m interested in the BMI of human star wars characters. Maybe. Let’s see how this goes:

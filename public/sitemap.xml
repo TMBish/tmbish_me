@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/lab/bulletin-edition-1-with-source/</loc>
+    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/lab/r-markdown-test/</loc>
+    <lastmod>2017-09-10T12:45:10+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/bulletin/edition-1-halflfe-of-acting/</loc>
     <lastmod>2017-09-04T00:00:00+00:00</lastmod>
   </url>
@@ -23,11 +33,6 @@
   </url>
   
   <url>
-    <loc>/lab/r-markdown-test/</loc>
-    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/bulletin/</loc>
     <lastmod>2017-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -39,8 +44,44 @@
   </url>
   
   <url>
+    <loc>/tags/dplyr/</loc>
+    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dt/</loc>
+    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gender/</loc>
+    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ggplot/</loc>
+    <lastmod>2017-09-10T12:45:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/highcharts/</loc>
+    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/htmltools/</loc>
+    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/lab/</loc>
-    <lastmod>2017-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -56,12 +97,13 @@
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
   </url>
   
 </urlset>
