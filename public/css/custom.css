@@ -57,6 +57,10 @@
   color: #FF6A5C;
 }
 
+/* Remove border on front page*/
+#kube-features .row:first-child {
+  border: none;
+}
 
 /* Posts Section */
 
