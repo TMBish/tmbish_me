@@ -1,7 +1,6 @@
 ---
 title: "Stratton"
 date: 2017-07-30T10:26:46+10:00
-draft: true
 description: "A movie and actor exploration tool inspired by a 538 article."
 bref: "Inspired by a 538 article, stratton interactively scrapes film data from the web and presents it for analysis"
 screencap: "stratton"
