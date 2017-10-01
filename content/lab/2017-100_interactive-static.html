@@ -1,0 +1,58 @@
+---
+title: "Adding Interactivity to Static Rmarkdown Documents"
+author: ~
+date: "2017-09-16 12:16:52"
+day: "16"
+month: "Sep"
+year: "2017"
+slug: adding-rmarkdown-interactivity
+categories: []
+tags: ["R", "R Markdown", "Javascript", "Highcharts"]
+highlight: "kate"
+description: "Interactivity can be added to static HTML R Markdown outputs by using a couple of cool tricks."
+img: "bulletin-edition-1"
+---
+
+
+
+<pre class="class"><code>
+$(document).ready(function() {
+
+  var show_cdf = false;
+  
+  $(&quot;#update_age_series&quot;).click(function(){
+  
+    var chart=$(&quot;#age_series_chart&quot;).find(&quot;.highchart&quot;).highcharts();
+    
+    if (show_cdf) {
+    
+      chart.yAxis[0].setExtremes(0,null);
+      chart.yAxis[0].setTitle({text:&quot;Probability Density&quot;, redraw:false});
+      #dir_pdf = `r dir_pdf`;
+      #female_pdf = `r female_pdf`;
+      #male_pdf = `r male_pdf`;
+      chart.series[0].setData(dir_pdf);
+      chart.series[1].setData(male_pdf);
+      chart.series[2].setData(female_pdf);
+      $(&quot;#update_age_series&quot;).html(&quot;Show Cumulative Distribution&quot;);
+    
+    } else {
+    
+      chart.yAxis[0].setExtremes(0,1);
+      chart.yAxis[0].setTitle({text:&quot;Cumulative Probability&quot;, redraw:false});
+      #dir_cdf = `r dir_cdf`;
+      #female_cdf = `r female_cdf`;
+      #male_cdf = `r male_cdf`;
+      chart.series[0].setData(dir_cdf);
+      chart.series[1].setData(male_cdf);
+      chart.series[2].setData(female_cdf);
+      
+      $(&quot;#update_age_series&quot;).html(&quot;Show Density&quot;);
+    
+  };
+  
+  show_cdf = !show_cdf
+  
+  }); 
+});
+</code></pre>

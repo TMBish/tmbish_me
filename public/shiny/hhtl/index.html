@@ -6,10 +6,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Tom Bishop </title>
+  <title> HHTL </title>
 
   
-  <meta name="description" content="Data Scientist."> 
+  <meta name="description" content="An interactive visualisation of history."> 
   
   
   
@@ -21,41 +21,38 @@
   <meta name="author" content="Tom Bishop">
 
 
-  <meta property="og:title" content="Tom Bishop" />
-<meta property="og:description" content="Data Scientist." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
+  <meta property="og:title" content="HHTL" />
+<meta property="og:description" content="An interactive visualisation of history." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/shiny/hhtl/" />
 
 
 
-<meta property="og:updated_time" content="2017-10-02T09:21:46&#43;10:00"/>
-
-
-
-
+<meta property="article:published_time" content="2017-10-02T09:21:46&#43;10:00"/>
+<meta property="article:modified_time" content="2017-10-02T09:21:46&#43;10:00"/>
 
 
 
 
 
 
-  
+
 
 
 
 
   
-   
 
 
 
- 
+
   
   
   
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Tom Bishop" /> 
+  
+  
 
-  <link rel="canonical" href="/">  
+  <link rel="canonical" href="/shiny/hhtl/">  
 
   <link rel="icon" type="text/png" href="/img/bishop.png"/>
 
@@ -113,56 +110,83 @@
   </div> </header>
   <main>
 
-<div id="main" class="home-page">
+<div id="main">
+
   <div id="hero">
-    <div> <h1>Tom Bishop</h1> <img class="bishop" src="img/bishop.svg"></div>
-    <p>Data Scientist.</p>
-  </div>
-  <div id="kube-features">
-    <div class="row gutters">
-      <div class="col col-3 item">
-        <a href="/aboutme/">
-          <figure>
-            <img alt="me" height="60" src="/img/man.svg" width="60">
-          </figure>
-          <h3>About</h3>
-        </a>
-        <p>My professional details, skills and methods to get in touch.</p>
-      </div>
-      <div class="col col-3 item">
-        <a href="/bulletin/">
-          <figure>
-            <img alt="me" height="60" src="/img/notebook.svg" width="60">
-          </figure>
-          <h3>Bulletin</h3>
-        </a>
-        <p>Data analytics and visualisation essays.</p>
-      </div>
-      <div class="col col-3 item">
-        <a href="/lab/">
+    <h1> HHTL </h1>
+    <p class="hero-lead">
+     An interactive visualisation of history..
+   </p>
 
-          <figure>
-            <img alt="me" height="60" src="/img/tube.svg" width="60">
-          </figure>
-          <h3>Lab</h3>
-        </a>
-        <p>The technical goods. </p>
-      </div>
-      <div class="col col-3 item">
-        <a href="/shiny/">
+ </div> 
 
-          <figure>
-            <img alt="shiny" height="60" src="/img/code.svg" width="60">
-          </figure>
-          <h3>Shiny</h3>
-        </a>
-        <p>A collection of shiny applications I've developed.</p>
-      </div>
-    </div>
+ <div id="kube-component" class="content">
+
+  <h2> Looks Like </h2>
+
+  <figure>
+    <img alt="Add Your Screencap For This App" src= /img/shiny/hhtl.png>
+  </figure>
+
+   
   
-  </div>
+
+<h2 id="details">Details</h2>
+
+<p>Hannah&rsquo;s History Time Line (HHTL) is a minimalist shiny app I built to help my wife learn and retain history. The app contains a simple <code>timevis</code> timeline widget with functionality to add and edit events. Technically the app includes:</p>
+
+<ul>
+<li>A googlesheets backend using the <code>googlesheets</code> package</li>
+<li>UI elements from <code>shinyWidgets</code> and <code>shiny.semantic</code></li>
+<li>Some extra interactivity with <code>shinyjs</code></li>
+</ul>
+
+
+
+  
+  
 </div>
+
+<div id="action-buttons">
+  <a href = http://34.209.8.96/shiny/HHTL/>
+   <button class="button outline big">
+     Launch App</button>
+   </a>
+ </div>
+
 </div>
+
+
+
+<div style = "margin: auto; max-width: 1128px;">
+  
+  <article>
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "tmbish" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </article>
+  
+
+</div>
+
+
 </main>
   <footer>   <footer id="footer">
     <nav>

@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/shiny/hhtl/</loc>
+    <lastmod>2017-10-02T09:21:46+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/lab/adding-rmarkdown-interactivity/</loc>
+    <lastmod>2017-09-16T12:16:52+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/lab/bulletin-edition-1-with-source/</loc>
     <lastmod>2017-09-10T13:38:47+00:00</lastmod>
   </url>
@@ -69,7 +79,7 @@
   
   <url>
     <loc>/tags/highcharts/</loc>
-    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
+    <lastmod>2017-09-16T12:16:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -80,8 +90,14 @@
   </url>
   
   <url>
+    <loc>/tags/javascript/</loc>
+    <lastmod>2017-09-16T12:16:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/lab/</loc>
-    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
+    <lastmod>2017-09-16T12:16:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -90,8 +106,20 @@
   </url>
   
   <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2017-09-16T12:16:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <lastmod>2017-09-16T12:16:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/shiny/</loc>
-    <lastmod>2017-07-30T10:26:46+10:00</lastmod>
+    <lastmod>2017-10-02T09:21:46+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,7 +131,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-09-10T13:38:47+00:00</lastmod>
+    <lastmod>2017-10-02T09:21:46+10:00</lastmod>
   </url>
   
 </urlset>
