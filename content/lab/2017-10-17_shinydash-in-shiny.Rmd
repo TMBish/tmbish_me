@@ -1,5 +1,5 @@
 ---
-title: Using Shinydashboard Elements in Shiny
+title: "Using Shinydashboard Elements in Shiny"
 author: ~
 date: "`r Sys.time()`"
 day: "`r format(Sys.Date(), '%d')`"
