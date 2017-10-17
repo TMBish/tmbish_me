@@ -82,7 +82,7 @@ dict %>% pandoc.table(justify='left')
 
 Let's have a look at the films data set. Click the green `+` button to view the extra fields in the dataset (the director and top 6 actors in the film).
 
-```{r results='asis'}
+```{r results='asis', class.source="language-r"}
 # Load in films data from Github Repo
 films = read_csv("https://raw.githubusercontent.com/TMBish/lab_posts/master/01_halflife-of-acting-talent/data/film-data.csv") %>% filter(!is.na(title))
 
@@ -106,7 +106,7 @@ Now we'll load the individual data.
 Unfortunately, because the Rotten Tomatoes development team are a bunch of politically correct SJWs (/s), gender isn't provided on their film bio pages so we'll have to be creative. The `gender` R package allows you to infer a person's gender from their first name and DOB. The result is a probabilistic estimate of that individuals most likely gender given their first name and the year they were born.
 
 
-```{r}
+```{r class.source="language-r"}
 
 library(gender)
 library(stringr)
@@ -134,7 +134,7 @@ genders = film_folk %>%
 
 Pretty cool, but we should sense check the gender mapping to make sure the package is making logical guesses. Let's take a random 10 person sample:
 
-```{r results='asis'}
+```{r results='asis', class.source="language-r"}
 genders %>%
   sample_n(10) %>%
   select(first_name, dob_year, gender) %>%
@@ -155,7 +155,7 @@ To add a layer to this analysis I wanted to group people by gender and film prod
 
 This got me thinking about the rest of the dataset. Given our **12,258** film dataset isn't limited to director credits in our top 250 (films in the set are contributed by both out 1,000 actor list and our 250 director list) we can get a bit of a better idea of the broader gender split for film directors. I've captured a lot of the key numbers in the following chart.
 
-```{r}
+```{r class.source="language-r"}
 # Join back the gender back to the main data
 film_folk = 
   film_folk %>%
@@ -269,7 +269,7 @@ gender_props %>%
 
 ```
 
-```{r results='asis'}
+```{r results='asis', class.source="language-r"}
 
 gender_prop_finding
 
@@ -283,7 +283,7 @@ Well, as it turns out, it depends on which one of the above groups you're in. To
 
 Click on the male and director series to compare with the female one shown below. Additionally, switch between the density view (proportion appearing at one speicific age) and cumulative distribution view (proportion appearing at **or before** a specific age) to better understand the data.
 
-```{r}
+```{r class.source="language-r"}
 
 # Chain a bunch of data wrangling operations
 volume_data =
@@ -305,7 +305,7 @@ volume_data =
 ```
 
 <div id = "age_series_chart">
-```{r}
+```{r class.source="language-r"}
 
 # Shape data for presentation
 chart_data = 
@@ -380,7 +380,7 @@ age_dist_chart
 <button class="button w100 secondary round outline" id = "update_age_series"> Show Cumulative Distribution </button>
 
 
-```{r results='asis'}
+```{r results='asis', class.source="language-r"}
 age_atprod_finding = create_finding("64% of female roles are given to actors under the age of 40 compared with 42% of male roles. Only 28% of popular films are directed by a someone under 40.")
 
 age_atprod_finding
@@ -420,7 +420,7 @@ There are few other things we want to control for here. I don't necessarily want
 Instead we'll plot, for each individual and film, how well they have perfomed relative to their career average (the average tomatometer across all that individual's films). To illustrate this approach let's look at Denzel Washington's films. Denzel has a healthy mean tomatometer of 68%.
 
 <br>
-```{r results='asis'}
+```{r results='asis', class.source="language-r"}
 
 master %>% 
   filter(
@@ -464,7 +464,7 @@ To help visualise this approach let's take 12 of the top 20 actors by total numb
 
 Hover over each 5 year period in the actor's career to see which films are contributing to the rating performance metric. A simple color coding should help guide the eye.
 
-```{r}
+```{r class.source="language-r"}
 
 actors = c("Robert De Niro", "Harvey Keitel", "Christopher Walken", "Bruce Willis", "Susan Sarandon", "Jeff Bridges", "Robin Williams", "Julianne Moore", "Denzel Washington", "John Malkovich", "Meryl Streep", "Robert Redford")
 
@@ -536,7 +536,7 @@ graphs
 
 So let's extend this approach and plot out the median performance rating by age at production. This will give us an idea of the **average performance above or below the career average** at each age; allowing us to identify trends across age groups.
 
-```{r}
+```{r class.source="language-r"}
 
 # 
 rating_set =
@@ -652,15 +652,15 @@ rating_chart =
 
 ```
 
-```{r }
+```{r class.source="language-r"}
 rating_chart
 ```
 
-```{r }
+```{r class.source="language-r"}
 volume_chart
 ```
 
-```{r results='asis'}
+```{r results='asis', class.source="language-r"}
 
 actor_prime_finding = create_finding("Actors and Directors work in their most critically acclaimed films - about 10% above their career average - between 27 and 35 years old.")
 
