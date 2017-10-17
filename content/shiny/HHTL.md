@@ -1,8 +1,8 @@
 ---
 title: "HHTL"
 date: 2017-10-02T09:21:46+10:00
-description: "An interactive visualisation of history."
-bref: "An interactive visualisation of history."
+description: "An interactive visualisation of history"
+bref: "An interactive visualisation of history"
 screencap: "hhtl"
 link: "http://34.209.8.96/shiny/HHTL/"
 ---

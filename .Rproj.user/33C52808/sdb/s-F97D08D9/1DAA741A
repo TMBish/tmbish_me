@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(shiny)\nlibrary(shinyjs)\nlibrary(shiny.semantic)\nlibrary(shinyWidgets)\nlibrary(timevis)\nlibrary(V8)\nlibrary(googlesheets)\nlibrary(dplyr)\nlibrary(glue)\nlibrary(lubridate)\n\njsCode <- \"\n\nshinyjs.init = function() {\nShiny.onInputChange('TL_selection', '')\n};\n\nshinyjs.find_ev = function(){\n\nvar sel_title = $('#timeline').find('.vis-selected').text()\n\nShiny.onInputChange('TL_selection', sel_title)\n\n}\"\n\nhhtl_link <- \"https://docs.google.com/spreadsheets/d/1ixqO2ZubVrb2-zV1gUSDWA0SmajvhZUitfv9LBPD4jc/edit?usp=sharing\"\n\nhhtl_obj <- hhtl_link %>%\n  gs_url()\n\nhide_loading = function(){\n  Sys.sleep(4)\n  shinyjs::hide(\"loading_page\")\n}\n\n# Load extra scripts\nsource(\"create_card.R\")\nsource(\"utils.R\")",
+    "created" : 1506908465186.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2655554039",
+    "id" : "1DAA741A",
+    "lastKnownWriteTime" : 1506896351,
+    "last_content_update" : 1506896351,
+    "path" : "C:/Users/Tom Bishop/Desktop/HHTL/global.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

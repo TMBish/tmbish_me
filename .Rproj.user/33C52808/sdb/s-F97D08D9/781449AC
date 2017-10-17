@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "create_card = function(ind, df, edit_mode=FALSE) {\n  \n  TLinfo <- df %>% filter(id == ind)\n  \n  dates <- ifelse(\n    is.na(TLinfo$end), \n    TLinfo$start %>% format(\"%d %b %Y\"),\n    TLinfo$start %>% format(\"%d %b %Y\") %>% paste(TLinfo$end %>% format(\"%d %b %Y\"), sep = \" - \"))\n  \n  img_link <- TLinfo$img\n  \n  time_added <- TLinfo$entry_added %>% ymd_hms()\n  \n  since_now <- format_time_diff(Sys.time() %>% ymd_hms(), time_added)\n  \n  if (!edit_mode) {\n    div(class = \"ui card\",\n        div(class = \"content\",\n            div(class = \"right floated meta\", since_now),\n            img(class = \"ui avatar image\", src = \"hannah.jpg\"),\n            \"Hannah\"\n        ),\n        div(class = \"image\",\n            img(src = img_link)\n        ),\n        div(class = \"content\",\n            span(class = \"right floated\", icon(\"calendar\"), dates),\n            icon(\"comment\"), \n            TLinfo$content\n        ),\n        div(class = \"extra content\",\n            \n            HTML(TLinfo$description %>% markdown::markdownToHTML(text = . , fragment.only = TRUE))\n            \n        )\n    )\n  } else {\n    \n    div(class = \"ui card\",\n        div(class = \"content\",\n            div(class = \"right floated meta\", since_now),\n            img(class = \"ui avatar image\", src = \"hannah.jpg\"),\n            \"Hannah\"\n        ),\n        div(class = \"image\",\n\n            uiOutput(\"img_preview\"),\n            \n            textInput(\"new_img_url\", label=NULL, value = TLinfo$img, width=\"100%\")\n        ),\n        \n        div(class = \"content\",\n            span(class = \"right floated\", icon(\"calendar\"), dateRangeInput(\"new_ev_dates\", label=NULL, start = TLinfo$start, end = TLinfo$end)),\n            span(icon(\"comment\"), textInput(\"new_title\",label=NULL, value = TLinfo$content))\n        ),\n        div(class = \"extra content\",\n            \n            textAreaInput(\"new_description\", label=NULL, value = TLinfo$description, width=\"100%\", height=250)\n          \n        )\n    )\n  }\n  \n}",
+    "created" : 1506908651546.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2298196283",
+    "id" : "781449AC",
+    "lastKnownWriteTime" : 1506908714,
+    "last_content_update" : 1506908714970,
+    "path" : "C:/Users/Tom Bishop/Desktop/HHTL/create_card.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
