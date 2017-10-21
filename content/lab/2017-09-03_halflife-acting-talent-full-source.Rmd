@@ -2,9 +2,9 @@
 title: "Bulletin Edition 1 with Source"
 author: ~
 date: "`r Sys.time()`"
-day: "`r format(Sys.Date(), '%d')`"
-month: "`r format(Sys.Date(), '%b')`"
-year: "`r format(Sys.Date(), '%Y')`"
+day: "10"
+month: "Sep"
+year: "2016=7"
 slug: bulletin-edition-1-with-source
 categories: []
 tags: ["highcharts", "dplyr", "DT", "gender", "htmltools"]

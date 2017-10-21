@@ -25,7 +25,7 @@ Navigate to your `[R Home]/library/shinydashboard/` and grab:
 
 Plug these files into the `www/` subdirectory of your shiny app and load them in your ui file using:
 
-```{r eval=FALSE}
+```{r eval=FALSE, class.source="language-r"}
 library(shinydashboard)
 
 shinyUI(
