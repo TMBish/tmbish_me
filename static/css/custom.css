@@ -20,6 +20,14 @@
   background: #FF6A5C; 
 }
 
+#hero {
+  padding-bottom: 0px;
+}
+
+#hero h1 {
+  font-size: 48px;
+}
+
 #kube-features {
   margin-top: 50px;
 }
