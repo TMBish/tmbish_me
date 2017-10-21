@@ -2,9 +2,9 @@
 title: R Markdown Test
 author: ~
 date: "`r Sys.time()`"
-day: "`r format(Sys.Date(), '%d')`"
-month: "`r format(Sys.Date(), '%b')`"
-year: "`r format(Sys.Date(), '%Y')`"
+day: "10"
+month: "Sep"
+year: "2017"
 slug: r-markdown-test
 categories: []
 tags: ["ggplot", "dplyr"]

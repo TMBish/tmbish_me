@@ -187,6 +187,9 @@ h2 {
   margin-top: 0px;
 }
 
+
+
+
 div.col.col-2.post-date {
   margin-left: 0px;
   padding: 5px;
@@ -206,6 +209,11 @@ div.col.col-2.post-date {
 
 .post-date p.year {
   margin-bottom: 0px;
+}
+
+#posts code {
+  background-color: #f9f9f9;
+  color: #FD5F00;
 }
 
 #posts .title-box {
