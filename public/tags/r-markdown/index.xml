@@ -6,7 +6,7 @@
     <description>Recent content in R Markdown on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Sep 2017 12:16:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Nov 2017 21:27:09 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,11 @@
     <item>
       <title>Adding Interactivity to Static Rmarkdown Documents</title>
       <link>/lab/adding-rmarkdown-interactivity/</link>
-      <pubDate>Sat, 16 Sep 2017 12:16:52 +0000</pubDate>
+      <pubDate>Tue, 21 Nov 2017 21:27:09 +0000</pubDate>
       
       <guid>/lab/adding-rmarkdown-interactivity/</guid>
-      <description>$(document).ready(function() {var show_cdf = false;$(&amp;quot;#update_age_series&amp;quot;).click(function(){var chart=$(&amp;quot;#age_series_chart&amp;quot;).find(&amp;quot;.highchart&amp;quot;).highcharts();if (show_cdf) {chart.yAxis[0].setExtremes(0,null);chart.yAxis[0].setTitle({text:&amp;quot;Probability Density&amp;quot;, redraw:false});#dir_pdf = `r dir_pdf`;#female_pdf = `r female_pdf`;#male_pdf = `r male_pdf`;chart.series[0].setData(dir_pdf);chart.series[1].setData(male_pdf);chart.series[2].setData(female_pdf);$(&amp;quot;#update_age_series&amp;quot;).html(&amp;quot;Show Cumulative Distribution&amp;quot;);} else {chart.yAxis[0].setExtremes(0,1);chart.yAxis[0].setTitle({text:&amp;quot;Cumulative Probability&amp;quot;, redraw:false});#dir_cdf = `r dir_cdf`;#female_cdf = `r female_cdf`;#male_cdf = `r male_cdf`;chart.series[0].setData(dir_cdf);chart.series[1].setData(male_cdf);chart.series[2].setData(female_cdf);$(&amp;quot;#update_age_series&amp;quot;).html(&amp;quot;Show Density&amp;quot;);};show_cdf = !show_cdf}); });</description>
+      <description>OverviewAdding interactivity to data analytics outputs is a great tool to have in your toolkit.
+As an R User you have a few major output formats to choose from. However, it’s not immediately obvious how much interactivity you can embed within each format.</description>
     </item>
     
   </channel>

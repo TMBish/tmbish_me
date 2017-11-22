@@ -50,7 +50,7 @@
     <item>
       <title>Highcharts</title>
       <link>/tags/highcharts/</link>
-      <pubDate>Sun, 22 Oct 2017 10:24:35 +0000</pubDate>
+      <pubDate>Tue, 21 Nov 2017 21:27:09 +0000</pubDate>
       
       <guid>/tags/highcharts/</guid>
       <description></description>
@@ -62,6 +62,33 @@
       <pubDate>Sun, 22 Oct 2017 10:24:35 +0000</pubDate>
       
       <guid>/tags/htmltools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Tue, 21 Nov 2017 21:27:09 +0000</pubDate>
+      
+      <guid>/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Tue, 21 Nov 2017 21:27:09 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Tue, 21 Nov 2017 21:27:09 +0000</pubDate>
+      
+      <guid>/tags/r-markdown/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,312 @@
+---
+title: "Adding Interactivity to Static Rmarkdown Documents"
+author: ~
+date: "`r Sys.time()`"
+day: "`r format(Sys.Date(), '%d')`"
+month: "`r format(Sys.Date(), '%b')`"
+year: "`r format(Sys.Date(), '%Y')`"
+slug: adding-rmarkdown-interactivity
+categories: []
+tags: ["R", "R Markdown", "Javascript", "Highcharts"]
+highlight: "kate"
+description: "Interactivity can be added to static HTML R Markdown outputs by using a couple of cool tricks."
+img: "bulletin-edition-1"
+---
+
+```{r echo=FALSE}
+# Knitr Options
+knitr::opts_chunk$set(warning=FALSE, message=FALSE, strip.white = FALSE)
+
+```
+
+# Overview
+
+Adding interactivity to data analytics outputs is a great tool to have in your toolkit.
+
+As an R User you have a few major output formats to choose from. However, it's not immediately obvious how much interactivity you can embed within each format. 
+
+- **Shiny Apps** are the most interactive format with few limitations but require a computer server to host as well as codifying a decent amount of the interactivity logic in  shiny syntax. This can be too much overhead for smaller tasks.
+- **Non-HTML Rmarkdown outputs** aren't very interactive. Text, plots and other outputs are statically assembled at runtime and the document stays that way.
+- **HTML R markdown outputs** are a nice comprimise. They support superficially interactive elements (tooltips, action filtering) through HTML widgets **AND** if you know a few tricks interactivity can be signficantly enhanced. That's the topic of this post!
+
+The key concept to get your head around is the client / server model from web-development. The upshot here is that if you don't have a server (an engine to drive what content is shown to the user) your interactivity will always be limited. I can't request my R markdown document to go and retrieve 10 extra rows from a database because there's no one actually there to listen to me - the lights aren't on. Everything you allow the person (client) to see must be delivered to them when they open the document. The key tools to unlock interactivity in this context are `htmlwidgets` and client side javascript.
+
+# Example
+
+I'll create a toy example with the awesome `highcharter` package - a wrapper for the Highcharts API. Our aim will be to allow the user to switch between a view of probability density functions and cumulative distribution functions. If you forget the difference, don't worry it's not important.
+
+## Generate Data
+
+```{r message=FALSE, warning=FALSE}
+library(dplyr)
+library(tidyr)
+library(highcharter)
+
+data <- data.frame(
+  normal = rnorm(10000, 5, 2), # 1000 random from normal dist
+  exponential = rexp(10000, 0.5), # 1000 random from exponential dist
+  uniform = runif(10000, 0, 10) # 1000 random from uniform dist
+)
+
+# Data Manipulation
+data %>%
+  gather(distribution, value, normal:uniform) %>%
+  mutate(value = value %>% round(1)) %>%
+  filter(value >= 0, value <= 12) %>%
+  group_by(distribution, value) %>%
+  summarise(points = n()) %>%
+  ungroup() %>% group_by(distribution) %>%
+  mutate(density = points / sum(points)) %>%
+  ungroup() %>%
+  select(-points) -> density
+
+density %>% head()
+
+```
+
+
+## Plot Data
+
+Using `highcharter` we'll plot the empirical densities of our sample from these 3 distributions.
+
+```{r}
+library(highcharter)
+
+hchart(
+  density,
+  "spline",
+  hcaes(x = value, y = density, group = distribution)
+) %>%
+hc_elementId(id = "static_graph") %>%
+hc_add_theme(hc_theme_538()) %>%
+hc_chart(height = 500) %>%
+hc_xAxis(title = list(text = "Value")) %>%
+hc_yAxis(
+  title = list(text = "Probablity Density"),
+  labels = list(formatter = JS("function(){return(Math.round(this.value * 1000) / 10 + '%')}"))
+) %>%
+hc_title(text = "Probability Densities: Uniform, Normal, and Exponential") %>% 
+hc_subtitle(text = "Emprical density plot for a 10,000 random sample from each of uniform, normal and exponential probability distributions.")
+
+```
+
+
+## Preparing Data
+
+The next thing we're going to do is to create a function that can extract the probability densities and the cumulative probability densities (just taking a cumulative sum over the density column) from our simulated and aggregated data set from above.
+
+```{r}
+
+# Get CDF from density dataframe
+get_dist = function(df, var, type) {
+
+  if (type=="pdf") {
+    
+   df %>%
+    filter(distribution == !!var) %>% # Tidy Evaluation
+    mutate(
+      js_pair = paste0("[", value, "," , density %>% round(6), "]")
+    ) %>%
+    pull(js_pair) %>% # Extract column as vector
+    return()
+    
+  } else {
+    
+   df %>%
+    filter(distribution == !!var) %>% # Tidy Evaluation
+    arrange(value) %>%
+    mutate(
+      cdf = cumsum(density),
+      js_pair = paste0("[", value, "," , cdf %>% round(4), "]")
+    ) %>%
+    pull(js_pair) %>% # Extract column as vector
+    return()
+    
+  }
+  
+}
+```
+
+Now what we want, and moving ahead a little bit, is to create a function that will convert the output of the above function (a simple numeric R vector) and create a valid javascript array. We need to do this because we're going to embed the 6 key data sets into client side javascript code. The `JS` function from `htmlwidgets` attaches the required metadata to a string so that it is interpreted as javascript code intstead of a simple string.
+
+```{r}
+# Convert R char vector of x, y pairs to JS array string
+js_stringify = function(vec) {
+  
+  vec %>%
+    paste(collapse = ",") %>%
+    paste0("[", . , "]") %>%
+    JS() %>%
+    return()
+  
+}
+```
+
+Now we'll use both of those functions to create our 6 key javascript arrays.
+
+```{r}
+# Javascriptise PDF Data
+nor_pdf = get_dist(density, "normal", "pdf") %>% js_stringify()
+exp_pdf = get_dist(density, "exponential", "pdf") %>% js_stringify()
+uni_pdf = get_dist(density, "uniform", "pdf") %>% js_stringify()
+
+# Javascriptise CDF Data
+nor_cdf = get_dist(density, "normal", "cdf") %>% js_stringify()
+exp_cdf = get_dist(density, "exponential", "cdf") %>% js_stringify()
+uni_cdf = get_dist(density, "uniform", "cdf") %>% js_stringify()
+
+```
+
+## The Javascript
+
+Now what we have to do is write some - relatively simple - javascript to switch CDF and PDF data when the user presses a button.
+
+The key things to call out in this code are:
+
+* The `show_cdf` boolean keeps track of which view to switch in; we use a simple if statement to define the data and titles to switch in;
+* To correctly refer to the `highcharts` object itself we use the `.highcharts()` method using the chart id we'll define later;
+* We loop through the chart series and update with the correct data depending on the series name; and
+* Notice the invalid javascript syntax - for eg. ` r nor_cdf ` - this is our secret sauce to make this all work.
+
+What we're essentially doing is using inline R execution to insert the javascript arrays we created above *into* the javascript code we're embedding in this webpage. So when you see `var nor_series = 'r nor_cdf'` what actually gets inserted in the browser is post knitr compilation which will look something like `var nor_series = [ [0,0], ... , [10,1] ]`.
+
+```{class.source="language-javascript"}
+
+$(document).ready(function() {
+
+  var show_cdf = false;
+  
+  $("#alter_chart").click(function(){
+  
+    var chart=$("#interactive_graph").highcharts();
+    
+    if (!show_cdf) {
+      
+      var chart_title = "Cumulative Probability";
+      var nor_series = `r nor_cdf`;
+      var exp_series = `r exp_cdf`;
+      var uni_series = `r uni_cdf`;
+      var button_text = "Show Density";
+    
+    } else {
+        
+      var chart_title = "Probability Density";
+      var nor_series = `r nor_pdf`;
+      var exp_series = `r exp_pdf`;
+      var uni_series = `r uni_pdf`;
+      var button_text = "Show CDF";
+    
+    }
+    
+    chart.yAxis[0].setTitle({text:chart_title, redraw:false});
+    
+    for (var i = 0; i < chart.series.length; i++) {
+    
+      if (chart.series[i].name=="normal") {
+        new_data = nor_series;
+      } else if (chart.series[i].name=="uniform") {
+        new_data = uni_series;
+      } else {
+        new_data = exp_series;
+      }
+      chart.series[i].setData(new_data);
+    }
+    
+    $("#alter_chart").html(button_text);
+    
+    show_cdf = !show_cdf;
+    
+  });
+  
+});
+
+```
+
+## In Action
+
+Now let's see why we went to all that effort. We'll just add a couple of things to the code from above: we'll add chart option that specifies a slow animation (2000 milli seconds) on any chart update, and we'll use another `highcharter` function to give the chart an id that we reference in the javascript above.
+
+```{r}
+hchart(
+  density,
+  "spline",
+  hcaes(x = value, y = density, group = distribution)
+) %>%
+hc_elementId(id = "interactive_graph") %>%
+hc_add_theme(hc_theme_538()) %>%
+hc_chart(
+  animation = list(duration = 2000),
+  height = 500
+) %>%
+hc_xAxis(title = list(text = "Value")) %>%
+hc_yAxis(
+  title = list(text = "Probablity Density"),
+  labels = list(formatter = JS("function(){return(Math.round(this.value * 1000) / 10 + '%')}"))
+) %>%
+hc_title(text = "Probability Distributions: Uniform, Normal, and Exponential") %>% 
+hc_subtitle(text = "Emprical density plot for a 10,000 random sample from each of uniform, normal and exponential probability distributions.")
+
+
+```
+
+<br>
+
+<button id="alter_chart"> Click Me </button>
+
+<br>
+
+## Conlusion
+
+Given the confusing mixup of javascript, rendered code, and hidden code refer to the source code for this page [here](https://github.com/TMBish/site_posts/blob/master/02_rmarkdown-interactivity/post.Rmd) to better understand what's going on.
+
+<script>
+$(document).ready(function() {
+
+  var show_cdf = false;
+  
+  $("#alter_chart").click(function(){
+  
+    var chart=$("#interactive_graph").highcharts();
+    
+    if (!show_cdf) {
+      
+      var chart_title = "Cumulative Probability";
+      var nor_series = `r nor_cdf`;
+      var exp_series = `r exp_cdf`;
+      var uni_series = `r uni_cdf`;
+      var button_text = "Show Density";
+    
+    } else {
+        
+      var chart_title = "Probability Density";
+      var nor_series = `r nor_pdf`;
+      var exp_series = `r exp_pdf`;
+      var uni_series = `r uni_pdf`;
+      var button_text = "Show CDF";
+    
+    }
+    
+    chart.yAxis[0].setTitle({text:chart_title, redraw:false});
+    
+    for (var i = 0; i < chart.series.length; i++) {
+    
+      if (chart.series[i].name=="normal") {
+        new_data = nor_series;
+      } else if (chart.series[i].name=="uniform") {
+        new_data = uni_series;
+      } else {
+        new_data = exp_series;
+      }
+      chart.series[i].setData(new_data);
+    }
+    
+    $("#alter_chart").html(button_text);
+    
+    show_cdf = !show_cdf;
+    
+  });
+  
+});
+
+</script>
+

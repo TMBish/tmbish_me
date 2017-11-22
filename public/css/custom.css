@@ -20,6 +20,14 @@
   background: #FF6A5C; 
 }
 
+#hero {
+  padding-bottom: 0px;
+}
+
+#hero h1 {
+  font-size: 48px;
+}
+
 #kube-features {
   margin-top: 50px;
 }
@@ -206,6 +214,16 @@ div.col.col-2.post-date {
 
 .post-date p.year {
   margin-bottom: 0px;
+}
+
+#posts p > code {
+  background-color: #f9f9f9;
+  color: #FD5F00;
+}
+
+#posts li > code {
+  background-color: #f9f9f9;
+  color: #FD5F00;
 }
 
 #posts .title-box {
