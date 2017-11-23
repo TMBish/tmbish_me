@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ggplot on Tom Bishop</title>
-    <link>/tags/ggplot/</link>
+    <link>http://tmbish.me/tags/ggplot/</link>
     <description>Recent content in Ggplot on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Nov 2017 20:00:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2017 20:38:16 +0000</lastBuildDate>
     
-	<atom:link href="/tags/ggplot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tmbish.me/tags/ggplot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R Markdown Test</title>
-      <link>/lab/r-markdown-test/</link>
-      <pubDate>Thu, 23 Nov 2017 20:00:35 +0000</pubDate>
+      <link>http://tmbish.me/lab/r-markdown-test/</link>
+      <pubDate>Thu, 23 Nov 2017 20:38:16 +0000</pubDate>
       
-      <guid>/lab/r-markdown-test/</guid>
+      <guid>http://tmbish.me/lab/r-markdown-test/</guid>
       <description>OverviewHey. Just testing the Rmd funcitonality of this page. Maybe I’m interested in the BMI of human star wars characters. Maybe. Let’s see how this goes:
 library(dplyr)library(ggplot2)starwars %&amp;gt;%filter(species == &amp;quot;Human&amp;quot;) %&amp;gt;%ggplot(aes(y=height, x=mass, colour=species)) +geom_point() +geom_smooth() +theme_bw() +ggtitle(&amp;quot;Starwars BMI&amp;quot;)</description>
     </item>

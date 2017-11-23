@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gender on Tom Bishop</title>
-    <link>/tags/gender/</link>
+    <link>http://tmbish.me/tags/gender/</link>
     <description>Recent content in Gender on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Nov 2017 20:02:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2017 20:40:04 +0000</lastBuildDate>
     
-	<atom:link href="/tags/gender/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tmbish.me/tags/gender/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bulletin Edition 1 with Source</title>
-      <link>/lab/bulletin-edition-1-with-source/</link>
-      <pubDate>Thu, 23 Nov 2017 20:02:31 +0000</pubDate>
+      <link>http://tmbish.me/lab/bulletin-edition-1-with-source/</link>
+      <pubDate>Thu, 23 Nov 2017 20:40:04 +0000</pubDate>
       
-      <guid>/lab/bulletin-edition-1-with-source/</guid>
+      <guid>http://tmbish.me/lab/bulletin-edition-1-with-source/</guid>
       <description>Nah but actually The Intern was ok.
 
 Much analysis has been completed regarding the performing peak of athletes and sportspeople. Statistically, swimmers peak at around 24, marathon runners between 30-31, gymnasts at a mere 18, NBA players generally peak between 26-29, professional hockey players between 27-28, and chess players at 30-35.</description>

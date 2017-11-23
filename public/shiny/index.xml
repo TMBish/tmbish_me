@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shinies on Tom Bishop</title>
-    <link>/shiny/</link>
+    <link>http://tmbish.me/shiny/</link>
     <description>Recent content in Shinies on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Oct 2017 09:21:46 +1000</lastBuildDate>
     
-	<atom:link href="/shiny/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tmbish.me/shiny/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HHTL</title>
-      <link>/shiny/hhtl/</link>
+      <link>http://tmbish.me/shiny/hhtl/</link>
       <pubDate>Mon, 02 Oct 2017 09:21:46 +1000</pubDate>
       
-      <guid>/shiny/hhtl/</guid>
+      <guid>http://tmbish.me/shiny/hhtl/</guid>
       <description> Details Hannah&amp;rsquo;s History Time Line (HHTL) is a minimalist shiny app I built to help my wife learn and retain history. The app contains a simple timevis timeline widget with functionality to add and edit events. Technically the app includes:
  A googlesheets backend using the googlesheets package UI elements from shinyWidgets and shiny.semantic Some extra interactivity with shinyjs  </description>
     </item>
     
     <item>
       <title>Stratton</title>
-      <link>/shiny/stratton/</link>
+      <link>http://tmbish.me/shiny/stratton/</link>
       <pubDate>Sun, 30 Jul 2017 10:26:46 +1000</pubDate>
       
-      <guid>/shiny/stratton/</guid>
+      <guid>http://tmbish.me/shiny/stratton/</guid>
       <description>Details Stratton interfaces three different film data sources (IMDB, Rotten Tomatoes, and Box Office Mojo) to provide a reasonably comprehensive dataset of film data for an actor or director of your choice. Use the analytics functionality in the app (charting, loess regression and kmeans clustering) to uncover an interesting, data-evidenced story about an actor or director - much like the 538 article it was inspired by.</description>
     </item>
     
     <item>
       <title>Under Construction</title>
-      <link>/shiny/tbd/</link>
+      <link>http://tmbish.me/shiny/tbd/</link>
       <pubDate>Sun, 30 Jul 2017 10:26:46 +1000</pubDate>
       
-      <guid>/shiny/tbd/</guid>
+      <guid>http://tmbish.me/shiny/tbd/</guid>
       <description>Details Mate I told you it was under developments. Don&amp;rsquo;t look in here please.</description>
     </item>
     

@@ -1,4 +1,4 @@
-baseURL = "/"
+baseurl = "http://tmbish.me/"
 languageCode = "en-us"
 title = "Tom Bishop"
 theme = "kube"

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tom Bishop</title>
-    <link>/</link>
+    <link>http://tmbish.me/</link>
     <description>Recent content on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Nov 2017 20:02:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2017 20:40:30 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tmbish.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adding Interactivity to Static Rmarkdown Documents</title>
-      <link>/lab/adding-rmarkdown-interactivity/</link>
-      <pubDate>Thu, 23 Nov 2017 20:02:54 +0000</pubDate>
+      <link>http://tmbish.me/lab/adding-rmarkdown-interactivity/</link>
+      <pubDate>Thu, 23 Nov 2017 20:40:30 +0000</pubDate>
       
-      <guid>/lab/adding-rmarkdown-interactivity/</guid>
+      <guid>http://tmbish.me/lab/adding-rmarkdown-interactivity/</guid>
       <description>OverviewAdding interactivity to data analytics outputs is a great tool to have in your toolkit.
 As an R User you have a few major output formats to choose from. However, it’s not immediately obvious how much interactivity you can embed within each format.</description>
     </item>
     
     <item>
       <title>Using Shinydashboard Elements in Shiny</title>
-      <link>/lab/shinydashboard-elements/</link>
-      <pubDate>Thu, 23 Nov 2017 20:02:36 +0000</pubDate>
+      <link>http://tmbish.me/lab/shinydashboard-elements/</link>
+      <pubDate>Thu, 23 Nov 2017 20:40:09 +0000</pubDate>
       
-      <guid>/lab/shinydashboard-elements/</guid>
+      <guid>http://tmbish.me/lab/shinydashboard-elements/</guid>
       <description>Shinydashboard is built off the Bootstrap Admin LTE theme. It contains some cool elements (value/info boxes) that look pretty snazzy in a shiny dashboard. To use any of these elements (due to the differences in app creation syntax) within your regular shiny app you can’t just load the shinydashboard package.
 You’ll just need to grab a couple of CSS files from the shinydashboard package source code.
 Navigate to your [R Home]/library/shinydashboard/ and grab:</description>
@@ -34,10 +34,10 @@ Navigate to your [R Home]/library/shinydashboard/ and grab:</description>
     
     <item>
       <title>Bulletin Edition 1 with Source</title>
-      <link>/lab/bulletin-edition-1-with-source/</link>
-      <pubDate>Thu, 23 Nov 2017 20:02:31 +0000</pubDate>
+      <link>http://tmbish.me/lab/bulletin-edition-1-with-source/</link>
+      <pubDate>Thu, 23 Nov 2017 20:40:04 +0000</pubDate>
       
-      <guid>/lab/bulletin-edition-1-with-source/</guid>
+      <guid>http://tmbish.me/lab/bulletin-edition-1-with-source/</guid>
       <description>Nah but actually The Intern was ok.
 
 Much analysis has been completed regarding the performing peak of athletes and sportspeople. Statistically, swimmers peak at around 24, marathon runners between 30-31, gymnasts at a mere 18, NBA players generally peak between 26-29, professional hockey players between 27-28, and chess players at 30-35.</description>
@@ -45,30 +45,30 @@ Much analysis has been completed regarding the performing peak of athletes and s
     
     <item>
       <title>R Markdown Test</title>
-      <link>/lab/r-markdown-test/</link>
-      <pubDate>Thu, 23 Nov 2017 20:00:35 +0000</pubDate>
+      <link>http://tmbish.me/lab/r-markdown-test/</link>
+      <pubDate>Thu, 23 Nov 2017 20:38:16 +0000</pubDate>
       
-      <guid>/lab/r-markdown-test/</guid>
+      <guid>http://tmbish.me/lab/r-markdown-test/</guid>
       <description>OverviewHey. Just testing the Rmd funcitonality of this page. Maybe I’m interested in the BMI of human star wars characters. Maybe. Let’s see how this goes:
 library(dplyr)library(ggplot2)starwars %&amp;gt;%filter(species == &amp;quot;Human&amp;quot;) %&amp;gt;%ggplot(aes(y=height, x=mass, colour=species)) +geom_point() +geom_smooth() +theme_bw() +ggtitle(&amp;quot;Starwars BMI&amp;quot;)</description>
     </item>
     
     <item>
       <title>HHTL</title>
-      <link>/shiny/hhtl/</link>
+      <link>http://tmbish.me/shiny/hhtl/</link>
       <pubDate>Mon, 02 Oct 2017 09:21:46 +1000</pubDate>
       
-      <guid>/shiny/hhtl/</guid>
+      <guid>http://tmbish.me/shiny/hhtl/</guid>
       <description> Details Hannah&amp;rsquo;s History Time Line (HHTL) is a minimalist shiny app I built to help my wife learn and retain history. The app contains a simple timevis timeline widget with functionality to add and edit events. Technically the app includes:
  A googlesheets backend using the googlesheets package UI elements from shinyWidgets and shiny.semantic Some extra interactivity with shinyjs  </description>
     </item>
     
     <item>
       <title>The Prime of Their Life: The Halflife of Acting Talent</title>
-      <link>/bulletin/edition-1-halflfe-of-acting/</link>
+      <link>http://tmbish.me/bulletin/edition-1-halflfe-of-acting/</link>
       <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/bulletin/edition-1-halflfe-of-acting/</guid>
+      <guid>http://tmbish.me/bulletin/edition-1-halflfe-of-acting/</guid>
       <description>Nah but actually The Intern was ok.
 
 Sidenote: If you’re technically inclined, head over to the lab to read this article with full source code in-line.
@@ -77,28 +77,28 @@ library(dplyr)library(ggplot2)starwars %&amp;gt;%filter(species == &amp;quot;
     
     <item>
       <title>Stratton</title>
-      <link>/shiny/stratton/</link>
+      <link>http://tmbish.me/shiny/stratton/</link>
       <pubDate>Sun, 30 Jul 2017 10:26:46 +1000</pubDate>
       
-      <guid>/shiny/stratton/</guid>
+      <guid>http://tmbish.me/shiny/stratton/</guid>
       <description>Details Stratton interfaces three different film data sources (IMDB, Rotten Tomatoes, and Box Office Mojo) to provide a reasonably comprehensive dataset of film data for an actor or director of your choice. Use the analytics functionality in the app (charting, loess regression and kmeans clustering) to uncover an interesting, data-evidenced story about an actor or director - much like the 538 article it was inspired by.</description>
     </item>
     
     <item>
       <title>Under Construction</title>
-      <link>/bulletin/edition-2-tbd/</link>
+      <link>http://tmbish.me/bulletin/edition-2-tbd/</link>
       <pubDate>Sun, 30 Jul 2017 10:26:46 +1000</pubDate>
       
-      <guid>/bulletin/edition-2-tbd/</guid>
+      <guid>http://tmbish.me/bulletin/edition-2-tbd/</guid>
       <description>Overview I told you not to look in here.</description>
     </item>
     
     <item>
       <title>Under Construction</title>
-      <link>/shiny/tbd/</link>
+      <link>http://tmbish.me/shiny/tbd/</link>
       <pubDate>Sun, 30 Jul 2017 10:26:46 +1000</pubDate>
       
-      <guid>/shiny/tbd/</guid>
+      <guid>http://tmbish.me/shiny/tbd/</guid>
       <description>Details Mate I told you it was under developments. Don&amp;rsquo;t look in here please.</description>
     </item>
     
