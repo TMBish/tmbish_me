@@ -3,7 +3,7 @@ title: "Adding Interactivity to Static Rmarkdown Documents"
 author: ~
 date: "`r Sys.time()`"
 day: "23"
-month: "11"
+month: "Nov"
 year: "2017"
 slug: adding-rmarkdown-interactivity
 categories: []
@@ -37,7 +37,7 @@ I'll create a toy example with the awesome `highcharter` package - a wrapper for
 
 ## Generate Data
 
-```{r message=FALSE, warning=FALSE}
+```{r message=FALSE, warning=FALSE,  class.source="language-r"}
 library(dplyr)
 library(tidyr)
 library(highcharter)
@@ -69,7 +69,7 @@ density %>% head()
 
 Using `highcharter` we'll plot the empirical densities of our sample from these 3 distributions.
 
-```{r}
+```{r  class.source="language-r"}
 library(highcharter)
 
 hchart(
@@ -95,7 +95,7 @@ hc_subtitle(text = "Emprical density plot for a 10,000 random sample from each o
 
 The next thing we're going to do is to create a function that can extract the probability densities and the cumulative probability densities (just taking a cumulative sum over the density column) from our simulated and aggregated data set from above.
 
-```{r}
+```{r  class.source="language-r"}
 
 # Get CDF from density dataframe
 get_dist = function(df, var, type) {
@@ -129,7 +129,7 @@ get_dist = function(df, var, type) {
 
 Now what we want, and moving ahead a little bit, is to create a function that will convert the output of the above function (a simple numeric R vector) and create a valid javascript array. We need to do this because we're going to embed the 6 key data sets into client side javascript code. The `JS` function from `htmlwidgets` attaches the required metadata to a string so that it is interpreted as javascript code intstead of a simple string.
 
-```{r}
+```{r  class.source="language-r"}
 # Convert R char vector of x, y pairs to JS array string
 js_stringify = function(vec) {
   
@@ -144,7 +144,7 @@ js_stringify = function(vec) {
 
 Now we'll use both of those functions to create our 6 key javascript arrays.
 
-```{r}
+```{r  class.source="language-r"}
 # Javascriptise PDF Data
 nor_pdf = get_dist(density, "normal", "pdf") %>% js_stringify()
 exp_pdf = get_dist(density, "exponential", "pdf") %>% js_stringify()
@@ -170,7 +170,7 @@ The key things to call out in this code are:
 
 What we're essentially doing is using inline R execution to insert the javascript arrays we created above *into* the javascript code we're embedding in this webpage. So when you see `var nor_series = 'r nor_cdf'` what actually gets inserted in the browser is post knitr compilation which will look something like `var nor_series = [ [0,0], ... , [10,1] ]`.
 
-```{class.source="language-javascript"}
+```{js eval=FALSE, class.source="language-javascript"}
 
 $(document).ready(function() {
 

@@ -3,7 +3,7 @@ title: "Using Shinydashboard Elements in Shiny"
 author: ~
 date: "`r Sys.time()`"
 day: "14"
-month: "10"
+month: "Oct"
 year: "2017"
 slug: shinydashboard-elements
 categories: []

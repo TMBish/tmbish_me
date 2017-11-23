@@ -6,7 +6,7 @@
     <description>Recent content on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Nov 2017 19:17:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2017 19:34:09 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Adding Interactivity to Static Rmarkdown Documents</title>
       <link>/lab/adding-rmarkdown-interactivity/</link>
-      <pubDate>Thu, 23 Nov 2017 19:17:12 +0000</pubDate>
+      <pubDate>Thu, 23 Nov 2017 19:34:09 +0000</pubDate>
       
       <guid>/lab/adding-rmarkdown-interactivity/</guid>
       <description>OverviewAdding interactivity to data analytics outputs is a great tool to have in your toolkit.
@@ -24,7 +24,7 @@ As an R User you have a few major output formats to choose from. However, it’s
     <item>
       <title>Using Shinydashboard Elements in Shiny</title>
       <link>/lab/shinydashboard-elements/</link>
-      <pubDate>Thu, 23 Nov 2017 19:16:50 +0000</pubDate>
+      <pubDate>Thu, 23 Nov 2017 19:33:46 +0000</pubDate>
       
       <guid>/lab/shinydashboard-elements/</guid>
       <description>Shinydashboard is built off the Bootstrap Admin LTE theme. It contains some cool elements (value/info boxes) that look pretty snazzy in a shiny dashboard. To use any of these elements (due to the differences in app creation syntax) within your regular shiny app you can’t just load the shinydashboard package.
@@ -35,7 +35,7 @@ Navigate to your [R Home]/library/shinydashboard/ and grab:</description>
     <item>
       <title>Bulletin Edition 1 with Source</title>
       <link>/lab/bulletin-edition-1-with-source/</link>
-      <pubDate>Thu, 23 Nov 2017 19:16:47 +0000</pubDate>
+      <pubDate>Thu, 23 Nov 2017 19:33:42 +0000</pubDate>
       
       <guid>/lab/bulletin-edition-1-with-source/</guid>
       <description>Nah but actually The Intern was ok.
@@ -46,7 +46,7 @@ Much analysis has been completed regarding the performing peak of athletes and s
     <item>
       <title>R Markdown Test</title>
       <link>/lab/r-markdown-test/</link>
-      <pubDate>Thu, 23 Nov 2017 19:14:54 +0000</pubDate>
+      <pubDate>Thu, 23 Nov 2017 19:31:46 +0000</pubDate>
       
       <guid>/lab/r-markdown-test/</guid>
       <description>OverviewHey. Just testing the Rmd funcitonality of this page. Maybe I’m interested in the BMI of human star wars characters. Maybe. Let’s see how this goes:

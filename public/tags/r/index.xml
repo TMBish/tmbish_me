@@ -6,7 +6,7 @@
     <description>Recent content in R on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Nov 2017 19:17:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2017 19:34:09 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Adding Interactivity to Static Rmarkdown Documents</title>
       <link>/lab/adding-rmarkdown-interactivity/</link>
-      <pubDate>Thu, 23 Nov 2017 19:17:12 +0000</pubDate>
+      <pubDate>Thu, 23 Nov 2017 19:34:09 +0000</pubDate>
       
       <guid>/lab/adding-rmarkdown-interactivity/</guid>
       <description>OverviewAdding interactivity to data analytics outputs is a great tool to have in your toolkit.
