@@ -226,6 +226,14 @@ div.col.col-2.post-date {
   color: #FD5F00;
 }
 
+#posts li {
+  margin-bottom: 10px;
+}
+
+#posts h3 {
+  margin-top: 50px;
+}
+
 #posts .title-box {
   border-bottom: 2px solid #f8f8f8;
   height: 50px;

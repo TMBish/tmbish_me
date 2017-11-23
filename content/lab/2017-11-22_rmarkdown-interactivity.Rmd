@@ -161,12 +161,14 @@ uni_cdf = get_dist(density, "uniform", "cdf") %>% js_stringify()
 
 Now what we have to do is write some - relatively simple - javascript to switch CDF and PDF data when the user presses a button.
 
+Where will we put this code? Well we insert it directly into the `.Rmd` file. Not in a code chunk that will be evaluated by knitr, we'll insert it inside a script tag (we're writing html directly into the output) which will be passed as is to the output html document. Have a look at the [source](https://github.com/TMBish/site_posts/blob/master/02_rmarkdown-interactivity/post.Rmd) for this page to see how it works.
+
 The key things to call out in this code are:
 
 * The `show_cdf` boolean keeps track of which view to switch in; we use a simple if statement to define the data and titles to switch in;
 * To correctly refer to the `highcharts` object itself we use the `.highcharts()` method using the chart id we'll define later;
 * We loop through the chart series and update with the correct data depending on the series name; and
-* Notice the invalid javascript syntax - for eg. ` r nor_cdf ` - this is our secret sauce to make this all work.
+* Notice the invalid javascript syntax: ` r nor_cdf `. This is our secret sauce to make this all work.
 
 What we're essentially doing is using inline R execution to insert the javascript arrays we created above *into* the javascript code we're embedding in this webpage. So when you see `var nor_series = 'r nor_cdf'` what actually gets inserted in the browser is post knitr compilation which will look something like `var nor_series = [ [0,0], ... , [10,1] ]`.
 
@@ -226,7 +228,7 @@ $(document).ready(function() {
 
 Now let's see why we went to all that effort. We'll just add a couple of things to the code from above: we'll add chart option that specifies a slow animation (2000 milli seconds) on any chart update, and we'll use another `highcharter` function to give the chart an id that we reference in the javascript above.
 
-```{r}
+```{r class.source="language-r"}
 hchart(
   density,
   "spline",
@@ -257,7 +259,7 @@ hc_subtitle(text = "Emprical density plot for a 10,000 random sample from each o
 
 ## Conlusion
 
-Given the confusing mixup of javascript, rendered code, and hidden code refer to the source code for this page [here](https://github.com/TMBish/site_posts/blob/master/02_rmarkdown-interactivity/post.Rmd) to better understand what's going on.
+Again, given the confusing mixup of javascript, rendered R code, and hidden R code you should refer to the source code for this page [here](https://github.com/TMBish/site_posts/blob/master/02_rmarkdown-interactivity/post.Rmd) to better understand what's going on.
 
 <script>
 $(document).ready(function() {
