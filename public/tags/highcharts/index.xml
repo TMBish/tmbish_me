@@ -6,25 +6,15 @@
     <description>Recent content in Highcharts on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Nov 2017 21:27:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2017 19:16:47 +0000</lastBuildDate>
     
 	<atom:link href="/tags/highcharts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Adding Interactivity to Static Rmarkdown Documents</title>
-      <link>/lab/adding-rmarkdown-interactivity/</link>
-      <pubDate>Tue, 21 Nov 2017 21:27:09 +0000</pubDate>
-      
-      <guid>/lab/adding-rmarkdown-interactivity/</guid>
-      <description>OverviewAdding interactivity to data analytics outputs is a great tool to have in your toolkit.
-As an R User you have a few major output formats to choose from. However, it’s not immediately obvious how much interactivity you can embed within each format.</description>
-    </item>
-    
-    <item>
       <title>Bulletin Edition 1 with Source</title>
       <link>/lab/bulletin-edition-1-with-source/</link>
-      <pubDate>Sun, 22 Oct 2017 10:24:35 +0000</pubDate>
+      <pubDate>Thu, 23 Nov 2017 19:16:47 +0000</pubDate>
       
       <guid>/lab/bulletin-edition-1-with-source/</guid>
       <description>Nah but actually The Intern was ok.

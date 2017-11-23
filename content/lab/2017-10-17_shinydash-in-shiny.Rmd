@@ -2,9 +2,9 @@
 title: "Using Shinydashboard Elements in Shiny"
 author: ~
 date: "`r Sys.time()`"
-day: "`r format(Sys.Date(), '%d')`"
-month: "`r format(Sys.Date(), '%b')`"
-year: "`r format(Sys.Date(), '%Y')`"
+day: "14"
+month: "10"
+year: "2017"
 slug: shinydashboard-elements
 categories: []
 tags: ["shiny"]

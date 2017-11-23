@@ -1,0 +1,23 @@
+
+
+
+
+<p>Shinydashboard is built off the Bootstrap Admin LTE theme. It contains some cool elements (value/info boxes) that look pretty snazzy in a shiny dashboard. To use any of these elements (due to the differences in app creation syntax) within your regular shiny app you can’t just load the shinydashboard package.</p>
+<p>You’ll just need to grab a couple of CSS files from the shinydashboard package source code.</p>
+<p>Navigate to your <code>[R Home]/library/shinydashboard/</code> and grab:</p>
+<ul>
+<li><code>shinydashboard.css</code></li>
+<li><code>AdminLTE/AdminLTE.css</code></li>
+</ul>
+<p>Plug these files into the <code>www/</code> subdirectory of your shiny app and load them in your ui file using:</p>
+<pre class="r language-r"><code>library(shinydashboard)
+
+shinyUI(
+    fluidPage(
+        tags$head(
+            includeCSS(file.path(&#39;www&#39;, path = &quot;AdminLTE.css&quot;)),
+            includeCSS(file.path(&#39;www&#39;, path = &quot;shinydashboard.css&quot;)
+        )
+    )
+ )</code></pre>
+<p>And you can use shiny dashboard elements like normal.</p>

@@ -6,7 +6,7 @@
     <description>Recent content in Shiny on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Oct 2017 10:24:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Nov 2017 19:16:50 +0000</lastBuildDate>
     
 	<atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Using Shinydashboard Elements in Shiny</title>
       <link>/lab/shinydashboard-elements/</link>
-      <pubDate>Sun, 22 Oct 2017 10:24:39 +0000</pubDate>
+      <pubDate>Thu, 23 Nov 2017 19:16:50 +0000</pubDate>
       
       <guid>/lab/shinydashboard-elements/</guid>
       <description>Shinydashboard is built off the Bootstrap Admin LTE theme. It contains some cool elements (value/info boxes) that look pretty snazzy in a shiny dashboard. To use any of these elements (due to the differences in app creation syntax) within your regular shiny app you can’t just load the shinydashboard package.
