@@ -32,7 +32,7 @@
 
 <br><br>
 
-<p> I'm a data & analytics professional, currently working as data science consultant in Melbourne. </p> 
+<p> I'm a data & analytics professional, currently working as data scientist for Betfair in Melbourne. </p> 
 <p> Things that I'm really into: </p>
 <ul class="indented">
   <li> Statistical programming ( particularly <span class="label upper outline error"> R </span> ); </li>
@@ -125,7 +125,8 @@
                       "Graduate": "Risk Graduate",
                       "Analyst": "Credit Risk Model Developer",
                       "Senior Analyst": "Senior Credit Cards Analyst",
-                      "Data Scientist": "Senior Data Science Consultant"
+                      "Data Scientist": "Senior Data Science Consultant",
+                      "Data Scientist": "Data Scientist"
                     };
                   org = {
                       "Bachelors Degree": "The University of Melbourne",
@@ -133,7 +134,8 @@
                       "Graduate": "National Australia Bank",
                       "Analyst": "National Australia Bank",
                       "Senior Analyst":"National Australia Bank",
-                      "Data Scientist": "Ernst & Young"
+                      "Data Scientist": "Ernst & Young",
+                      "Data Scientist": "Betfair"
                     };
                     
                     date_format = Math.round(this.y * 3.8052e-10);
@@ -177,8 +179,13 @@
             },
             {
                 name: 'Data Scientist',
-                y: Date.UTC(new Date().getFullYear(),  new Date().getMonth()+1) - Date.UTC(2017,2),
+                y: Date.UTC(2018, 1) - Date.UTC(2017,2),
                 color: 'rgba(255,231,0,0.5)'
+            },
+            {
+                name: 'Data Scientist',
+                y: Date.UTC(new Date().getFullYear(),  new Date().getMonth()+1) - Date.UTC(2018,1),
+                color: 'rgba(0,0,0,0.5)'
             }],
             dataLabels: {
                 enabled: true,
@@ -194,7 +201,8 @@
                       "Graduate": "Risk Graduate",
                       "Analyst": "Credit Risk Model Developer",
                       "Senior Analyst": "Senior Credit Cards Analyst",
-                      "Data Scientist": "Senior Data Science Consultant"
+                      "Data Scientist": "Senior Data Science Consultant",
+                      "Data Scientist": "Data Scientist"
                     };
                     
                     return "<br>" + details[this.point.name] + "</br>";
