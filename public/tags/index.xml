@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tom Bishop</title>
-    <link>http://tmbish.me/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Nov 2017 20:40:04 +0000</lastBuildDate>
     
-	<atom:link href="http://tmbish.me/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dplyr</title>
-      <link>http://tmbish.me/tags/dplyr/</link>
+      <link>/tags/dplyr/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:04 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/dplyr/</guid>
+      <guid>/tags/dplyr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dt</title>
-      <link>http://tmbish.me/tags/dt/</link>
+      <link>/tags/dt/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:04 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/dt/</guid>
+      <guid>/tags/dt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gender</title>
-      <link>http://tmbish.me/tags/gender/</link>
+      <link>/tags/gender/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:04 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/gender/</guid>
+      <guid>/tags/gender/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggplot</title>
-      <link>http://tmbish.me/tags/ggplot/</link>
+      <link>/tags/ggplot/</link>
       <pubDate>Thu, 23 Nov 2017 20:38:16 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/ggplot/</guid>
+      <guid>/tags/ggplot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Highcharter</title>
-      <link>http://tmbish.me/tags/highcharter/</link>
+      <link>/tags/highcharter/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:30 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/highcharter/</guid>
+      <guid>/tags/highcharter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Highcharts</title>
-      <link>http://tmbish.me/tags/highcharts/</link>
+      <link>/tags/highcharts/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:04 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/highcharts/</guid>
+      <guid>/tags/highcharts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Htmltools</title>
-      <link>http://tmbish.me/tags/htmltools/</link>
+      <link>/tags/htmltools/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:04 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/htmltools/</guid>
+      <guid>/tags/htmltools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>http://tmbish.me/tags/javascript/</link>
+      <link>/tags/javascript/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:30 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/javascript/</guid>
+      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>http://tmbish.me/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:30 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>http://tmbish.me/tags/r-markdown/</link>
+      <link>/tags/r-markdown/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:30 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/r-markdown/</guid>
+      <guid>/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shiny</title>
-      <link>http://tmbish.me/tags/shiny/</link>
+      <link>/tags/shiny/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:09 +0000</pubDate>
       
-      <guid>http://tmbish.me/tags/shiny/</guid>
+      <guid>/tags/shiny/</guid>
       <description></description>
     </item>
     

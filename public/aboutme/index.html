@@ -26,7 +26,7 @@
   <meta property="og:title" content="Me" />
 <meta property="og:description" content="A professional summary and some methods to get in touch if you&#39;d like." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://tmbish.me/aboutme/" />
+<meta property="og:url" content="/aboutme/" />
 
 
 
@@ -51,9 +51,9 @@
   
   
   
-  <link href="http://tmbish.me/aboutme/index.xml" rel="alternate" type="application/rss+xml" title="Tom Bishop" /> 
+  <link href="/aboutme/index.xml" rel="alternate" type="application/rss+xml" title="Tom Bishop" /> 
 
-  <link rel="canonical" href="http://tmbish.me/aboutme/">  
+  <link rel="canonical" href="/aboutme/">  
 
   <link rel="icon" type="text/png" href="/img/bishop.png"/>
 
@@ -104,6 +104,8 @@
     
     <li><a href="/shiny/" >Shiny</a></li>
     
+    <li><a href="/films/" >Films</a></li>
+    
       </ul>
     </nav>
 
@@ -140,7 +142,7 @@
 
 <br><br>
 
-<p> I'm a data & analytics professional, currently working as data science consultant in Melbourne. </p> 
+<p> I'm a data & analytics professional, currently working as data scientist for Betfair in Melbourne. </p> 
 <p> Things that I'm really into: </p>
 <ul class="indented">
   <li> Statistical programming ( particularly <span class="label upper outline error"> R </span> ); </li>
@@ -149,7 +151,7 @@
   <li> Building data oriented web applications ( I'm an avid <span class="label upper outline error"> Shiny </span> enthusiast ). </li>
 </ul>
 
-<p> A more detailed description of my technical skills can be found in my CV which is availble <a href='https://www.dropbox.com/sh/kdgr76wk5dnm8ft/AADScmqvAj46SAKGkQE5HCYVa?dl=0'> here </a>.  </p>
+<p> A more detailed description of my technical skills can be found in my CV which is available <a href='https://www.dropbox.com/sh/kdgr76wk5dnm8ft/AADScmqvAj46SAKGkQE5HCYVa?dl=0'> here </a>.  </p>
 
 <br>
 <h1>Professional Timeline</h1>
@@ -233,7 +235,8 @@
                       "Graduate": "Risk Graduate",
                       "Analyst": "Credit Risk Model Developer",
                       "Senior Analyst": "Senior Credit Cards Analyst",
-                      "Data Scientist": "Senior Data Science Consultant"
+                      "Data Science Consultant": "Senior Data Science Consultant",
+                      "Data Scientist": "Data Scientist"
                     };
                   org = {
                       "Bachelors Degree": "The University of Melbourne",
@@ -241,7 +244,8 @@
                       "Graduate": "National Australia Bank",
                       "Analyst": "National Australia Bank",
                       "Senior Analyst":"National Australia Bank",
-                      "Data Scientist": "Ernst & Young"
+                      "Data Science Consultant": "Ernst & Young",
+                      "Data Scientist": "Betfair"
                     };
                     
                     date_format = Math.round(this.y * 3.8052e-10);
@@ -284,9 +288,14 @@
                 color: 'rgba(190,13,0,0.5)'
             },
             {
-                name: 'Data Scientist',
-                y: Date.UTC(new Date().getFullYear(),  new Date().getMonth()+1) - Date.UTC(2017,2),
+                name: 'Data Science Consultant',
+                y: Date.UTC(2018, 1) - Date.UTC(2017,2),
                 color: 'rgba(255,231,0,0.5)'
+            },
+            {
+                name: 'Data Scientist',
+                y: Date.UTC(new Date().getFullYear(),  new Date().getMonth()+1) - Date.UTC(2018,1),
+                color: 'rgba(0,0,0,0.5)'
             }],
             dataLabels: {
                 enabled: true,
@@ -302,7 +311,8 @@
                       "Graduate": "Risk Graduate",
                       "Analyst": "Credit Risk Model Developer",
                       "Senior Analyst": "Senior Credit Cards Analyst",
-                      "Data Scientist": "Senior Data Science Consultant"
+                      "Data Science Consultant": "Senior Data Science Consultant",
+                      "Data Scientist": "Data Scientist"
                     };
                     
                     return "<br>" + details[this.point.name] + "</br>";

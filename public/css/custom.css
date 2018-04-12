@@ -175,6 +175,10 @@
   color: #2196F3;
   text-decoration: none; 
 }
+#components.films h4 a {
+  color: #F7C919;
+  text-decoration: none; 
+}
 
 #components h4 a:hover {
   -moz-transition: all linear 0.4s;
@@ -377,4 +381,28 @@ div.col.col-2.post-date {
 .sus-tool-amber {
   color: #FFC107;
   font-weight: bold;
+}
+
+/* ---------------------------------------- */
+/*                  Films                    */
+/* ---------------------------------------- */
+
+.review {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+.review-left{
+width: 70%;
+padding-right:10px;
+}
+.review-right{
+width: 30%;
+padding-left: 20px;
+align-text: right;
+
+}
+.ratings {
+  height:250px;
 }

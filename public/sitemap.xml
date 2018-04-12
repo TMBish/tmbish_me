@@ -3,152 +3,163 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://tmbish.me/lab/adding-rmarkdown-interactivity/</loc>
+    <loc>/films/12-april-edition/</loc>
+    <lastmod>2018-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/lab/adding-rmarkdown-interactivity/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tmbish.me/lab/shinydashboard-elements/</loc>
+    <loc>/lab/shinydashboard-elements/</loc>
     <lastmod>2017-11-23T20:40:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tmbish.me/lab/bulletin-edition-1-with-source/</loc>
+    <loc>/lab/bulletin-edition-1-with-source/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tmbish.me/lab/r-markdown-test/</loc>
+    <loc>/lab/r-markdown-test/</loc>
     <lastmod>2017-11-23T20:38:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tmbish.me/shiny/hhtl/</loc>
+    <loc>/shiny/hhtl/</loc>
     <lastmod>2017-10-02T09:21:46+10:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tmbish.me/bulletin/edition-1-halflfe-of-acting/</loc>
+    <loc>/bulletin/edition-1-halflfe-of-acting/</loc>
     <lastmod>2017-09-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tmbish.me/shiny/stratton/</loc>
+    <loc>/shiny/stratton/</loc>
     <lastmod>2017-07-30T10:26:46+10:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tmbish.me/bulletin/edition-2-tbd/</loc>
+    <loc>/bulletin/edition-2-tbd/</loc>
     <lastmod>2017-07-30T10:26:46+10:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tmbish.me/shiny/tbd/</loc>
+    <loc>/shiny/tbd/</loc>
     <lastmod>2017-07-30T10:26:46+10:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tmbish.me/bulletin/</loc>
+    <loc>/bulletin/</loc>
     <lastmod>2017-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/dplyr/</loc>
+    <loc>/tags/dplyr/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/dt/</loc>
+    <loc>/tags/dt/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/gender/</loc>
+    <loc>/films/</loc>
+    <lastmod>2018-04-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gender/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/ggplot/</loc>
+    <loc>/tags/ggplot/</loc>
     <lastmod>2017-11-23T20:38:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/highcharter/</loc>
+    <loc>/tags/highcharter/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/highcharts/</loc>
+    <loc>/tags/highcharts/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/htmltools/</loc>
+    <loc>/tags/htmltools/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/javascript/</loc>
+    <loc>/tags/javascript/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/lab/</loc>
+    <loc>/lab/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/aboutme/</loc>
+    <loc>/aboutme/</loc>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/r-markdown/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/shiny/</loc>
+    <loc>/shiny/</loc>
     <lastmod>2017-10-02T09:21:46+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/shiny/</loc>
+    <loc>/tags/shiny/</loc>
     <lastmod>2017-11-23T20:40:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tmbish.me/</loc>
-    <lastmod>2017-11-23T20:40:30+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2018-04-12T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

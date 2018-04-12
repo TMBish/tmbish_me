@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Me on Tom Bishop</title>
-    <link>http://tmbish.me/aboutme/</link>
+    <link>/aboutme/</link>
     <description>Recent content in Me on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://tmbish.me/aboutme/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/aboutme/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
