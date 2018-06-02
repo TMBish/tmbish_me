@@ -128,7 +128,7 @@ This movie is just an hilarious take on the making of the cult-classic The Room.
 
 <div class = "review-right">
 
-<b> Similar to: </b> Man On Fire <br> <br>
+<b> Similar to: </b> The Room <br> <br>
 <div class="ratings">
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 chart_scores(tom = 9, hannah = 8)
@@ -160,7 +160,7 @@ This is a doco that I'd heard was notoriously sad, and knew not much else about 
 
 <div class = "review-right">
 
-<b> Similar to: </b> Your Highness <br> <br>
+<b> Similar to: </b> Amanda Knox <br> <br>
 <div class="ratings">
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 chart_scores(tom = 5, hannah = 4)
