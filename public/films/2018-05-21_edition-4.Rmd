@@ -1,0 +1,178 @@
+---
+title: "21 - May"
+author: ~
+date: '2018-05-21'
+slug: 21-may-edition
+categories: []
+tags: []
+highlight: "kate"
+description: "'It's 'Persons of color'-torturing business, these days, if you want to know. And I didn't torture nobody.' - Dixon"
+screencap: "E4"
+edition: "21 May"
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(highcharter)
+library(radarchart)
+
+chart_scores = function(tom, hannah) {
+  
+  Tom = lapply(1:tom, function(x) {
+    tibble(Name = 1, Rating = x)
+  }) %>% bind_rows()
+  
+  Hannah = lapply(1:hannah, function(x) {
+    tibble(Name = 2, Rating = x)
+  }) %>% bind_rows()
+  
+  df = Tom %>% union(Hannah)
+  
+  
+  hchart(df, "scatter", hcaes(x = Rating, y = Name), color = "#F7C919", name = "Overall Rating") %>%
+    hc_yAxis(min = 1, max = 2, lineWidth = 0,
+             categories = c("","Tom", "Hannah"),
+             breaks = list(from = 1, to = 2, breakSize = 1),
+             title = list(text = "")
+    ) %>% hc_chart(height = 250) %>%
+    hc_xAxis(
+      min = 0, max = 10, tickWidth = 0,
+      lineWidth = 0.5, 
+      lineColor = "#d3d3d3",
+      gridLineColor = "#d3d3d3",
+      labels = list(),
+      title = list(text = "")
+    ) %>%
+    hc_plotOptions(
+      scatter = list(
+        marker = list(
+          symbol = "circle",
+          lineWidth = 0,
+          radius = 8
+        )
+      )
+    )
+  
+}
+
+chart_radar = function(movie, acting = 5, dialogue = 5, story = 5, entertainment = 5, cinematography = 5) {
+    
+    labs <- c("Cinematography", "Acting", "Dialogue", "Story", "Entertainment")
+
+    scores <- list(
+    movie = c(cinematography, acting, dialogue, story, entertainment)
+    )
+
+    chartJSRadar(scores = scores,
+        labs = labs,
+        maxScale = 10,
+        showLegend = FALSE,
+        polyAlpha = 0.1,
+        labelSize=10, 
+        scaleStepWidth = 5,
+        colMatrix = matrix(c(247,201,25))
+    )
+    
+}
+```
+
+# Three Billboards Outside Ebbing, Missouri
+
+<div class = "review">
+
+<div class = "review-left">
+
+![](/img/films/04/three-billboards.png)
+
+<b> Hannah: </b> <span class="label upper outline error"> PICK OF THE WEEK </span> <br>
+Three Billboards Outside Ebbing, Missouri has a really long title and a 2 hour run time and I didn't want it to end. After watching it we found out it was directed by Martin McDonagh and we thought who is that? The director of In Bruges and Seven Psychopaths, McDonagh obviously knows what he is doing. The acting was outstanding. The characters were caricatures of small town folk but with depth and realism. Sam Rockwell was a likable-while-also-terrible-person (a character that is found in both of McDonough's excellent films) and for me, the star of the show. Frances McDormand and Woody Harrelson were tough, funny and emotive - much like the film. Every aspect of the film felt flawless, even the open-ended conclusion of the film (which I tend to hate) I loved.
+
+<b> Tom: </b>
+
+As an aside this is one of the best 20-30 films I've ever seen; really loved it.
+
+
+</div>
+
+<div class = "review-right">
+
+<b> Similar to: </b> Fargo <br> <br>
+<div class="ratings">
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+chart_scores(tom = 10, hannah = 10)
+```
+</div>
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+chart_radar("Three Billboards Outside Ebbing, Missouri", acting = 10, dialogue = 9, story = 9, entertainment = 9, cinematography = 10)
+```
+
+</div>
+
+</div>
+
+<br>
+
+# The Disaster Artist
+
+<div class = "review">
+
+<div class = "review-left">
+
+![](/img/films/04/disaster-artist.png)
+
+<b> Tom: </b> <br>
+This movie is just a hilarious take on the making of the cult-classic The Room. It really hinged on Franco's job playing Tommy Wiseau and he nailed it. His job was so convincing that it took me 60 mins of the film to realise that his co-star was his real life brother Dave Franco; that's how convinced of his character I was subconsciously. Just a really solid and funny film.
+
+</div>
+
+<div class = "review-right">
+
+<b> Similar to: </b> Man On Fire <br> <br>
+<div class="ratings">
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+chart_scores(tom = 9, hannah = 8)
+```
+</div>
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+chart_radar("The Disaster Artist", acting = 9, dialogue = 8, story = 8, entertainment = 9, cinematography = 7)
+```
+
+</div>
+
+</div>
+
+<br>
+
+# Dear Zachary
+
+<div class = "review">
+
+<div class = "review-left">
+
+![](/img/films/04/dear-zachary.png)
+
+<b> Tom: </b> <br>
+This is a doco that I'd heard was notoriously sad, and knew not much else about it. It follows the murder of Andrew Bagby and subsequent custody battle for his son Zachary. The cinematographic style was very quirky (I thought I was watching the wrong stream for the first 3 minutess) but it was paced well and was generally pretty good. I was, much to my suprise though, almost not sad at all at the end of the film. This raised a metaphysical question about what makes things sad. After a discussion I formed the opinion that to be sad a situation must imbue empathy for a *living* person (or concious entity) and which is proportional to how long that entity has mourn and live with that pain. This quelled my concerns of being a psycopath.
+
+</div>
+
+<div class = "review-right">
+
+<b> Similar to: </b> Your Highness <br> <br>
+<div class="ratings">
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+chart_scores(tom = 5, hannah = 4)
+```
+</div>
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+chart_radar("Dear Zachary", acting = 10, dialogue = 5, story = 8, entertainment = 4, cinematography = 4)
+```
+
+</div>
+
+</div>
+
+<br>
