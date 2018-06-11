@@ -76,6 +76,39 @@ chart_radar = function(movie, acting = 5, dialogue = 5, story = 5, entertainment
 }
 ```
 
+# Whiplash
+
+<div class = "review">
+
+<div class = "review-left">
+
+![](/img/films/05/whiplash.png)
+
+<b> Hannah: </b> <span class="label upper outline error"> PICK OF THE WEEK </span> <br>
+
+Whiplash was great and intense. I was frustrated throughout and I hated both of the main characters, but I'm pretty sure that was intentional. It's a story of a talented young musician and his ruthless and abusive teacher. The ending is incredibly satisfying but it confused my reading of the whole point of the film. Was the moral that pushing yourself to the extremes leads to success or was it "fuck, that guy was an asshole"?  After looking into the writer/director Damien Chazelle's (known for his polished La La Land which is drastically different to this raw film) comments on it, I took the ending to be bittersweet and not a confirmation that hard work works. I really enjoyed the movie, acting was great, story was interesting, dialogue was natural and it was a real conversation starter.
+
+</div>
+
+<div class = "review-right">
+
+<b> Similar to: </b> Foxcatcher <br> <br>
+<div class="ratings">
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+chart_scores(tom = 8, hannah = 8)
+```
+</div>
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+chart_radar("Whiplash", acting = 8, dialogue = 8, story = 7, entertainment = 8, cinematography = 7)
+```
+
+</div>
+
+</div>
+
+<br>
+
 # A Quiet Place
 
 <div class = "review">
@@ -84,14 +117,14 @@ chart_radar = function(movie, acting = 5, dialogue = 5, story = 5, entertainment
 
 ![](/img/films/05/a-quiet-place.png)
 
-<b> Tom: </b> <span class="label upper outline error"> PICK OF THE WEEK </span> <br>
+<b> Tom: </b> <br>
 
-*A Quiet Place* is a strinkingly unique and enjoyable main-stream horror thriller. Krasinski and Blunt's family must live in complete silence in on a beautiful property in upstate New York as Earth has been taken by blind-but-very-good-at-hearing monsters. There were lots of remarkable things about this film:
+*A Quiet Place* is a strinkingly unique and enjoyable main-stream horror thriller. Krasinski and Blunt's family must live in complete silence on a beautiful property in upstate New York as Earth has been taken by blind-but-very-good-at-hearing monsters. There were lots of remarkable things about this film:
 
-* The release continues a *very* exciting trend of the popularising of horror films. Typically relegated to the fringes horror films are working their way into the main-stream with recent blockbusters like Get Out, IT and It Comes at Night, and some exciting ones in the pipeline (Hereditary to be released this month).
+* The release continues a **very** exciting trend of the popularising of horror films. Typically relegated to the cinematic fringes, horror films are working their way back into the main-stream with recent blockbusters like *Get Out*, *IT* and *It Comes at Night*, and some exciting ones in the pipeline (*Hereditary* to be released this month).
 * I wasn't particularly impressed with Krasinski's acting in this film, however, Emily Blunt and Millicent Simmons (the young deaf girl) were both excellent.
-* The pacing of the monster reveal (small bits and pieces throughout the first hour) was done really well. This can be the undoing of a monster film (think M Night Shyamalan's Signs).
-* This movie was frustrating to see in the cinemas as plastic rustling and heavy mouth breathing frequenlty ruining the tension.
+* The pacing of the monster reveal (small bits and pieces throughout the first hour) was done really well. This can be the undoing of a monster film (think M Night Shyamalan's *Signs*).
+* This movie was frustrating to see in the cinemas as plastic rustling and heavy mouth breathing frequenlty ruined the tension.
 
 </div>
 
@@ -106,39 +139,6 @@ chart_scores(tom = 8, hannah = 7)
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 chart_radar("A Quiet Place", acting = 7, dialogue = 6, story = 8, entertainment = 9, cinematography = 8)
-```
-
-</div>
-
-</div>
-
-<br>
-
-# Whiplash
-
-<div class = "review">
-
-<div class = "review-left">
-
-![](/img/films/05/whiplash.png)
-
-<b> Hannah: </b> <br>
-
-Whiplash was great and intense. I was frustrated throughout and I hated both of the main characters, but I'm pretty sure that was intentional. It's a story of a talented young musician and his ruthless and abusive teacher. The ending is incredibly satisfying but it confused my reading of the whole point of the film. Was the moral that pushing yourself to the extremes leads to success or was it "fuck, that guy was an asshole"?  After looking into the writer/director Damien Chazelle's (known for his polished La La Land which is drastically different to this raw film) comments on it, I took the ending to be bittersweet and not a confirmation that hard work works. I really enjoyed the movie, acting was great, story was interesting, dialogue was natural and it was a real conversation starter.
-
-</div>
-
-<div class = "review-right">
-
-<b> Similar to: </b> Foxcatcher <br> <br>
-<div class="ratings">
-```{r echo=FALSE, warning=FALSE, message=FALSE}
-chart_scores(tom = 7, hannah = 8)
-```
-</div>
-
-```{r echo=FALSE, warning=FALSE, message=FALSE}
-chart_radar("Whiplash", acting = 8, dialogue = 8, story = 7, entertainment = 8, cinematography = 7)
 ```
 
 </div>
