@@ -29,21 +29,21 @@ source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/
 
 <b> Hannah: </b> <span class="label upper outline error"> PICK OF THE WEEK </span> <br>
 
-Test test
+The fact that this move title conspicuously begins with a lowercase letter already hints at the weirdness that follows. It has a great cast – J-law, Jarvier Bardem, Michelle Pfeiffer (man that is a weird surname to spell) and Ed Harris, who all do a killer job. Before I started watching it, I was ready for a weird arty film. You know those ones that contain seemingly nonsensical scenes that feel like they are trying to suggest a deeper 'meaning' but then at the end, nothing makes any sense? But wait! This is actually not one of those. Not only was it engaging to watch, it actually all (mostly) seemed to flow and connect. But what I loved most about this film was reading about it afterwards, and having a billion 'a-ha' moments when I realised what was actually happening, which I highly recommend doing (but after watching obviously).
 
 </div>
 
 <div class = "review-right">
 
-<b> Similar to: </b> Foxcatcher <br> <br>
+<b> Similar to: </b> Black Swan <br> <br>
 <div class="ratings">
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-chart_scores(tom = 8, hannah = 8)
+chart_scores(tom = 8, hannah = 9)
 ```
 </div>
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-chart_radar("mother!", acting = 8, dialogue = 8, story = 7, entertainment = 8, cinematography = 7)
+chart_radar("mother!", acting = 9, dialogue = 8, story = 9, entertainment = 8, cinematography = 8)
 ```
 
 </div>
@@ -62,7 +62,7 @@ chart_radar("mother!", acting = 8, dialogue = 8, story = 7, entertainment = 8, c
 
 <b> Tom: </b> <br>
 
-Following what seems to be a new Australian cinematic trend (chilling, gritty true crime) we follow the abduction and tormenting of a 17 year old Perth girl in the 1980s by a very odd couple. Apparently drawing inspiration from a raft of different true crime stories it supposedly most resembles the serial rape / abduction / murders by David and Catherine Birnie in the 1980s. This film is everybit as disturbing & harrowing as *Snowtown*; and that's saying something. Stepehn Curry ("If Dad is the backbone, mum is the other bones. All of 'em" - Dale Kerrigan) plays a slightly different character in this film; he is as chilling as the psycopathic John Bunting character who also violently murders a dog for good measure. Both other performances were exceptional also. The tension and apprehension this film inspires until the very last moment is really something else. If you like this *Snowtown* / *Silence of the Lambs* style tension you'll love this movie.
+Following what seems to be a new Australian cinematic trend (gritty and chilling true crime) we follow the abduction and torture of a 17 year old Perth girl in the 1980s by a very odd couple. Apparently drawing inspiration from a raft of different true crime stories it supposedly most resembles the serial abduction, rape, and murders committed by David and Catherine Birnie in the 1980s. This film is every bit as disturbing & harrowing as *Snowtown*; and if you've seen that movie you know that's saying something. Stepehn Curry ("If Dad is the backbone, mum is the other bones. All of 'em" - Dale Kerrigan) plays a slightly different character to Dale in this film: he plays the chilling psycopathic John Bunting character (who also violently murders a dog for good measure). Both the other performances (Vicki and Evelyn) were exceptional. The tension and apprehension this film inspires until the very last moment is really something else. If you like this *Snowtown* / *Silence of the Lambs* style stress you'll love this movie.
 
 </div>
 
@@ -76,7 +76,7 @@ chart_scores(tom = 8, hannah = 8)
 </div>
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-chart_radar("Hounds Of Love", acting = 10, dialogue = 7, story = 8, entertainment = 9, cinematography = 8)
+chart_radar("Hounds Of Love", acting = 10, dialogue = 7, story = 8, entertainment = 8, cinematography = 8)
 ```
 
 </div>
@@ -94,7 +94,7 @@ chart_radar("Hounds Of Love", acting = 10, dialogue = 7, story = 8, entertainmen
 ![](/img/films/06/atomic-blonde.png)
 
 <b> Tom: </b> <br>
-Charlize Theron plays a spy who has been sent to Berlin to recover a list of double agents, the release of which could jepordize the end of the cold war. It's generally not a good sign when you have to open wikipedia half way through to understand the story and the characters because a) it's probably too complicated and b) you don't care enough to figure everything out by watching more intently. The only positive takeaway was an **excellent** action scene towards the end of the film with Charlize Theron's character. It came out of nowhere and blew me away; but the rest of the film was extremely forgettable.
+Charlize Theron plays a spy who has been sent to Berlin to recover a list of double agents, the release of which could jepordize the conclusion of the cold war. It's generally not a good sign when you open wikipedia half way through to understand the story and the characters because a) the movie's probably too complicated and b) you don't care enough to figure it out by watching more intently. The only positive takeaway was an **excellent** action scene towards the end of the film where Charlize Theron's character takes on about 10 guys in hand-to-hand combat; the scene came out of nowhere and blew me away. The rest of the film was extremely forgettable.
 
 </div>
 
@@ -108,7 +108,7 @@ chart_scores(tom = 4, hannah = 4)
 </div>
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-chart_radar("Marvel Bundle", acting = 5, dialogue = 3, story = 3, entertainment = 4, cinematography = 4)
+chart_radar("Atomic Blonde", acting = 5, dialogue = 3, story = 3, entertainment = 4, cinematography = 4)
 ```
 
 </div>
