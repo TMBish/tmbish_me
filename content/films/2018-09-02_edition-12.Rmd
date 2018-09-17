@@ -19,7 +19,7 @@ library(radarchart)
 source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
 ```
 
-# Mission: Impossible - Fallout
+# Mission: Impossible Fallout
 
 <div class = "review">
 
@@ -43,7 +43,7 @@ chart_scores(tom = 8, hannah = 7)
 </div>
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-chart_radar("Mission: Impossible - Fallout", acting = 7, dialogue = 6, story = 7, entertainment = 9, cinematography = 8)
+chart_radar("Mission: Impossible Fallout", acting = 7, dialogue = 6, story = 7, entertainment = 9, cinematography = 8)
 ```
 
 </div>
