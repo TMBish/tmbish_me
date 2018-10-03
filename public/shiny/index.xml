@@ -27,7 +27,7 @@
       <pubDate>Sun, 30 Jul 2017 10:26:46 +1000</pubDate>
       
       <guid>/shiny/stratton/</guid>
-      <description>Details Stratton interfaces three different film data sources (IMDB, Rotten Tomatoes, and Box Office Mojo) to provide a reasonably comprehensive dataset of film data for an actor or director of your choice. Use the analytics functionality in the app (charting, loess regression and kmeans clustering) to uncover an interesting, data-evidenced story about an actor or director - much like the 538 article it was inspired by.</description>
+      <description>Details Stratton interfaces three different film data sources (IMDB, Rotten Tomatoes, and Box Office Mojo) to provide a filmography + metadata for an actor or director of your choice. Use the analytics functionality in the app (charting, loess regression and kmeans clustering) to uncover an interesting story about an actor or director - much like the 538 article it was inspired by.</description>
     </item>
     
     <item>
