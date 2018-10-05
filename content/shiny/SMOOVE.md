@@ -9,7 +9,7 @@ link: "http://shiny.tmbish.me/apps/SMOOVE/"
 
 ## Details
 
-SMOOVE uses the NBA stats API data to build a player evaluation, performance and trend dashboard. Built to hopefully replace my 10-20 daily basketball reference player searches and fantasy research on yahoo fantasy basketball; SMOOVE is more compact and visual than its counterparts. V1 focusses on investigations of:
+SMOOVE uses NBA stats API data to build a player evaluation, performance and trend dashboard. Built to hopefully replace my 10-20 daily basketball reference searches and fantasy research on yahoo fantasy basketball; SMOOVE is more compact and visual than its counterparts. V1 focusses on investigations of:
 
 * Intra (within) season trends
 * Inter (across) season trends (ie career trajectory)
