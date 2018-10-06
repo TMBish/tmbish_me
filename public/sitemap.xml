@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/shiny/smoove/</loc>
+    <lastmod>2018-10-05T12:26:46+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/films/9-september-edition/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/films/2-september-edition/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
   </url>
@@ -132,7 +142,7 @@
   
   <url>
     <loc>/films/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -196,7 +206,7 @@
   
   <url>
     <loc>/shiny/</loc>
-    <lastmod>2017-10-02T09:21:46+10:00</lastmod>
+    <lastmod>2018-10-05T12:26:46+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -214,7 +224,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-05T12:26:46+10:00</lastmod>
   </url>
   
 </urlset>

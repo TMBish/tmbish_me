@@ -6,10 +6,29 @@
     <description>Recent content on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Oct 2018 12:26:46 +1000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SMOOVE</title>
+      <link>/shiny/smoove/</link>
+      <pubDate>Fri, 05 Oct 2018 12:26:46 +1000</pubDate>
+      
+      <guid>/shiny/smoove/</guid>
+      <description>Details SMOOVE uses NBA stats API data to build a player evaluation, performance and trend dashboard. Built to hopefully replace my 10-20 daily basketball reference searches and fantasy research on yahoo fantasy basketball; SMOOVE is more compact and visual than its counterparts. V1 focusses on investigations of:
+ Intra (within) season trends Inter (across) season trends (ie career trajectory) Ranking relative to player peers (based on positions, and starting status)  Hopefully will spend effort on building out more views, time permitting.</description>
+    </item>
+    
+    <item>
+      <title>9 - September</title>
+      <link>/films/9-september-edition/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/films/9-september-edition/</guid>
+      <description>I, Tonya Tom:  PICK OF THE WEEK  I, Tonya is based on the true story of US figure skater Tonya Harding who was implicated in the decapacitating assault of competing US figure skater Nancy Kerrigan.</description>
+    </item>
     
     <item>
       <title>2 - September</title>
