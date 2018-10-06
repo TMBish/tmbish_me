@@ -6,7 +6,7 @@ slug: 9-september-edition
 categories: []
 tags: []
 highlight: "kate"
-description: "'Are you a gardener or a flower? In every relationship, your either a gardener or a flower. I'm a gardener that wants to be a flower, how fucked up am I?' - LaVona"
+description: "'Are you a gardener or a flower? In every relationship, you're either a gardener or a flower. I'm a gardener that wants to be a flower, how fucked up am I?' - LaVona"
 screencap: "E13"
 edition: "9 September"
 ---
@@ -95,7 +95,7 @@ chart_radar("Under The Shadow", acting = 8, dialogue = 7, story = 8, entertainme
 
 <b> Tom: </b> <br>
 
-*BlacKKKlansmen* follows the infiltration of a local KKK chapter by young African American cop Ron Stallworth (John Washington) and his partner Flip Zimmerman (Adam Driver). I found it really hard to get past a central and glaring plot hole that required Ron to act - on the phone - as a prospective white KKK member yet he needed to get Adam Driver attend all in-person interactions  and pretend to be him (for obvious reasons). Why Adam Driver couldn't complete both roles I really have no idea, it certainly would have saved a lot of work... Generally, the pacing was a bit slow and while it had an interesting cinematic style it lacked a meaty plot and enough humour to make it an excellent movie. The intimations to the racism of modern conservative politicians we a bit too heavy handed and could have been more impactful. Eric from that 70s show played KKK grand wizard David Duke and was excellent; his likeness to the real man is pretty wild.
+*BlacKKKlansmen* follows the infiltration of a local KKK chapter by young African American cop Ron Stallworth (John Washington) and his partner Flip Zimmerman (Adam Driver). I found it really hard to get past a central and glaring plot hole that required Ron to act - on the phone - as a prospective white KKK member yet he needed to get Adam Driver to attend all in-person interactions and pretend to be him (for obvious reasons). Why Adam Driver couldn't complete both roles I really have no idea, it certainly would have saved a lot of work... Generally, the pacing was a bit slow and while it had an interesting cinematic style it lacked a meaty plot and enough humour to make it an excellent movie. The intimations to the racism of modern conservative politicians we a bit too heavy handed and could have been more impactful. Eric from that 70s show played KKK grand wizard David Duke and was excellent; his likeness to the real man is pretty wild.
 
 
 </div>
@@ -110,7 +110,7 @@ chart_scores(tom = 6, hannah = 5)
 </div>
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-chart_radar("BlacKKKlansmen", acting = 6, dialogue = 7, story = 6, entertainment = 7, cinematography = 4)
+chart_radar("BlacKKKlansmen", acting = 6, dialogue = 7, story = 6, entertainment = 7, cinematography = 8)
 ```
 
 </div>
