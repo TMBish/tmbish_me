@@ -2,7 +2,7 @@
 title: "9 - September TEST"
 author: ~
 date: '2018-09-09'
-slug: 9-september-edition
+slug: 9-september-edition-test
 categories: []
 tags: []
 highlight: "kate"
