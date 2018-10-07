@@ -37,7 +37,7 @@ compile_review = function(yaml_chunk) {
       h1(film_title),
            
       # Image
-      tags$img(src = "E13.png"),
+      tags$img(src = "/img/films/E13.png"),
       
       # Reviewer
       tags$b(paste0(yaml_body$reviewer, ":")),
