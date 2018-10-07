@@ -407,3 +407,7 @@ align-text: right;
 .ratings {
   height:250px;
 }
+
+.film-review img {
+  max-width: 70%
+}

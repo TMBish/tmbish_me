@@ -30,7 +30,7 @@ compile_review = function(yaml_chunk) {
   film_title = yaml_chunk %>% names()
   yaml_body = yaml_chunk %>% pluck(film_title)
   
-  fluidRow(
+  fluidRow(class = "film-review",
     
     column(8,
       
@@ -53,7 +53,9 @@ compile_review = function(yaml_chunk) {
     column(4,
            
       # Rating Overall
-      chart_scores(tom = yaml_body$ratings$overall$tom, hannah = yaml_body$ratings$overall$hannah),
+      div(class="ratings",
+      chart_scores(tom = yaml_body$ratings$overall$tom, hannah = yaml_body$ratings$overall$hannah)
+      ),
 
       # Rating Radar
       chart_radar(
