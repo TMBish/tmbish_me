@@ -25,14 +25,65 @@ source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/
 yaml = yaml.load_file("yaml/edition-13.yaml")
 
 # Build component
+# compile_review = function(yaml_chunk) {
+#   
+#   film_title = yaml_chunk %>% names()
+#   yaml_body = yaml_chunk %>% pluck(film_title)
+#   
+#   fluidRow(class = "film-review",
+#     
+#     column(8,
+#       
+#       h1(film_title),
+#            
+#       # Image
+#       tags$img(src = "/img/films/E13.png"),
+#       
+#       # Reviewer
+#       tags$b(paste0(yaml_body$reviewer, ":")),
+#       
+#       # Review Text
+#       markdown::markdownToHTML(
+#         text = yaml_body$`review-text` , 
+#         fragment.only = TRUE
+#       ) %>% HTML()
+# 
+#     ),
+#     
+#     column(4,
+#            
+#       # Rating Overall
+#       div(class="ratings",
+#       chart_scores(tom = yaml_body$ratings$overall$tom, hannah = yaml_body$ratings$overall$hannah)
+#       ),
+# 
+#       # Rating Radar
+#       chart_radar(
+#         film_title, 
+#         acting = yaml_body$ratings$components$acting, 
+#         dialogue = yaml_body$ratings$components$dialogue, 
+#         story = yaml_body$ratings$components$story, 
+#         entertainment = yaml_body$ratings$components$entertainment, 
+#         cinematography = yaml_body$ratings$components$cinematography
+#       )
+#       
+#     )
+#     
+#     
+#     
+#   )
+#   
+# }
+
+
 compile_review = function(yaml_chunk) {
   
   film_title = yaml_chunk %>% names()
   yaml_body = yaml_chunk %>% pluck(film_title)
   
-  fluidRow(class = "film-review",
+  div(class = "film-review",
     
-    column(8,
+    div(class="film-review-left",
       
       h1(film_title),
            
@@ -50,12 +101,14 @@ compile_review = function(yaml_chunk) {
 
     ),
     
-    column(4,
-           
+    div(class="film-review-right",
+        
       # Rating Overall
       div(class="ratings",
       chart_scores(tom = yaml_body$ratings$overall$tom, hannah = yaml_body$ratings$overall$hannah)
       ),
+      
+      br(),
 
       # Rating Radar
       chart_radar(
@@ -69,8 +122,6 @@ compile_review = function(yaml_chunk) {
       
     )
     
-    
-    
   )
   
 }
@@ -78,11 +129,8 @@ compile_review = function(yaml_chunk) {
 
 #compile_review(yaml_chunk)
 
-r = yaml %>%
+yaml %>%
   pluck("films") %>%
-  map(compile_review)
-
-r[[1]]
-r[[2]]
-r[[3]]
+  map(compile_review) %>%
+  div()
 ```
