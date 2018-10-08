@@ -81,9 +81,9 @@ compile_review = function(yaml_chunk) {
   film_title = yaml_chunk %>% names()
   yaml_body = yaml_chunk %>% pluck(film_title)
   
-  div(class = "review",
+  div(class = "film-review",
     
-    div(class="review-left",
+    div(class="film-review-left",
       
       h1(film_title),
            
@@ -101,7 +101,7 @@ compile_review = function(yaml_chunk) {
 
     ),
     
-    div(class="review-right",
+    div(class="film-review-right",
         
       # Rating Overall
       div(class="ratings",
