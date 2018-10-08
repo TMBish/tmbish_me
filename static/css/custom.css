@@ -408,8 +408,9 @@ align-text: right;
   height:250px;
 }
 
-.film-review img {
+.film-review {
   display: flex;
+  width: 100%;
   margin-bottom: 20px;
 }
 

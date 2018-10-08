@@ -105,7 +105,7 @@ compile_review = function(yaml_chunk) {
         
       # Rating Overall
       div(class="ratings",
-      chart_scores(tom = yaml_body$ratings$overall$tom, hannah = yaml_body$ratings$overall$hannah)
+        chart_scores(tom = yaml_body$ratings$overall$tom, hannah = yaml_body$ratings$overall$hannah)
       ),
       
       br(),
