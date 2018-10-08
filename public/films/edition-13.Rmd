@@ -19,62 +19,86 @@ library(yaml)
 library(shiny)
 library(purrr)
 
-source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
+#source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
 
 # Load Edition YAML
 yaml = yaml.load_file("yaml/edition-13.yaml")
 
-# Build component
-# compile_review = function(yaml_chunk) {
-#   
-#   film_title = yaml_chunk %>% names()
-#   yaml_body = yaml_chunk %>% pluck(film_title)
-#   
-#   fluidRow(class = "film-review",
-#     
-#     column(8,
-#       
-#       h1(film_title),
-#            
-#       # Image
-#       tags$img(src = "/img/films/E13.png"),
-#       
-#       # Reviewer
-#       tags$b(paste0(yaml_body$reviewer, ":")),
-#       
-#       # Review Text
-#       markdown::markdownToHTML(
-#         text = yaml_body$`review-text` , 
-#         fragment.only = TRUE
-#       ) %>% HTML()
-# 
-#     ),
-#     
-#     column(4,
-#            
-#       # Rating Overall
-#       div(class="ratings",
-#       chart_scores(tom = yaml_body$ratings$overall$tom, hannah = yaml_body$ratings$overall$hannah)
-#       ),
-# 
-#       # Rating Radar
-#       chart_radar(
-#         film_title, 
-#         acting = yaml_body$ratings$components$acting, 
-#         dialogue = yaml_body$ratings$components$dialogue, 
-#         story = yaml_body$ratings$components$story, 
-#         entertainment = yaml_body$ratings$components$entertainment, 
-#         cinematography = yaml_body$ratings$components$cinematography
-#       )
-#       
-#     )
-#     
-#     
-#     
-#   )
-#   
-# }
 
+
+chart_scores = function(tom, hannah) {
+  
+  Tom = lapply(1:tom, function(x) {
+    tibble(Name = 1, Rating = x)
+  }) %>% bind_rows() %>% mutate(Max = max(Rating))
+  
+  Hannah = lapply(1:hannah, function(x) {
+    tibble(Name = 2, Rating = x)
+  }) %>% bind_rows() %>% mutate(Max = max(Rating))
+  
+  df = Tom %>% union(Hannah)
+  
+  
+  hchart(df,
+         "scatter", 
+         hcaes(x = Rating, y = Name), 
+         color = "#F7C919",
+         name = "Overall Rating"
+  ) %>%
+  hc_yAxis(
+    min = 1, max = 2, lineWidth = 0,
+    categories = c("","Tom", "Hannah"),
+    breaks = list(from = 1, to = 2, breakSize = 1),
+    title = list(text = "")
+  ) %>% 
+  hc_chart(height = 250) %>%
+  hc_xAxis(
+    min = 0, max = 10, tickWidth = 0,
+    lineWidth = 0.5, 
+    lineColor = "#d3d3d3",
+    gridLineColor = "#d3d3d3",
+    labels = list(),
+    title = list(text = "")
+  ) %>%
+  hc_plotOptions(
+    scatter = list(
+      marker = list(
+        symbol = "circle",
+        lineWidth = 0,
+        radius = 8
+      )
+    )
+  ) %>%
+  hc_tooltip(
+    shape = "square",
+    formatter = JS("function(){return('<b> Overall Rating: </b>' + this.point.Max + '/10')}")
+  ) %>%
+  hc_size(height = "150px")
+  
+}
+
+chart_radar = function(movie, acting = 5, dialogue = 5, story = 5, entertainment = 5, cinematography = 5) {
+  
+  labs <- c("Cinematography", "Acting", "Dialogue", "Story", "Entertainment")
+  
+  scores <- list(
+    movie = c(cinematography, acting, dialogue, story, entertainment)
+  )
+  
+  chartJSRadar(scores = scores,
+               labs = labs,
+               maxScale = 10,
+               showLegend = FALSE,
+               polyAlpha = 0.1,
+               labelSize=10, 
+               height = "300px",
+               scaleStepWidth = 5,
+               colMatrix = matrix(c(247,201,25))
+  )
+  
+}
+
+# Build component
 
 compile_review = function(yaml_chunk) {
   
