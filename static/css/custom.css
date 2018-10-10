@@ -416,6 +416,11 @@ div.col.col-2.post-date {
   width: 100%;
 }
 
+.film-tags {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
 .film-review {
   display: flex;
   justify-content: left;

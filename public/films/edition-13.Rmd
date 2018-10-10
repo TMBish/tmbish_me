@@ -32,6 +32,9 @@ ed = yaml$edition
 r <- yaml %>%
   pluck("films") %>%
   map(compile_review, edition = ed)
+ 
+
+
 
 r[[1]]
 r[[2]]

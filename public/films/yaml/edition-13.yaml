@@ -2,6 +2,7 @@ edition: 13
 films:
   - 'I, Tonya':
       image: i-tonya.png
+      genre: drama
       pick-of-the-week: yes
       reviewer: Tom
       review-text: >
@@ -22,6 +23,7 @@ films:
           cinematography: 7
   - 'Under The Shadow':
       image: under-the-shadow.png
+      genre: horror
       pick-of-the-week: no
       reviewer: Hannah
       review-text: >
@@ -39,6 +41,7 @@ films:
           cinematography: 8
   - 'BlacKKKlansmens':
       image: blackkklansmen.png
+      genre: drama
       pick-of-the-week: no
       reviewer: Tom
       review-text: >
