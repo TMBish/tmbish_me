@@ -1,14 +1,14 @@
 ---
-title: "21 April 18"
+title: "2 September 18"
 author: ~
-date: '2018-04-21'
-slug: 21-apr-18
+date: '2018-09-02'
+slug: 2-september-18
 categories: []
 tags: []
 highlight: "kate"
-description: "'Now I'm going to kill you!' Jamie before flatlining Courtney"
-screencap: "E2"
-edition: "21 April 18"
+description: "'The fallout of all your good intentions.' - Solomon"
+screencap: "E12"
+edition: "2 September 18"
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -23,7 +23,7 @@ library(glue)
 source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
 
 # Load Edition YAML
-yaml = yaml.load_file("yaml/edition-2.yaml")
+yaml = yaml.load_file("yaml/edition-12.yaml")
 
 # Edition
 ed = yaml$edition
@@ -32,7 +32,6 @@ ed = yaml$edition
 r <- yaml %>%
   pluck("films") %>%
   map(compile_review, edition = ed)
-  
   
  
 r[[1]]

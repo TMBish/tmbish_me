@@ -1,0 +1,56 @@
+edition: 11
+films:
+  - 'Super Dark Times':
+      image: super-dark-times.png
+      genre: thriller
+      pick-of-the-week: yes
+      reviewer: Tom
+      review-text: >
+        I really enjoyed this one. It's one of those films (and there's a few of them) that follow a group of kids or teenagers through some confronting or harrowing event. Knowing that event is coming is what really makes the first half of the film for me as the tension is palpable. The cinematography and sound track really add to an impending sense of trauma. The acting is really interesting, we couldn't quite figure out if the eccentric characters (especially Daryl) were terribly acted or an extremely realistic reflection of the eccentric people you find in real life. The plot takes a pretty unrealistic and dramatic turn towards the end but it was a really entertaining and tense movie.
+      similar-film: Kings Of Summer
+      ratings:
+        overall:
+          tom: 8
+          hannah: 7
+        components:
+          acting: 8
+          dialogue: 7
+          story: 8
+          entertainment: 8
+          cinematography: 9
+  - "Brigsby Bear":
+      image: brigsby-bear.png
+      genre: comedy
+      pick-of-the-week: no
+      reviewer: Tom
+      review-text: >
+        *Brigsby Bear* refers to the fake fictional TV show made by child abductors to entertain the child / 'son' they abducted when he was a toddler. Sort of along the lines of *The Room* the film follows the very (expectedly) strange James as he's freed from his abductors and learns everything he knew, including his beloved childhood TV show, was fraudulent. Written and acted by 2 ex-SNL cast it's genuinely funny in places throughout. And it's generally a pretty charming movie but ends with a bit of a nauseatingly sentimental final chapter.
+      similar-film: Swiss Army Man
+      ratings:
+        overall:
+          tom: 7
+          hannah: 7
+        components:
+          acting: 7
+          dialogue: 8
+          story: 7
+          entertainment: 7
+          cinematography: 7
+  - 'Escape Plan':
+      image: escape-plan.png
+      genre: action
+      pick-of-the-week: no
+      reviewer: Tom
+      review-text: >
+        I absolutely love prison escape movies, and this movie was terrible. Everything in it was extremely half baked. The acting was horrible - it's still not clear to me how Stalone and Schwarzenegger have made so many movies and are still comically bad actors. The premise and cool escape strategy, which normally make or break these films, were dumb and lacked general excitement or ingenuity. I've subsequently watched the second one of these and it was worse! Stay away from this franchise.
+      similar-film: The Expendables
+      ratings:
+        overall:
+          tom: 2
+          hannah: 2
+        components:
+          acting: 1
+          dialogue: 1
+          story: 3
+          entertainment: 3
+          cinematography: 1

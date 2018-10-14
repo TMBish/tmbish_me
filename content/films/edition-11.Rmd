@@ -1,15 +1,16 @@
 ---
-title: "21 April 18"
+title: "29 July 18"
 author: ~
-date: '2018-04-21'
-slug: 21-apr-18
+date: '2018-07-29'
+slug: 29-july-18
 categories: []
 tags: []
 highlight: "kate"
-description: "'Now I'm going to kill you!' Jamie before flatlining Courtney"
-screencap: "E2"
-edition: "21 April 18"
+description: "'If anybody asks, we're already fucked.' - Josh"
+screencap: "E11"
+edition: "29 July 18"
 ---
+
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(dplyr)
@@ -23,7 +24,7 @@ library(glue)
 source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
 
 # Load Edition YAML
-yaml = yaml.load_file("yaml/edition-2.yaml")
+yaml = yaml.load_file("yaml/edition-11.yaml")
 
 # Edition
 ed = yaml$edition
@@ -32,7 +33,6 @@ ed = yaml$edition
 r <- yaml %>%
   pluck("films") %>%
   map(compile_review, edition = ed)
-  
   
  
 r[[1]]

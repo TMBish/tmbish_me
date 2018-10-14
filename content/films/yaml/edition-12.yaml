@@ -1,0 +1,56 @@
+edition: 12
+films:
+  - "Mission Impossible: Fallout":
+      image: mission-impossible.png
+      genre: action
+      pick-of-the-week: yes
+      reviewer: Hannah
+      review-text: >
+        I've never loved the Mission Impossible franchise. It falls into the same basket as James Bond for me - action that takes itself too seriously. But this one was great. The action was both realistic and totally impossible (ha), a perfect mix for an action movie in my opinion. It was pretty long, but I was entertained the whole time. Tom Cruise was great even though he's old as, Henry Cavill was a babe and Simon Pegg was at least a little funny. The final scene was the perfect anxiety inducing will he/wont he action and the fact that I felt so on edge all the while knowing it would all end well is a testament to the film. If you love action, you'll love this.
+      similar-film: Other MIP but better
+      ratings:
+        overall:
+          tom: 8
+          hannah: 7
+        components:
+          acting: 7
+          dialogue: 6
+          story: 7
+          entertainment: 9
+          cinematography: 8
+  - "The Shape of Water":
+      image: the-shape-of-water.png
+      genre: drama
+      pick-of-the-week: no
+      reviewer: Tom
+      review-text: >
+        I really wasn't expecting this. For whatever reason (probably cause I didn't watch the trailer) I walked into this one thinking it was like *The Cure for Wellness* - a supernatural psychological thriller. And well, it was definitely supernatural but I wouldn't call it thrilling. It's actually a cutesie romantic fantasy film about the romance between a mute labratory cleaner and some kind of aquaman MIXED with some cold war espionage. It was really quite bizarre. Not suprisingly, on Rotten Tomatoes, it gets a 92% tomatometer and 73% audience score. In my opinion, it's the perfect example of this disconnect and what I'll call the **Pretence Ratio** which we can say describes movies you (and critics) want to like more than you actually did. Another other big name **Pretence Ratio** film was *Moonlight* (98% vs 79%).
+      similar-film: Moonlight
+      ratings:
+        overall:
+          tom: 5
+          hannah: 6
+        components:
+          acting: 6
+          dialogue: 7
+          story: 5
+          entertainment: 4
+          cinematography: 6
+  - "The House":
+      image: the-house.png
+      genre: comedy
+      pick-of-the-week: no
+      reviewer: Hannah
+      review-text: >
+        With a pretty drab concept, 3 suburban neighbours opening an illegal casino, this could have gone either way. Thankfully The House stars 3 very funny people; Amy Poehler, Will Ferrell and Jason Mantzoukas, and an assortment of funny supporting cast (Nick Kroll, Allison Tolman and Rob Huebel). The dialogue was pretty quick and a little silly - great for a laugh. Mantzoukas was the standout, playing the same wacky character he always plays who I can't get enough of. The humour wasn't too PG13 which is a big plus for this sort of comedy, and the only thing that was a bit strange was the bizarre/unrealistic relationship between the parents and their daughter. I really enjoyed this but it might have helped that I had very low expectations.
+      similar-film: Game Night
+      ratings:
+        overall:
+          tom: 7
+          hannah: 7
+        components:
+          acting: 6
+          dialogue: 7
+          story: 6
+          entertainment: 7
+          cinematography: 4
