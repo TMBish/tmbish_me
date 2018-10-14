@@ -1,0 +1,56 @@
+edition: 1
+films:
+  - 'Ingrid Goes West':
+      image: ingrid-goes-west.png
+      genre: comedy
+      pick-of-the-week: no
+      reviewer: Tom
+      review-text: >
+        I really don’t know what to say about this movie. We literally had to stop it half way through (and pick it up a few days later) because it was so excruciatingly cringe inducing. The acting and dialogue was so good, I think, that the quite outlandish story felt extremely real and you were really invested in the lives of the characters (especially Dan cause he seemed like such an awesome dude). <strong>Aubrey Plaza</strong> plays the enduring-love / fatal attraction variant of the only character she plays in movies, but always does it well. The Instagram social media influencer character Taylor Sloane was really well done and the Instagram scenes were realistic and provided a lot of the comedy. The ending was a bit of a let down; I’m not sure where I wanted it to go in the end but I felt it could’ve taken a different approach and it’d be pushing an 8 or 9 for me.
+      similar-film: Greenberg | Lady Bird
+      ratings:
+        overall:
+          tom: 7
+          hannah: 7
+        components:
+          acting: 9
+          dialogue: 9
+          story: 7
+          entertainment: 7
+          cinematography: 6
+  - "The Blackcoat's daughter":
+      image: the-blackcoats-daughter.png
+      genre: horror
+      pick-of-the-week: no
+      reviewer: Hannah
+      review-text: >
+        A bit of an arty horror, The Blackcoat’s Daughter achieved a lot; aesthetically beautiful, great acting, but sadly, only slightly thrilling. With two separate story lines occurring together that were jarringly disconnected it was difficult to not create links between them. I find this can take away from the enjoyment of a film, your own theories always on your mind ready to be proven wrong or right. What I liked about this movie was not it’s horror aspects (pretty generic narrative – an empty boarding school and a young girl possessed) but it’s surprisingly good cinematography and vaguely interesting twists and turns still left me fairly satisfied at the end.
+      similar-film: Veronica (2017)
+      ratings:
+        overall:
+          tom: 6
+          hannah: 6
+        components:
+          acting: 8
+          dialogue: 7
+          story: 5
+          entertainment: 5
+          cinematography: 8
+  - 'You Were Never Really There':
+      image: you-were-never-really-there.png
+      genre: action
+      pick-of-the-week: yes
+      reviewer: Tom
+      review-text: >
+        *You Were Never Really There* follows a winning formula for my favourite action movies: understated, experienced and extremely reputable badass takes down some sort of large crime organisation single-handedly (think John Wick, Jack Reacher or Man on Fire). However, for better and worse, this film was a lot more gritty and realistic than those flicks. Joaquin Phoenix was excellent as the psycologically damaged action hero and he probably spoke fewer than 200 words in the whole film; for context I’d estimate the total word count of the dialogue in the film at 400 words. Joaquin’s weapon of choice was a hammer, and whilst this is an awesome angle in theory it ended up producing dissapointment as most of the action & fight scenes needed to happen shielded from camera view to avoid an expensive special effects budget. Still it had some excellent scenes, moments and was engaging throughout.
+      similar-film: A Most Violent Year
+      ratings:
+        overall:
+          tom: 8
+          hannah: 6
+        components:
+          acting: 9
+          dialogue: 5
+          story: 7
+          entertainment: 6
+          cinematography: 8
