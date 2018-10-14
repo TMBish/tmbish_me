@@ -1,0 +1,60 @@
+edition: 7
+films:
+  - 'Hereditary':
+      image: hereditary.png
+      genre: horror
+      pick-of-the-week: yes
+      reviewer: Tom
+      review-text: >
+        Being our favourite genre Hannah and I watch a lot of horror movies so we’re quite desensitized. But this film was straight scary. So scary in fact that (and this is no joke) a woman in our cinema legitimately had a panic attack during the film’s climax; she was wailing and hyperventilating in the cinema, it was chaos. Toni Collette plays Annie, a mother of two and artist, who’s estranged (and strange) mother has just passed away. The film takes place in the immediate aftermath of the death and nothing else can really be said about the plot without spoilers. There’s much to say about the movie:
+        - It contains one of the most powerful and harrowing scenes I’ve seen in any movie; 2 minutes into the scene I legit caught myself in open-mouthed astonishment. The realism, choice of camera shots, and sound in that extended scene goes right in the list of my favourite movie scenes of all time.
+        - Toni Collette should win an Oscar for her performance here, she was actually amazing.
+        - The cinematography was beautiful: switching between miniatures / real life shots were very cool and some of the scene cuts were outstanding.
+        - This is the screen-writing and directorial debut of Ari Aster, safe to say we’ll eagerly await his next film.
+      similar-film: The Witch | The Conjuring
+      ratings:
+        overall:
+          tom: 9
+          hannah: 10
+        components:
+          acting: 10
+          dialogue: 9
+          story: 9
+          entertainment: 10
+          cinematography: 10
+  - 'Revenge':
+      image: revenge.png
+      genre: horror
+      pick-of-the-week: no
+      reviewer: Tom
+      review-text: >
+        Revenge is a very satisfying revenge (not surprisingly) thriller. Following a similar plot to I Spit On Your Grave, the protagonist Jen is raped and almost murdered by her boyfriend and two creepy friends. It is definitely gratuitous but it hits the mark a lot better than the former film. If you can stomach extreme violence, gore and rape scenes, you should be very entertained by the end of the film.
+      similar-film: I Spit On Your Grave
+      ratings:
+        overall:
+          tom: 8
+          hannah: 6
+        components:
+          acting: 6
+          dialogue: 7
+          story: 7
+          entertainment: 9
+          cinematography: 7
+  - 'Melancholia':
+      image: melancholia.png
+      genre: sci-fi
+      pick-of-the-week: no
+      reviewer: Hannah
+      review-text: >
+        Melancholia sounds like it would be a good movie – an end of the world story with good actors and beautiful cinematography but it was just too arty for my liking. For those keeping up, this movie was exactly what I thought mother! was going to be; a whole lot of random stuff that was never really explained. Some reviews I read said it was all about mental health, which one character literally does deal with, but any other suggested symbolic connections were tenuous. It was nice to see an end-of-world movie that felt realistic, Kirsten Dunst + Charlotte Gainsbourg were great, and it was nice to look at but would probs not recommend.
+      similar-film: Mulholland Drive
+      ratings:
+        overall:
+          tom: 5
+          hannah: 5
+        components:
+          acting: 7
+          dialogue: 4
+          story: 5
+          entertainment: 3
+          cinematography: 8

@@ -1,16 +1,15 @@
 ---
-title: "23 June 18"
+title: "28 May 18"
 author: ~
-date: '2018-06-23'
-slug: 23-june-18
+date: '2018-05-28'
+slug: 28-may-18
 categories: []
 tags: []
 highlight: "kate"
-description: "'Any of you fucking pricks move, and I'll execute every motherfucking last one of ya!' - Annie"
-screencap: "E8"
-edition: "23 June 18"
+description: "'If you deliberately sabotage my band, I will fuck you like a pig.' - Terence Fletcher"
+screencap: "E5"
+edition: "28 May 18"
 ---
-
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(dplyr)
 library(highcharter)
@@ -23,7 +22,7 @@ library(glue)
 source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
 
 # Load Edition YAML
-yaml = yaml.load_file("yaml/edition-8.yaml")
+yaml = yaml.load_file("yaml/edition-5.yaml")
 
 # Edition
 ed = yaml$edition

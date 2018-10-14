@@ -1,0 +1,56 @@
+edition: 2
+films:
+  - 'Flatliners':
+      image: flatliners.png
+      genre: sci-fi
+      pick-of-the-week: yes
+      reviewer: Hannah
+      review-text: >
+        The genre mash of science fiction and horror is one of my favourites, but Flatliners is an example of what happens when both are done badly. The movie’s central theme is about past sins and repentance, so you would think the goal is to see the characters as good humans who have made mistakes right? Instead the characters come across as thoughtless and selfish, only seeking forgiveness to save themselves. With a 5% rotten tomatoes rating, I’m not sure what I was expecting. Lasting 1 hour and 50 minutes, an ample amount of time to explain almost any complex idea, we still weren’t sure how the supernatural experiences connected to the main story arc by the end. The cherry on top was choosing the bland Ellen Page for the role of protagonist who, with the face of a once relevant child actor, I found annoying and a weird choice for the film.
+      similar-film: Splice
+      ratings:
+        overall:
+          tom: 1
+          hannah: 2
+        components:
+          acting: 2
+          dialogue: 2
+          story: 2
+          entertainment: 4
+          cinematography: 5
+  - 'Landline':
+      image: landline.png
+      genre: comedy
+      pick-of-the-week: no
+      reviewer: Hannah
+      review-text: >
+        Set in 1995, Landline has a really lovely nostalgic feel without being pretentious. I would classify it as Mumblecore, a genre known for its focus on characters’ relationships, naturalistic dialogue and being a style of movie that Tom and I really get into. The main character is played by Jenny Slate (you may know her for a cameo in Parks and Recreation as Jean-Ralphio’s sister) who is both relatable and funny through-out, much like the rest of the cast. I really enjoyed the film. My only minor issue with it was the ending which, especially in contrast with the rest of the film, felt unrealistic and a little “hollywood”. Overall a sweet, well written and well executed film.
+      similar-film: The Big Sick
+      ratings:
+        overall:
+          tom: 8
+          hannah: 8
+        components:
+          acting: 8
+          dialogue: 9
+          story: 6
+          entertainment: 7
+          cinematography: 6
+  - 'The Cloverfield Paradox':
+      image: cloverfield.png
+      genre: sci-fi
+      pick-of-the-week: no
+      reviewer: Tom
+      review-text: >
+        The Cloverfield Paradox is a sci-fi thriller set in space that fits into the Clover Field sequence of films in a way that’s not obvious to us. The space travel component of the film was created, it seems, as a collection of theoretically cool sci-fi scenes that the director felt like creating. Scenes like: severed human arm has mind of its own, man discovers weird thing is eating him alive from the inside, and exciting damaged space ship repair mission, are all good sci-fi scenes. However, they were all only loosely tied to the main plot and justified with the lazy mysterious multiple dimensions angle. The scientific plot exposition was also very lazy and nonsensical; for example, the whole crew is very surprised when the use of new energy generation technology transports them to an alternate dimension they weren’t aware of, and when the physicist on the crew is asked what is required to return them to their dimension? It’s as simple as firing up the generator again due to “what we know about quantum entanglement theory” he says. Finally, one of my biggest film gripes of all are unnecessary plot arcs that ultimately come to nothing. The protagonist’s husband Michael would have had 10-15 minutes of on-earth screen time where he rescues a little girl that eventually has no meaning or significance whatsoever. At the very least I would like those 15 minutes of my life back.
+      similar-film: Life
+      ratings:
+        overall:
+          tom: 5
+          hannah: 4
+        components:
+          acting: 7
+          dialogue: 4
+          story: 2
+          entertainment: 6
+          cinematography: 6

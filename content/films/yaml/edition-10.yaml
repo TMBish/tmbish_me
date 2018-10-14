@@ -1,0 +1,56 @@
+edition: 10
+films:
+  - 'The Equalizer':
+      image: the-equalizer.png
+      genre: Action
+      pick-of-the-week: yes
+      reviewer: Hannah
+      review-text: >
+        This has got to be my favourite film genre. Tough-but-moral guy, out for revenge with a skill set that can not be matched. This came out in 2014 and I am not sure how we missed it then but I’m now very excited for the second one. Starring Denzel Washington, it has multiple great fight scenes and all those satisfying moments you want in a revenge flick. My favourite is the final stand off in a hardware store which Denzel really takes advantage of. This was just a really excellent action movie, which are surprisingly hard to come by. Couldn’t fault it.
+      similar-film: John Wick
+      ratings:
+        overall:
+          tom: 8
+          hannah: 9
+        components:
+          acting: 7
+          dialogue: 7
+          story: 8
+          entertainment: 10
+          cinematography: 6
+  - "Girl's Trip":
+      image: girls-trip.png
+      genre: comedy
+      pick-of-the-week: no
+      reviewer: Tom
+      review-text: >
+        This was a roller coaster. The first 10-20 minutes had me checking rotten tomatoes twice (it scores an eye-watering 90%); the acting was bad, the dialogue forced and awkward, and most importantly the jokes were terrible. But Girl’s Trip really finds it’s groove after this rocky start. It’s definitely crude, disgusting, saccharine, and heavy-handed at times but it was a pretty good comedy in the end. Tiffany Haddish as Dina was definitely a highlight.
+      similar-film: The Hangover
+      ratings:
+        overall:
+          tom: 6
+          hannah: 6
+        components:
+          acting: 5
+          dialogue: 7
+          story: 5
+          entertainment: 7
+          cinematography: 5
+  - 'Better Watch Out':
+      image: better-watch-out-1.png
+      genre: thriller
+      pick-of-the-week: no
+      reviewer: Hannah
+      review-text: >
+        Better Watch Out was an interesting twist on the home invasion movie, but unfortunately it came off a little cheesy and a bit unsure of itself, almost as if the creators didn’t really know what sort of movie they wanted to make. The story was a great idea and impressive acting helped the film out, but the execution was still a bit off. Some of the characters responses were unbelievable and a few times things would happen without proper explanation. Some of the scenes were genuinely creepy though and ‘bad guy’ was done well. Bit of fun but nothing to write home about.
+      similar-film: Home Alone (but bloody)
+      ratings:
+        overall:
+          tom: 7
+          hannah: 6
+        components:
+          acting: 8
+          dialogue: 6
+          story: 9
+          entertainment: 8
+          cinematography: 5

@@ -1,14 +1,14 @@
 ---
-title: "23 June 18"
+title: "21 April 18"
 author: ~
-date: '2018-06-23'
-slug: 23-june-18
+date: '2018-04-21'
+slug: 21-apr-18
 categories: []
 tags: []
 highlight: "kate"
-description: "'Any of you fucking pricks move, and I'll execute every motherfucking last one of ya!' - Annie"
-screencap: "E8"
-edition: "23 June 18"
+description: "'Now I'm going to kill you!' Jamie before flatlining Courtney"
+screencap: "E2"
+edition: "21 April 18"
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -23,7 +23,7 @@ library(glue)
 source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
 
 # Load Edition YAML
-yaml = yaml.load_file("yaml/edition-8.yaml")
+yaml = yaml.load_file("yaml/edition-2.yaml")
 
 # Edition
 ed = yaml$edition
