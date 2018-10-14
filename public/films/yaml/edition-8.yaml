@@ -20,7 +20,7 @@ films:
           cinematography: 7
   - "Molly's Game":
       image: mollys-game.png
-      genre: comedy
+      genre: drama
       pick-of-the-week: no
       reviewer: Tom
       review-text: >

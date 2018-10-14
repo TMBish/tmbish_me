@@ -37,8 +37,8 @@ films:
           entertainment: 9
           cinematography: 7
   - 'Sicario: Day of the Soldado':
-    genre: action
       image: sicario.png
+      genre: action
       pick-of-the-week: no
       reviewer: Tom
       review-text: >
