@@ -1,0 +1,40 @@
+---
+title: "23 September 18"
+author: ~
+date: '2018-09-23'
+slug: 23-sep-18
+categories: []
+tags: []
+highlight: "kate"
+description: "'We're totally gonna have to start wearing masks if we keep dressing this good. People gon' know it's us.' - McKayla"
+screencap: "E14"
+edition: "23 Setember 18"
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(highcharter)
+library(radarchart)
+library(yaml)
+library(shiny)
+library(purrr)
+library(glue)
+
+source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
+
+# Load Edition YAML
+yaml = yaml.load_file("yaml/edition-14.yaml")
+
+# Edition
+ed = yaml$edition
+
+# Compile chunks
+r <- yaml %>%
+  pluck("films") %>%
+  map(compile_review, edition = ed)
+ 
+
+r[[1]]
+r[[2]]
+r[[3]]
+```
