@@ -34,6 +34,7 @@ r <- yaml %>%
   map(compile_review, edition = ed)
  
  
+ 
 
 r[[1]]
 r[[2]]
