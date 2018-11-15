@@ -1,8 +1,8 @@
 ---
 title: "Hannabishy Films"
 date: 2018-11-15T12:26:46+10:00
-description: "Collation of me and my wife's film reviews"
-bref: "Collation of me and my wife's film reviews"
+description: "Visualisation of full collection of our film review series"
+bref: "Visualisation of full collection of our film review series"
 screencap: "hannabishy-films"
 link: "http://shiny.tmbish.me/apps/HANNABISHY_FILMS/"
 ---
