@@ -20,7 +20,7 @@ films:
           cinematography: 7
   - 'Bird Box':
       image: bird-box.png
-      genre: horror
+      genre: thriller
       pick-of-the-week: no
       reviewer: Hannah
       review-text: >
