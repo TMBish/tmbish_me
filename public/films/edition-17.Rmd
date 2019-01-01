@@ -1,0 +1,40 @@
+---
+title: "3 December 18"
+author: ~
+date: '2018-12-03'
+slug: 3-dec-18
+categories: []
+tags: []
+highlight: "kate"
+description: "'Don't worry, nobody's gonna get killed, I promise you. This is just a musical emergency!' - Andreyev"
+screencap: "E17"
+edition: "3 December 18"
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(highcharter)
+library(radarchart)
+library(yaml)
+library(shiny)
+library(purrr)
+library(glue)
+
+source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
+
+# Load Edition YAML
+yaml = yaml.load_file("yaml/edition-16.yaml")
+
+# Edition
+ed = yaml$edition
+
+# Compile chunks
+r <- yaml %>%
+  pluck("films") %>%
+  map(compile_review, edition = ed)
+ 
+
+r[[1]]
+r[[2]]
+r[[3]]
+```
