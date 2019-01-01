@@ -1,0 +1,40 @@
+---
+title: "12 November 18"
+author: ~
+date: '2018-11-12'
+slug: 12-nov-18
+categories: []
+tags: []
+highlight: "kate"
+description: "'These days, reality is a bummer. Everyone's looking for a way to escape, and that's why Halliday, that's why he was such a hero to us.' - Wade"
+screencap: "E16"
+edition: "12 November 18"
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(highcharter)
+library(radarchart)
+library(yaml)
+library(shiny)
+library(purrr)
+library(glue)
+
+source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
+
+# Load Edition YAML
+yaml = yaml.load_file("yaml/edition-16.yaml")
+
+# Edition
+ed = yaml$edition
+
+# Compile chunks
+r <- yaml %>%
+  pluck("films") %>%
+  map(compile_review, edition = ed)
+ 
+
+r[[1]]
+r[[2]]
+r[[3]]
+```

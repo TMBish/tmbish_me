@@ -1,0 +1,56 @@
+edition: 16
+films:
+  - 'Ready Player One':
+      image: ready-player-one.png
+      genre: sci-fi
+      pick-of-the-week: yes
+      reviewer: Tom
+      review-text: >
+        Steven Spielberg's blockbuster *Ready Player One* is set in a dystopian 2045 where humans spend most of their time living in a VR system called OASIS. A lot of the film orients itself around the late genius / austistic OASIS architect James Halliday and his easter egg challenge that, when completed, gives you ownership of the OASIS company. The protaganist Wade Watts uses his lifelong nerdy obsession with Halliday to work his way through the easter egg challenges. The centerpieces are the special effects (which are pretty awesome) and the EXTENSIVE pop culuture references which are funny and entertaining. A bit too childish in parts (like a rich man's spykids) but still entertaining and a good way to spend 2.5 hours. 
+      similar-film: 'Tron: Legacy'
+      ratings:
+        overall:
+          tom: 7
+          hannah: 7
+        components:
+          acting: 5
+          dialogue: 5
+          story: 8
+          entertainment: 8
+          cinematography: 9
+  - 'Halloween (2018)':
+      image: halloween.png
+      genre: horror
+      pick-of-the-week: no
+      reviewer: Hannah
+      review-text: >
+        We watched the original Halloween (1978) for the first time a couple of days before watching the new one, and I think it really set the scene, but for the storyline, but also for the genre of film. The new Halloween (2018) was definitely old-school horror, without a crazy back story or interesting plot twists, just some crazy strong scary man slowly following you around intent on killing (why? Dunno). It was fun to see a good quality modern version of this style, especially the call backs to the original which were done without being too tacky. It basically follows almost the exact same story line as the first one, but this time Jamie Lee Curtis is a tough grandma. There were a few really great scenes that were creepy and there were a few shock jumps, plus it was mostly realistic (which, when messed up, can be a distraction in horror). Tom and I watch a lot of horror though, and I think this makes me realise this style is not so much for me. I left the cinema feeling very 'meh' and almost instantly forget about the movie, which for horror is not great. At the same time it reminds me of one of the reasons I love horror; this movie had fairly shallow characters, a very basic storyline, and predictable scares, and yet it was still fun to watch.      
+      similar-film: Friday the 13th 
+      ratings:
+        overall:
+          tom: 6
+          hannah: 5
+        components:
+          acting: 6
+          dialogue: 4
+          story: 4
+          entertainment: 7
+          cinematography: 6
+  - 'Radius':
+      image: radius.png
+      genre: sci-fi
+      pick-of-the-week: no
+      reviewer: Tom
+      review-text: >
+        A man awakes from a car accident to slowly realise that anyone who approaches 10 meters of him falls dead instantly. That's pretty much the entire movie but there's a satisfying twist near the end that helps the movie not seem so arbitrary and meaningless. The acting was decent and the characters were believable so it's worth a watch if you like sci-fi (which you should). 
+      similar-film: ARQ
+      ratings:
+        overall:
+          tom: 5
+          hannah: 6
+        components:
+          acting: 5
+          dialogue: 3
+          story: 7
+          entertainment: 6
+          cinematography: 5
