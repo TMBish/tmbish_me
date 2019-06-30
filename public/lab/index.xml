@@ -49,7 +49,7 @@ Much analysis has been completed regarding the performing peak of athletes and s
       <pubDate>Thu, 23 Nov 2017 20:38:16 +0000</pubDate>
       
       <guid>/lab/r-markdown-test/</guid>
-      <description>OverviewHey. Just testing the Rmd funcitonality of this page. Maybe I’m interested in the BMI of human star wars characters. Maybe. Let’s see how this goes:
+      <description>OverviewHey. Just testing the Rmd funcitonality of this page. Maybe I’m interested in the BMI of human star wars characters. Maybe. Let’s see how this goes:
 library(dplyr)library(ggplot2)starwars %&amp;gt;%filter(species == &amp;quot;Human&amp;quot;) %&amp;gt;%ggplot(aes(y=height, x=mass, colour=species)) +geom_point() +geom_smooth() +theme_bw() +ggtitle(&amp;quot;Starwars BMI&amp;quot;)</description>
     </item>
     

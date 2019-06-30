@@ -6,10 +6,19 @@
     <description>Recent content on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>30 June 19</title>
+      <link>/films/30-jun-19/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/films/30-jun-19/</guid>
+      <description>John Wick: Chapter 3 - parabellumACTION  PICK OF THE WEEK  Tom : Chapter 3 - parabellum is the third instalment in one of my top 5 movie franchises.</description>
+    </item>
     
     <item>
       <title>3 December 18</title>
@@ -17,7 +26,7 @@
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/films/3-dec-18/</guid>
-      <description>Death Of StalinCOMEDY  PICK OF THE WEEK  Tom : Death Of Stalin is a satirical comedy about dicatorship and the tyrannical rule of Joseph Stalin during the soviet union. Steve Buschemi (Nikita Krushchev) leads a group of excellent performances by the 5-6 senior USSR officials jockeying for power after Stalin&amp;#39;s death.</description>
+      <description>John Wick: Chapter 3 - parabellumACTION  PICK OF THE WEEK  Tom : Chapter 3 - parabellum is the third instalment in one of my top 5 movie franchises.</description>
     </item>
     
     <item>
@@ -99,7 +108,7 @@
       <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/films/15-july-18/</guid>
-      <description>The EqualizerACTION  PICK OF THE WEEK  Hannah : This has got to be my favourite film genre. Tough-but-moral guy, out for revenge with a skill set that can not be matched. This came out in 2014 and I am not sure how we missed it then but I’m now very excited for the second one.</description>
+      <description>The EqualizerACTION  PICK OF THE WEEK  Hannah : This has got to be my favourite film genre. Tough-but-moral guy, out for revenge with a skill set that can not be matched.</description>
     </item>
     
     <item>
@@ -144,7 +153,7 @@
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/films/28-may-18/</guid>
-      <description>WhiplashDRAMA  PICK OF THE WEEK  Hannah : Whiplash was great and intense. I was frustrated throughout and I hated both of the main characters, but I’m pretty sure that was intentional. It’s a story of a talented young musician and his ruthless and abusive teacher.</description>
+      <description>WhiplashDRAMA  PICK OF THE WEEK  Hannah : Whiplash was great and intense. I was frustrated throughout and I hated both of the main characters, but I’m pretty sure that was intentional.</description>
     </item>
     
     <item>
@@ -221,7 +230,7 @@ Much analysis has been completed regarding the performing peak of athletes and s
       <pubDate>Thu, 23 Nov 2017 20:38:16 +0000</pubDate>
       
       <guid>/lab/r-markdown-test/</guid>
-      <description>OverviewHey. Just testing the Rmd funcitonality of this page. Maybe I’m interested in the BMI of human star wars characters. Maybe. Let’s see how this goes:
+      <description>OverviewHey. Just testing the Rmd funcitonality of this page. Maybe I’m interested in the BMI of human star wars characters. Maybe. Let’s see how this goes:
 library(dplyr)library(ggplot2)starwars %&amp;gt;%filter(species == &amp;quot;Human&amp;quot;) %&amp;gt;%ggplot(aes(y=height, x=mass, colour=species)) +geom_point() +geom_smooth() +theme_bw() +ggtitle(&amp;quot;Starwars BMI&amp;quot;)</description>
     </item>
     
