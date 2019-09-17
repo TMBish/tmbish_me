@@ -23,7 +23,7 @@ library(glue)
 source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
 
 # Load Edition YAML
-yaml = yaml.load_file("yaml/edition-18.yaml")
+yaml = yaml.load_file("yaml/edition-17.yaml")
 
 # Edition
 ed = yaml$edition
