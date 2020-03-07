@@ -1,14 +1,14 @@
 ---
-title: "21 May 18"
+title: "7 Mar 20"
 author: ~
-date: '2018-05-21'
-slug: 21-may-18
+date: '2020-03-07'
+slug: 7-mar-20
 categories: []
 tags: []
 highlight: "kate"
-description: "'It's 'Persons of color'-torturing business, these days, if you want to know. And I didn't torture nobody.' - Dixon"
-screencap: "E4"
-edition: "21 May 18"
+description: "'Mr. Pelle's invited us to an authentic hippie midsummer at his yodeling farm.' - Mark"
+screencap: "E19"
+edition: "7 Mar 20"
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -23,14 +23,13 @@ library(glue)
 source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
 
 # Load Edition YAML
-yaml = yaml.load_file("yaml/edition-4.yaml")
+yaml = yaml.load_file("yaml/edition-19.yaml")
 
 # Edition
 ed = yaml$edition
 
 # Compile chunks
-r <- 
-  yaml %>%
+r <- yaml %>%
   pluck("films") %>%
   map(compile_review, edition = ed)
  

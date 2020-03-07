@@ -29,7 +29,8 @@ yaml = yaml.load_file("yaml/edition-4.yaml")
 ed = yaml$edition
 
 # Compile chunks
-r <- yaml %>%
+r <- 
+  yaml %>%
   pluck("films") %>%
   map(compile_review, edition = ed)
  
