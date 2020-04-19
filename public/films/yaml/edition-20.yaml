@@ -1,13 +1,14 @@
 edition: 20
 reviews:
-  - title: Midsommar
-    image: midsommar.png
-    genre: horror
+  - title: The Invisible Man
+    year: 2020
+    image: invisible-man.png
+    genre: thriller
     pick-of-the-week: yes
     reviewer: Tom
     review-text: >
-      We'd been personally very excited for Ari Aster's follow up to his masterpiece *Hereditary* and *Midsommar* mostly didn't dissapoint. *Midsommar* follows a traumitized Dani on what she thinks will be a cathartic trip to Sweeden with her boyfriend and friends, one of which introduces them to his Sweedish cult. The film is beatuful to look at and is viscerally tense from start to finish. The last third of the film falls a little bit flat, however, this is still a must watch. 
-    similar-film: The Endless 
+      This is written and directed by the *Saw* guy Leigh Whannell. We watched another sci-fi Whannell this week (*Upgrade*) which was also really good; I'm starting to really rate this guy. The Invisible Man follows Elizabeth Moss as she separates from an abusive relationship but suspects her boyfriend is still tormenting her. It's extremely entertaining and Moss puts in an amazing performance as essentially the only significant character in the film. Well worth a watch.
+    similar-film: Hollow Man 
     ratings:
       overall:
         tom: 8
@@ -18,64 +19,84 @@ reviews:
         story: 6
         entertainment: 7
         cinematography: 9
-  - title: Parasite
-    image: parasite.png
-    genre: thriller
+  - title: The Gentlemen
+    year: 2019
+    image: gentlemen.png
+    genre: action
+    pick-of-the-week: no
+    reviewer: Hannah
+    review-text: >
+      *The Gentlemen* is Guy Richie's latest. Set up to in a similar vein to his previous gritty crime films *Snatch* and *Lock Stock*, I was looking forward to it. It had quite a few great actors in it too so I was excited. It started off slow and unexciting but picked up eventually and then was funny, fast paced and complicated which is what I was hoping for. Matthew McConaughey was beautiful as he always is, Colin Farrell was fab but wasn't in it enough, and an almost unrecognisable Hugh Grant stole the show imo. I thought it was lacking in some areas: missing some of the key aspects of what makes Ritchie's other earlier crime films so good. 1. I didn't feel immersed in a whole different culture/world/slang. 2. Too many of the characters were either a bit bland or too robotic/scripted (think of all the amazing *Snatch* personalities). And 3. The dialogue was a bit too slow and clunky at times. But we can't just compare all movies to really good movies, I still really liked this
+    similar-film: Snatch
+    ratings:
+      overall:
+        tom: 7
+        hannah: 7
+      components:
+        acting: 6
+        dialogue: 6 
+        story: 7
+        entertainment: 8
+        cinematography: 7
+  - title: 1917
+    year: 2019
+    image: 1917.png
+    genre: war
     pick-of-the-week: no
     reviewer: Tom
     review-text: >
-      Perhaps this film falls victim to insurmountable expectations but I found it slightly dissapointing. I can't fault the acting or cinematography as it was an absolutely stunning film visually and the cast were all excellent. It felt a little bit lacking substantively to me and a little heavy handed with what it did have (perhaps this was a english translation thing though). In particular, the scenes and dialogue touching the main theme of social order / class didn't have the depth and nuance I was expecting for a film of this calibre. It was a very cool film and I enjoyed it thoroughly but grading it on the curve of Best Picture Winners I think it left a little to be desired. 
-    similar-film: Classy Snowpiercer
+      *1917* is an special cinematic experience.  Sam Mendes tells the story (apparently his grandfather's) of a perilous communications mission given to two young soldiers during WW1. The entire mission and film takes place in, what looks to the viewer, a single shot which sprawls across a few days and the french countryside. It's a beautiful film and very impressively crafted. The plot contours and the dialogue could have been a bit more polished i thought but it's an excellent film and in my book it's one of the 5-10 best war movies ever made.
+    similar-film: Saving Private Ryan
     ratings:
       overall:
         tom: 8
         hannah: 7
       components:
-        acting: 8
+        acting: 9
         dialogue: 7
         story: 7
         entertainment: 8
         cinematography: 10
-  - title: Greta
-    image: greta.png
-    genre: horror
-    pick-of-the-week: no
-    reviewer: Hannah
-    review-text: >
-      Greta started strong and was pretty good in the middle and then it was like they ran out of money for writers at the end. Horror movies can get away with a lot and still be enjoyable in my book, but the last 15-20 minutes of this movie just lost it. A woman goes missing for weeks, and both her father and roommate are very worried, but NO ONE CALLS THE POLICE? Silly. Apart from the believability of the last bit, the story had a great build and there were quite a few thrilling scenes (hard to achieve with a B grade horror like this).
-    similar-film: Shitty Misery 
-    ratings:
-      overall:
-        tom: 5
-        hannah: 5
-      components:
-        acting: 7
-        dialogue: 5
-        story: 5
-        entertainment: 7
-        cinematography: 2
   - title: Upgrade
-    image: 
     year: 2018
     genre: sci-fi
+    image: 
     pick-of-the-week: no
     reviewer: 
     review-text:
     similar-film: 
     ratings:
       overall:
-        tom: 5
-        hannah: 5
+        tom: 7
+        hannah: 6
       components:
         acting: 7
-        dialogue: 5
-        story: 5
-        entertainment: 7
-        cinematography: 2
+        dialogue: 4
+        story: 6
+        entertainment: 9
+        cinematography: 7
   - title: The Kindergarten Teacher
-    image: 
     year: 2018
-    genre: sci-fi
+    genre: drama
+    image: 
+    pick-of-the-week: no
+    reviewer: 
+    review-text:
+    similar-film: 
+    ratings:
+      overall:
+        tom: 6
+        hannah: 6
+      components:
+        acting: 8
+        dialogue: 8
+        story: 6
+        entertainment: 6
+        cinematography: 6
+  - title: Glass
+    year: 2019
+    genre: action
+    image: 
     pick-of-the-week: no
     reviewer: 
     review-text:
@@ -85,8 +106,62 @@ reviews:
         tom: 5
         hannah: 5
       components:
-        acting: 7
+        acting: 4
         dialogue: 5
-        story: 5
-        entertainment: 7
+        story: 6
+        entertainment: 6
+        cinematography: 8
+  - title: Girl On The Third Floor
+    year: 2019
+    genre: horror
+    image: 
+    pick-of-the-week: no
+    reviewer: 
+    review-text:
+    similar-film: 
+    ratings:
+      overall:
+        tom: 2
+        hannah: 2
+      components:
+        acting: 1
+        dialogue: 2
+        story: 3
+        entertainment: 4
         cinematography: 2
+  - title: Ford vs Ferrari
+    year: 2019
+    genre: drama
+    image: 
+    pick-of-the-week: no
+    reviewer: 
+    review-text:
+    similar-film: 
+    ratings:
+      overall:
+        tom: 7
+        hannah: 0
+      components:
+        acting: 8
+        dialogue: 6
+        story: 7
+        entertainment: 7
+        cinematography: 7
+  - title: Knives Out
+    year: 2019
+    genre: mystery
+    image: 
+    pick-of-the-week: no
+    reviewer: 
+    review-text:
+    similar-film: 
+    ratings:
+      overall:
+        tom: 8
+        hannah: 7
+      components:
+        acting: 9
+        dialogue: 8
+        story: 7
+        entertainment: 7
+        cinematography: 8
