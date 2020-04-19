@@ -1,56 +1,59 @@
 edition: 18
-films:
-  - 'John Wick: Chapter 3 - parabellum':
-      image: wick-3.png
-      genre: action
-      pick-of-the-week: yes
-      reviewer: Tom
-      review-text: >
-        *Chapter 3 - parabellum* is the third instalment in one of my top 5 movie franchises. After murdering a member of the high table in prohibited territory (I barely remember this but it doesn't matter) Wick has a $14m bounty for his murder and is restricted from using his regular assassin services (gun shops, tailors, hotels and the like) so is at his most vulnerable. Asia Dillon plays a high table ''adjudicator'' who punishes transgressions committed by the main characters in Chapter 2 and arranges John Wick's murder through a Japanese group of samurai assassins lead by assassin Zero (very cool). None of this (plot) is why you see John Wick though. The story is probably the weakest of the 3, Wick travels to various locations that confuse you, new characters and arms of the high table (the gold coin manufacturing department for example) are somewhat cheesy and contrived. However, the action and entertainment value of the film is second only to the Chapter 1 in my opinion. Every fight scene is jaw dropping, well choreographed, humorous but still tense, and distinct enough from each other to sustain this in the top echelon of entertainment. This franchise still produces some of the most entertaining films ever made.
-      similar-film: John Wick 2
-      ratings:
-        overall:
-          tom: 9
-          hannah: 9
-        components:
-          acting: 7
-          dialogue: 7
-          story: 7
-          entertainment: 10
-          cinematography: 10
-  - 'The Oath':
-      image: oath.png
-      genre: comedy
-      pick-of-the-week: no
-      reviewer: Tom
-      review-text: >
-        Went into this film with low expectations given I hadn't heard of it and received a mediocre 62% rotten tomatoes score, but it was actually a refreshingly astute and pointed political satire. Directed by first time director Ike Barinholtz (who you would've seen as a funny but minor comedic character in films like *Bad Neighbours*) *The Oath* watches like a movie directed by an actor in that it lacks the polish from scene to scene of a well directed film. However, the dialogue, wit and modern political satire more than redeems this film. The film orients itself around a new US government program whereby American citizens are prodded to declare an oath of allegiance to their government. Chris (Barinholtz) is an abrasive plugged-in political liberal who is horrified by the current political climate and who ultimately clashes with his conservative brother Pat and his partner Abbie.  Where the premise really shines though is the subtlety of how this event permeates through the country. The film highlights the grey areas and receding freedoms during a transition between a free and liberal democracy and an authoritarian police state. Initially the government doesn't mandate the oath directly it only withholds government services to those who don't sign it, when the government ultimately retaliates to widespread protests Pat and Abbie receive a conflicting and exculpating account of events from a conservative *verified* twitter user, and when the enforcers (not police but strongmen government officials) arrive to question Chris it's not about not signing the oath but suggesting others shouldn't. These are the finer details that are oftentimes far too heavy handed in other political satires (eg *A Handmaid's Tale*) and really make the film for me.
-      similar-film: Idiocracy 
-      ratings:
-        overall:
-          tom: 7
-          hannah: 7
-        components:
-          acting: 7
-          dialogue: 8
-          story: 8
-          entertainment: 7
-          cinematography: 5
-  - 'The Predator':
-      image: the-predator.png
-      genre: science fiction
-      pick-of-the-week: no
-      reviewer: Hannah
-      review-text: >
-        I don't really remember the original predator movies, and I was not expecting very much from this one with a 32% rating on RT. I have a feeling these low expectations might have biased me a little, but I was very pleasantly surprised. Don't get me wrong, it was definitely a little convoluted and the the main actor was very bland, but I still found it highly entertaining. The action was good fun, and in particular the new bigger-badder-predator was done really well. His increased strength and aggression were obvious, which often in these 'mega-monster' films can be inconsistent. It was also quite a good comedic film which I generally find is rare for these sorts of action/sci-fic films. The odd-ball group of anti-heroes were funny especially Keegan-Michael Key.        
-      similar-film: Tropic Thunder 
-      ratings:
-        overall:
-          tom: 5
-          hannah: 6
-        components:
-          acting: 5
-          dialogue: 4
-          story: 3
-          entertainment: 7
-          cinematography: 3
+reviews:
+  - title: 'John Wick: Chapter 3 - parabellum'
+    year: 2019
+    image: wick-3.png
+    genre: action
+    pick-of-the-week: yes
+    reviewer: Tom
+    review-text: >
+      *Chapter 3 - parabellum* is the third instalment in one of my top 5 movie franchises. After murdering a member of the high table in prohibited territory (I barely remember this but it doesn't matter) Wick has a $14m bounty for his murder and is restricted from using his regular assassin services (gun shops, tailors, hotels and the like) so is at his most vulnerable. Asia Dillon plays a high table ''adjudicator'' who punishes transgressions committed by the main characters in Chapter 2 and arranges John Wick's murder through a Japanese group of samurai assassins lead by assassin Zero (very cool). None of this (plot) is why you see John Wick though. The story is probably the weakest of the 3, Wick travels to various locations that confuse you, new characters and arms of the high table (the gold coin manufacturing department for example) are somewhat cheesy and contrived. However, the action and entertainment value of the film is second only to the Chapter 1 in my opinion. Every fight scene is jaw dropping, well choreographed, humorous but still tense, and distinct enough from each other to sustain this in the top echelon of entertainment. This franchise still produces some of the most entertaining films ever made.
+    similar-film: John Wick 2
+    ratings:
+      overall:
+        tom: 9
+        hannah: 9
+      components:
+        acting: 7
+        dialogue: 7
+        story: 7
+        entertainment: 10
+        cinematography: 10
+  - title: The Oath
+    year: 2018
+    image: oath.png
+    genre: comedy
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+      Went into this film with low expectations given I hadn't heard of it and received a mediocre 62% rotten tomatoes score, but it was actually a refreshingly astute and pointed political satire. Directed by first time director Ike Barinholtz (who you would've seen as a funny but minor comedic character in films like *Bad Neighbours*) *The Oath* watches like a movie directed by an actor in that it lacks the polish from scene to scene of a well directed film. However, the dialogue, wit and modern political satire more than redeems this film. The film orients itself around a new US government program whereby American citizens are prodded to declare an oath of allegiance to their government. Chris (Barinholtz) is an abrasive plugged-in political liberal who is horrified by the current political climate and who ultimately clashes with his conservative brother Pat and his partner Abbie.  Where the premise really shines though is the subtlety of how this event permeates through the country. The film highlights the grey areas and receding freedoms during a transition between a free and liberal democracy and an authoritarian police state. Initially the government doesn't mandate the oath directly it only withholds government services to those who don't sign it, when the government ultimately retaliates to widespread protests Pat and Abbie receive a conflicting and exculpating account of events from a conservative *verified* twitter user, and when the enforcers (not police but strongmen government officials) arrive to question Chris it's not about not signing the oath but suggesting others shouldn't. These are the finer details that are oftentimes far too heavy handed in other political satires (eg *A Handmaid's Tale*) and really make the film for me.
+    similar-film: Idiocracy 
+    ratings:
+      overall:
+        tom: 7
+        hannah: 7
+      components:
+        acting: 7
+        dialogue: 8
+        story: 8
+        entertainment: 7
+        cinematography: 5
+  - title: The Predator
+    year: 2018
+    image: the-predator.png
+    genre: science fiction
+    pick-of-the-week: no
+    reviewer: Hannah
+    review-text: >
+      I don't really remember the original predator movies, and I was not expecting very much from this one with a 32% rating on RT. I have a feeling these low expectations might have biased me a little, but I was very pleasantly surprised. Don't get me wrong, it was definitely a little convoluted and the the main actor was very bland, but I still found it highly entertaining. The action was good fun, and in particular the new bigger-badder-predator was done really well. His increased strength and aggression were obvious, which often in these 'mega-monster' films can be inconsistent. It was also quite a good comedic film which I generally find is rare for these sorts of action/sci-fic films. The odd-ball group of anti-heroes were funny especially Keegan-Michael Key.        
+    similar-film: Tropic Thunder 
+    ratings:
+      overall:
+        tom: 5
+        hannah: 6
+      components:
+        acting: 5
+        dialogue: 4
+        story: 3
+        entertainment: 7
+        cinematography: 3

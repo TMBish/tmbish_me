@@ -1,56 +1,59 @@
 edition: 15
-films:
-  - 'Sweet Virginia':
-      image: sweet-virginia.png
-      genre: drama
-      pick-of-the-week: yes
-      reviewer: Tom
-      review-text: >
-        Christopher Abbott plays Elwood, a contract killer, hired in a small Alaskan town by a woman who wants to kill her husband for financial reasons. The plot is reasonably simple from there but the movie (like a poor man's Cohen brothers film) is more about the individual scenes: the cinematography, the dialogue, the characters, and the setting. I thought all were done pretty well and there were enough cool scenes strung together to make a pretty cool movie all around.
-      similar-film: You Were Never Really There
-      ratings:
-        overall:
-          tom: 7
-          hannah: 7
-        components:
-          acting: 6
-          dialogue: 7
-          story: 7
-          entertainment: 7
-          cinematography: 9
-  - 'The Mummy':
-      image: the-mummy.png
-      genre: action
-      pick-of-the-week: no
-      reviewer: Hannah
-      review-text: >
-        This movie was boring and not really worth watching. It’s in the same universe as the original Mummy, but not once (that I noticed) did it refer to it all, which I thought was a weird choice. Like calling it the EXACT same name and making it a really similar story but not calling back to it once? Another strange thing was Dr Jeklly/Mr Hyde was in this movie? What the hell? They are not even vaguely related. Everything about it was very average apart from the sick plane crash scene at the start which was cool. Look, I would give this a skip unless you want a background action movie that lacks charm. Also, Tom cruise was a weird choice for the role as a handsome, charming, energetic dude (he’s legit 56).
-      similar-film: National Treasure
-      ratings:
-        overall:
-          tom: 2
-          hannah: 2
-        components:
-          acting: 4
-          dialogue: 4
-          story: 2
-          entertainment: 4
-          cinematography: 2
-  - 'Escape Room':
-      image: escape-room.png
-      genre: horror
-      pick-of-the-week: no
-      reviewer: Hannah
-      review-text: >
-        This is a great example of why I love horror movies. The acting is terrible, and the writing is subpar, but it was still highly entertaining. It’s basically just an escape room version of Saw, but less psychological and more fun (people’s skin melt off at one point). The ending was really weird and was trying a bit too hard to have meaning when there legit was none, but overall a great B grade horror.
-      similar-film: Jigsaw
-      ratings:
-        overall:
-          tom: 6
-          hannah: 6
-        components:
-          acting: 2
-          dialogue: 2
-          story: 7
-          entertainment: 8
-          cinematography: 3
+reviews:
+  - title: Sweet Virginia
+    year: 2017
+    image: sweet-virginia.png
+    genre: drama
+    pick-of-the-week: yes
+    reviewer: Tom
+    review-text: >
+      Christopher Abbott plays Elwood, a contract killer, hired in a small Alaskan town by a woman who wants to kill her husband for financial reasons. The plot is reasonably simple from there but the movie (like a poor man's Cohen brothers film) is more about the individual scenes: the cinematography, the dialogue, the characters, and the setting. I thought all were done pretty well and there were enough cool scenes strung together to make a pretty cool movie all around.
+    similar-film: You Were Never Really There
+    ratings:
+      overall:
+        tom: 7
+        hannah: 7
+      components:
+        acting: 6
+        dialogue: 7
+        story: 7
+        entertainment: 7
+        cinematography: 9
+  - title: The Mummy
+    year: 2017
+    image: the-mummy.png
+    genre: action
+    pick-of-the-week: no
+    reviewer: Hannah
+    review-text: >
+      This movie was boring and not really worth watching. It’s in the same universe as the original Mummy, but not once (that I noticed) did it refer to it all, which I thought was a weird choice. Like calling it the EXACT same name and making it a really similar story but not calling back to it once? Another strange thing was Dr Jeklly/Mr Hyde was in this movie? What the hell? They are not even vaguely related. Everything about it was very average apart from the sick plane crash scene at the start which was cool. Look, I would give this a skip unless you want a background action movie that lacks charm. Also, Tom cruise was a weird choice for the role as a handsome, charming, energetic dude (he’s legit 56).
+    similar-film: National Treasure
+    ratings:
+      overall:
+        tom: 2
+        hannah: 2
+      components:
+        acting: 4
+        dialogue: 4
+        story: 2
+        entertainment: 4
+        cinematography: 2
+  - title: Escape Room
+    year: 2017
+    image: escape-room.png
+    genre: horror
+    pick-of-the-week: no
+    reviewer: Hannah
+    review-text: >
+      This is a great example of why I love horror movies. The acting is terrible, and the writing is subpar, but it was still highly entertaining. It’s basically just an escape room version of Saw, but less psychological and more fun (people’s skin melt off at one point). The ending was really weird and was trying a bit too hard to have meaning when there legit was none, but overall a great B grade horror.
+    similar-film: Jigsaw
+    ratings:
+      overall:
+        tom: 6
+        hannah: 6
+      components:
+        acting: 2
+        dialogue: 2
+        story: 7
+        entertainment: 8
+        cinematography: 3

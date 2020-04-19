@@ -1,56 +1,59 @@
 edition: 3
-films:
-  - 'The Ritual':
-      image: the-ritual.png
-      genre: horror
-      pick-of-the-week: no
-      reviewer: Tom
-      review-text: >
-        The Ritual starts off on the PERFECT note. A bunch of guys are ominously planning an off-the-beaten track holiday followed by a completely unexpected, and ultra-realistic, liquor store robbery that leaves one character dead and the other guilt-stricken. During the next half hour a minor injury causes the characters to divert route through some creepy woods where they uncover some strange unexplainable happenings. This is generally the perfect priming for a high quality horror-thriller. However, everything after this point feels like a let-down. Set in some very picturesque sweedish woods, the cinematography and directing is really good for this kind of movie. The characters and dialogue, though, are extremely bland and shallow. Similarly the reveal and climax, while somewhat cool, feel pretty underwhelming. This just misses the mark for an exceptional thriller.
-      similar-film: Kill List
-      ratings:
-        overall:
-          tom: 7
-          hannah: 7
-        components:
-          acting: 4
-          dialogue: 3
-          story: 6
-          entertainment: 7
-          cinematography: 8
-  - 'Brawl In Cell Block 99':
-      image: brawl.png
-      genre: action
-      pick-of-the-week: yes
-      reviewer: Hannah
-      review-text: >
-        This is the most violent movie I have ever seen. Brawl in Cell Block 99 runs for a hefty two hours. It takes three quarters of the film to get to Cell Block 99, but when we get there the Brawl deserves that capital B. We follow stoic Bradley, played by Vince Vaughn, who has just returned to his drug mule-ing job. Vaughn is fantastic as the moral and yet insanely violent (think almost any character in a Tarantino movie) lead. Each of the lengthy, realistic fight scenes are impressively choreographed without stunt-people or special effects. Throughout the film we see a degloving of a face, a decapitation by stomping, and a threat of amputating an unborn baby’s limbs. I’ll say it again, most violent movie I have ever seen. Surprisingly, the film is not just all blood and guts. Not only does it look good, the dialogue is decent, as is the story. With a Rotten Tomatoes of 92%, its no surprise it was a great flick.
-      similar-film: Man On Fire
-      ratings:
-        overall:
-          tom: 7
-          hannah: 8
-        components:
-          acting: 7
-          dialogue: 7
-          story: 5
-          entertainment: 8
-          cinematography: 7
-  - 'Little Hours':
-      image: little-hours.png
-      genre: comedy
-      pick-of-the-week: no
-      reviewer: Tom
-      review-text: >
-        Little Hours follows a familiar recipe for these comedies: just place modern characters with modern problems and vernacular in a ye-olde setting and the rest practically writes itself. This tends to create one-dimensional comedy which can become lame and annoying by the end. This film had just enough acting talent and good writing to make a decent film. Hilarious performances from Nick Offerman, Fred Armison and Aubrey Plaza were standouts and helped keep the movie afloat. On the other hand Alison Brie… what does she even do? Is she funny or talented or? Anyway, in the end I agree with what was written the Guardian’s review that this would have been an excetional extended SNL skit but didn’t have quite enough legs to sustain a full feature length film.
-      similar-film: Your Highness
-      ratings:
-        overall:
-          tom: 7
-          hannah: 6
-        components:
-          acting: 8
-          dialogue: 7
-          story: 4
-          entertainment: 5
-          cinematography: 8
+reviews:
+  - title: The Ritual
+    year: 2017
+    image: the-ritual.png
+    genre: horror
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+      The Ritual starts off on the PERFECT note. A bunch of guys are ominously planning an off-the-beaten track holiday followed by a completely unexpected, and ultra-realistic, liquor store robbery that leaves one character dead and the other guilt-stricken. During the next half hour a minor injury causes the characters to divert route through some creepy woods where they uncover some strange unexplainable happenings. This is generally the perfect priming for a high quality horror-thriller. However, everything after this point feels like a let-down. Set in some very picturesque sweedish woods, the cinematography and directing is really good for this kind of movie. The characters and dialogue, though, are extremely bland and shallow. Similarly the reveal and climax, while somewhat cool, feel pretty underwhelming. This just misses the mark for an exceptional thriller.
+    similar-film: Kill List
+    ratings:
+      overall:
+        tom: 7
+        hannah: 7
+      components:
+        acting: 4
+        dialogue: 3
+        story: 6
+        entertainment: 7
+        cinematography: 8
+  - title: Brawl In Cell Block 99
+    year: 2017
+    image: brawl.png
+    genre: action
+    pick-of-the-week: yes
+    reviewer: Hannah
+    review-text: >
+      This is the most violent movie I have ever seen. Brawl in Cell Block 99 runs for a hefty two hours. It takes three quarters of the film to get to Cell Block 99, but when we get there the Brawl deserves that capital B. We follow stoic Bradley, played by Vince Vaughn, who has just returned to his drug mule-ing job. Vaughn is fantastic as the moral and yet insanely violent (think almost any character in a Tarantino movie) lead. Each of the lengthy, realistic fight scenes are impressively choreographed without stunt-people or special effects. Throughout the film we see a degloving of a face, a decapitation by stomping, and a threat of amputating an unborn baby’s limbs. I’ll say it again, most violent movie I have ever seen. Surprisingly, the film is not just all blood and guts. Not only does it look good, the dialogue is decent, as is the story. With a Rotten Tomatoes of 92%, its no surprise it was a great flick.
+    similar-film: Man On Fire
+    ratings:
+      overall:
+        tom: 7
+        hannah: 8
+      components:
+        acting: 7
+        dialogue: 7
+        story: 5
+        entertainment: 8
+        cinematography: 7
+  - title: Little Hours
+    year: 2017
+    image: little-hours.png
+    genre: comedy
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+      Little Hours follows a familiar recipe for these comedies: just place modern characters with modern problems and vernacular in a ye-olde setting and the rest practically writes itself. This tends to create one-dimensional comedy which can become lame and annoying by the end. This film had just enough acting talent and good writing to make a decent film. Hilarious performances from Nick Offerman, Fred Armison and Aubrey Plaza were standouts and helped keep the movie afloat. On the other hand Alison Brie… what does she even do? Is she funny or talented or? Anyway, in the end I agree with what was written the Guardian’s review that this would have been an excetional extended SNL skit but didn’t have quite enough legs to sustain a full feature length film.
+    similar-film: Your Highness
+    ratings:
+      overall:
+        tom: 7
+        hannah: 6
+      components:
+        acting: 8
+        dialogue: 7
+        story: 4
+        entertainment: 5
+        cinematography: 8

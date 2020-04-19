@@ -19,24 +19,33 @@ library(yaml)
 library(shiny)
 library(purrr)
 library(glue)
+library(reactable)
+library(tidyverse)
 
-source("https://raw.githubusercontent.com/TMBish/site_posts/master/00_utilities/film-review-utils.R")
-
+source("R/film-review-utils.R")
+       
 # Load Edition YAML
 yaml = yaml.load_file("yaml/edition-13.yaml")
 
 # Edition
 ed = yaml$edition
+```
 
-# Compile chunks
-r <- yaml %>%
-  pluck("films") %>%
-  map(compile_review, edition = ed)
- 
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+yaml %>%
+pluck("reviews") %>%
+keep(~!is.null(.$reviewer)) %>%
+map(compile_review, edition = ed) %>% 
+tagList()
+```
 
+## Other films we watched
 
+<br>
 
-r[[1]]
-r[[2]]
-r[[3]]
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+yaml %>%
+  pluck("reviews") %>%
+  keep(~is.null(.$reviewer)) %>%
+  compile_ratings()
 ```

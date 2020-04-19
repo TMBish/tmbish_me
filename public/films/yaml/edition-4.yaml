@@ -1,57 +1,60 @@
 edition: 4
-films:
-  - 'Three Billboards Outside Ebbing, Missouri':
-      image: three-billboards.png
-      genre: drama
-      pick-of-the-week: yes
-      reviewer: Hannah
-      review-text: >
-        Three Billboards Outside Ebbing, Missouri has a really long title and a 2 hour run time and I didn’t want it to end. After watching it we found out it was directed by Martin McDonagh and we thought who is that? The director of In Bruges and Seven Psychopaths, McDonagh obviously knows what he is doing. The acting was outstanding. The characters were caricatures of small town folk but with depth and realism. Sam Rockwell was a likable-while-also-terrible-person (a character that is found in both of McDonough’s excellent films) and for me, the star of the show. Frances McDormand and Woody Harrelson were tough, funny and emotive - much like the film. Every aspect of the film felt flawless, even the open-ended conclusion of the film (which I tend to hate) I loved.
-        Tom: As an aside this is one of the best 20-30 films I’ve ever seen; really loved it. 
-      similar-film: Fargo
-      ratings:
-        overall:
-          tom: 10
-          hannah: 10
-        components:
-          acting: 10
-          dialogue: 9
-          story: 9
-          entertainment: 9
-          cinematography: 10
-  - 'The Disaster Artist':
-      image: disaster-artist.png
-      genre: comedy
-      pick-of-the-week: no
-      reviewer: Tom
-      review-text: >
-        This movie is just an hilarious take on the making of the cult-classic The Room. It really hinged on Franco’s job playing Tommy Wiseau and he nailed it. His job was so convincing that it took me 60 mins of the film to realise that his co-star was his real life brother Dave Franco; that’s how convinced of his character I was subconsciously. Just a really solid and funny film.
-      similar-film: The Room
-      ratings:
-        overall:
-          tom: 9
-          hannah: 8
-        components:
-          acting: 9
-          dialogue: 8
-          story: 8
-          entertainment: 9
-          cinematography: 7
-  - 'Dear Zachary':
-      image: dear-zachary.png
-      genre: documentary
-      pick-of-the-week: no
-      reviewer: Tom
-      review-text: >
-        This is a doco that I’d heard was notoriously sad, and knew not much else about it. It follows the murder of Andrew Bagby and subsequent custody battle for his son Zachary. The cinematographic style was very quirky (I thought I was watching the wrong stream for the first 3 minutes) but it was paced well and was generally pretty good. I was, much to my suprise though, almost not sad at all at the end of the film. This raised a metaphysical question about what makes things sad. After a discussion I formed the opinion that to be sad a situation must imbue empathy for a living person (or concious entity) and importantly that empathy is proportional to how long that entity has to mourn and live with that pain. So this quelled my concerns of being a psycopath.
-      similar-film: Amanda Knox
-      ratings:
-        overall:
-          tom: 5
-          hannah: 4
-        components:
-          acting: 10
-          dialogue: 5
-          story: 8
-          entertainment: 4
-          cinematography: 4
+reviews:
+  - title: 'Three Billboards Outside Ebbing, Missouri'
+    year: 2017
+    image: three-billboards.png
+    genre: drama
+    pick-of-the-week: yes
+    reviewer: Hannah
+    review-text: >
+      Three Billboards Outside Ebbing, Missouri has a really long title and a 2 hour run time and I didn’t want it to end. After watching it we found out it was directed by Martin McDonagh and we thought who is that? The director of In Bruges and Seven Psychopaths, McDonagh obviously knows what he is doing. The acting was outstanding. The characters were caricatures of small town folk but with depth and realism. Sam Rockwell was a likable-while-also-terrible-person (a character that is found in both of McDonough’s excellent films) and for me, the star of the show. Frances McDormand and Woody Harrelson were tough, funny and emotive - much like the film. Every aspect of the film felt flawless, even the open-ended conclusion of the film (which I tend to hate) I loved.
+      Tom: As an aside this is one of the best 20-30 films I’ve ever seen; really loved it. 
+    similar-film: Fargo
+    ratings:
+      overall:
+        tom: 10
+        hannah: 10
+      components:
+        acting: 10
+        dialogue: 9
+        story: 9
+        entertainment: 9
+        cinematography: 10
+  - title: The Disaster Artist
+    year: 2017
+    image: disaster-artist.png
+    genre: comedy
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+      This movie is just an hilarious take on the making of the cult-classic The Room. It really hinged on Franco’s job playing Tommy Wiseau and he nailed it. His job was so convincing that it took me 60 mins of the film to realise that his co-star was his real life brother Dave Franco; that’s how convinced of his character I was subconsciously. Just a really solid and funny film.
+    similar-film: The Room
+    ratings:
+      overall:
+        tom: 9
+        hannah: 8
+      components:
+        acting: 9
+        dialogue: 8
+        story: 8
+        entertainment: 9
+        cinematography: 7
+  - title: Dear Zachary
+    year: 2008
+    image: dear-zachary.png
+    genre: documentary
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+      This is a doco that I’d heard was notoriously sad, and knew not much else about it. It follows the murder of Andrew Bagby and subsequent custody battle for his son Zachary. The cinematographic style was very quirky (I thought I was watching the wrong stream for the first 3 minutes) but it was paced well and was generally pretty good. I was, much to my suprise though, almost not sad at all at the end of the film. This raised a metaphysical question about what makes things sad. After a discussion I formed the opinion that to be sad a situation must imbue empathy for a living person (or concious entity) and importantly that empathy is proportional to how long that entity has to mourn and live with that pain. So this quelled my concerns of being a psycopath.
+    similar-film: Amanda Knox
+    ratings:
+      overall:
+        tom: 5
+        hannah: 4
+      components:
+        acting: 10
+        dialogue: 5
+        story: 8
+        entertainment: 4
+        cinematography: 4

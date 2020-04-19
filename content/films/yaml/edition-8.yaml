@@ -1,56 +1,59 @@
 edition: 8
-films:
-  - 'Game Night':
-      image: game-night.png
-      genre: comedy
-      pick-of-the-week: yes
-      reviewer: Hannah
-      review-text: >
-        Game Night was surprisingly good. The trailer made it out to be one those generic comedies filled with exaggerated caricatures, physical humour and outlandish awkward situations (think Sex Tape and Bad Teacher), but it was definitely better than that. Obviously written by some smarty-pants, the dialogue was witty and natural but still contained a few ridiculous scenes (eg. a character trying to clean a dog covered in blood using only a bottle of water over a white carpet? Come on now…). Overall it was generally clever, and more importantly funny. I especially liked the lack of emotional outpourings and meaningful conversations. This often annoys me in comedies: I came for the laughs, not the feelings. Also, just a bit of trivia: this was directed by John Francis Daley who played Sam Weir on Freaks and Geeks! Who would have thought?
-      similar-film: Horrible Bosses
-      ratings:
-        overall:
-          tom: 8
-          hannah: 8
-        components:
-          acting: 8
-          dialogue: 9
-          story: 8
-          entertainment: 10
-          cinematography: 7
-  - "Molly's Game":
-      image: mollys-game.png
-      genre: drama
-      pick-of-the-week: no
-      reviewer: Tom
-      review-text: >
-        Molly’s Game tells the pretty amazing story of Molly Bloom who apparently turned a near-death skiing accident during Olympics preparation into a lucrative career managing high-stakes celebrity poker games. The film is written and directed by Aaron Sorkin (pioneer and master of fast-paced Gilmore Girls / but intellectual dialogue) so the dialogue is excellent; importantly Jessica Chastain and Idris Elba do not disappoint in delivering in this respect. It’s a pretty interesting story, potentially more so being quite interested in poker, and is generally a very good film. Very importantly we later found out that one of the main poker playing characters - Player X - is real-life Spiderman star Tobey Maguire which is absolutely hilarious in the film’s context and makes the film worth seeing just to learn that context.
-      similar-film: The Social Network
-      ratings:
-        overall:
-          tom: 8
-          hannah: 7
-        components:
-          acting: 8
-          dialogue: 9
-          story: 8
-          entertainment: 7
-          cinematography: 7
-  - 'Downsizing':
-      image: downsizing.png
-      genre: sci-fi
-      pick-of-the-week: no
-      reviewer: Hannah
-      review-text: >
-        I really like miniatures so I thought I was going to love Downsizing – a science fiction movie about people being shrunk down and living in their own mini town (has anyone seen the borrowers?). But for some strange reason the movie totally went off track and became just a fairly normal drama with almost no reference to the people being mini for the second half of the movie. Seems weird to just ignore the most interesting part right? It has Matt Damon in it who I like, but his character was fairly shallow. The other main character was a Vietnamese woman played by the Thai-American Hong Chau. She used a pretty intense “Vietnamese” accent (naturally having an American accent) which really blurred the lines of racist imitation and acting for me. It’s a pretty big meh from me.
-      similar-film: Being John Malkovich (but bad)
-      ratings:
-        overall:
-          tom: 1
-          hannah: 4
-        components:
-          acting: 4
-          dialogue: 2
-          story: 2
-          entertainment: 2
-          cinematography: 4
+reviews:
+  - title: Game Night
+    year: 2018
+    image: game-night.png
+    genre: comedy
+    pick-of-the-week: yes
+    reviewer: Hannah
+    review-text: >
+      Game Night was surprisingly good. The trailer made it out to be one those generic comedies filled with exaggerated caricatures, physical humour and outlandish awkward situations (think Sex Tape and Bad Teacher), but it was definitely better than that. Obviously written by some smarty-pants, the dialogue was witty and natural but still contained a few ridiculous scenes (eg. a character trying to clean a dog covered in blood using only a bottle of water over a white carpet? Come on now…). Overall it was generally clever, and more importantly funny. I especially liked the lack of emotional outpourings and meaningful conversations. This often annoys me in comedies: I came for the laughs, not the feelings. Also, just a bit of trivia: this was directed by John Francis Daley who played Sam Weir on Freaks and Geeks! Who would have thought?
+    similar-film: Horrible Bosses
+    ratings:
+      overall:
+        tom: 8
+        hannah: 8
+      components:
+        acting: 8
+        dialogue: 9
+        story: 8
+        entertainment: 10
+        cinematography: 7
+  - title: "Molly's Game"
+    year: 2017
+    image: mollys-game.png
+    genre: drama
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+      Molly’s Game tells the pretty amazing story of Molly Bloom who apparently turned a near-death skiing accident during Olympics preparation into a lucrative career managing high-stakes celebrity poker games. The film is written and directed by Aaron Sorkin (pioneer and master of fast-paced Gilmore Girls / but intellectual dialogue) so the dialogue is excellent; importantly Jessica Chastain and Idris Elba do not disappoint in delivering in this respect. It’s a pretty interesting story, potentially more so being quite interested in poker, and is generally a very good film. Very importantly we later found out that one of the main poker playing characters - Player X - is real-life Spiderman star Tobey Maguire which is absolutely hilarious in the film’s context and makes the film worth seeing just to learn that context.
+    similar-film: The Social Network
+    ratings:
+      overall:
+        tom: 8
+        hannah: 7
+      components:
+        acting: 8
+        dialogue: 9
+        story: 8
+        entertainment: 7
+        cinematography: 7
+  - title: Downsizing
+    year: 2017
+    image: downsizing.png
+    genre: sci-fi
+    pick-of-the-week: no
+    reviewer: Hannah
+    review-text: >
+      I really like miniatures so I thought I was going to love Downsizing – a science fiction movie about people being shrunk down and living in their own mini town (has anyone seen the borrowers?). But for some strange reason the movie totally went off track and became just a fairly normal drama with almost no reference to the people being mini for the second half of the movie. Seems weird to just ignore the most interesting part right? It has Matt Damon in it who I like, but his character was fairly shallow. The other main character was a Vietnamese woman played by the Thai-American Hong Chau. She used a pretty intense “Vietnamese” accent (naturally having an American accent) which really blurred the lines of racist imitation and acting for me. It’s a pretty big meh from me.
+    similar-film: Being John Malkovich (but bad)
+    ratings:
+      overall:
+        tom: 1
+        hannah: 4
+      components:
+        acting: 4
+        dialogue: 2
+        story: 2
+        entertainment: 2
+        cinematography: 4

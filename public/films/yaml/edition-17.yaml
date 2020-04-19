@@ -1,56 +1,59 @@
 edition: 17
-films:
-  - 'Death Of Stalin':
-      image: death-of-stalin.png
-      genre: comedy
-      pick-of-the-week: yes
-      reviewer: Tom
-      review-text: >
-         *Death Of Stalin* is a satirical comedy about dicatorship and the tyrannical rule of Joseph Stalin during the soviet union. Steve Buschemi (Nikita Krushchev) leads a group of excellent performances by the 5-6 senior USSR officials jockeying for power after Stalin's death. The main comedic thread of the film is the absurdity of life under a tyrannical dictator and secret police. Citizens loudly affirm their loyalty to Stalin in private rooms, Molotov celebrates his wife's fate as gulag prisoner, other prisoners ritually exclaim "long live stalin" the second before their execution, Beria's (head of the secret police) dead pan delivery of grisly torture instructions for personal enemies of Stalin, amongst many more. It's genuinely funny and also provides an accessible and likely realistic portrayal of life under despotic rule. The performances are excellent - especially Buschemi and Simon Russell Beale (Beria) - as is the writing. A really solid film.
-      similar-film: Dr. Strangelove
-      ratings:
-        overall:
-          tom: 8
-          hannah: 8
-        components:
-          acting: 9
-          dialogue: 9
-          story: 7
-          entertainment: 8
-          cinematography: 7
-  - 'Bird Box':
-      image: bird-box.png
-      genre: thriller
-      pick-of-the-week: no
-      reviewer: Hannah
-      review-text: >
-        Birdbox is a post-apocalyptic thriller (would not call this is horror imo) about monsters that make you kill yourself if you look at them. It's got Sandra Bullock in it, she's alright. There's also John Malkovich which was a surprise. And then there is Trevante Rhodes, who is ridiculously muscular for an end-of-world-movie character but I'm not complaining. Overall it was definitely entertaining, and it did a few things quite well. The set up for the apocalypse was good, and never actually seeing or knowing the why of the 'monsters' was surprisingly restrained from a big budget movie like this. But the ending was very mild and the whole thing was a little too poor man's version of A Quiet Place for me.
-      similar-film: A Quiet Place 
-      ratings:
-        overall:
-          tom: 6
-          hannah: 6
-        components:
-          acting: 6
-          dialogue: 4
-          story: 5
-          entertainment: 7
-          cinematography: 6
-  - 'Baskin':
-      image: baskin.png
-      genre: horror
-      pick-of-the-week: no
-      reviewer: Tom
-      review-text: >
-        *Baskin* is an extremely unsettling Turkish horror film where a group of cops investigate a distress signal from an abandoned building. As has been written many times here before (we watch a crap load of horror) and this is legit one of the most unnerving I've seen. The central villain, Baba, is played by the actor Mehmet Cerrahoglue who suffers from a disfiguring skin condition in real life. His performance is amazing, and very creepy. Not much else to write home about but watch if you want to be creeped the fuck out.
-      similar-film: Hostel
-      ratings:
-        overall:
-          tom: 4
-          hannah: 4
-        components:
-          acting: 7
-          dialogue: 3
-          story: 3
-          entertainment: 5
-          cinematography: 3
+reviews:
+  - title: Death Of Stalin
+    year: 2017
+    image: death-of-stalin.png
+    genre: comedy
+    pick-of-the-week: yes
+    reviewer: Tom
+    review-text: >
+       *Death Of Stalin* is a satirical comedy about dicatorship and the tyrannical rule of Joseph Stalin during the soviet union. Steve Buschemi (Nikita Krushchev) leads a group of excellent performances by the 5-6 senior USSR officials jockeying for power after Stalin's death. The main comedic thread of the film is the absurdity of life under a tyrannical dictator and secret police. Citizens loudly affirm their loyalty to Stalin in private rooms, Molotov celebrates his wife's fate as gulag prisoner, other prisoners ritually exclaim "long live stalin" the second before their execution, Beria's (head of the secret police) dead pan delivery of grisly torture instructions for personal enemies of Stalin, amongst many more. It's genuinely funny and also provides an accessible and likely realistic portrayal of life under despotic rule. The performances are excellent - especially Buschemi and Simon Russell Beale (Beria) - as is the writing. A really solid film.
+    similar-film: Dr. Strangelove
+    ratings:
+      overall:
+        tom: 8
+        hannah: 8
+      components:
+        acting: 9
+        dialogue: 9
+        story: 7
+        entertainment: 8
+        cinematography: 7
+  - title: Bird Box
+    year: 2018
+    image: bird-box.png
+    genre: thriller
+    pick-of-the-week: no
+    reviewer: Hannah
+    review-text: >
+      Birdbox is a post-apocalyptic thriller (would not call this is horror imo) about monsters that make you kill yourself if you look at them. It's got Sandra Bullock in it, she's alright. There's also John Malkovich which was a surprise. And then there is Trevante Rhodes, who is ridiculously muscular for an end-of-world-movie character but I'm not complaining. Overall it was definitely entertaining, and it did a few things quite well. The set up for the apocalypse was good, and never actually seeing or knowing the why of the 'monsters' was surprisingly restrained from a big budget movie like this. But the ending was very mild and the whole thing was a little too poor man's version of A Quiet Place for me.
+    similar-film: A Quiet Place 
+    ratings:
+      overall:
+        tom: 6
+        hannah: 6
+      components:
+        acting: 6
+        dialogue: 4
+        story: 5
+        entertainment: 7
+        cinematography: 6
+  - title: Baskin
+    year: 2015
+    image: baskin.png
+    genre: horror
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+      *Baskin* is an extremely unsettling Turkish horror film where a group of cops investigate a distress signal from an abandoned building. As has been written many times here before (we watch a crap load of horror) and this is legit one of the most unnerving I've seen. The central villain, Baba, is played by the actor Mehmet Cerrahoglue who suffers from a disfiguring skin condition in real life. His performance is amazing, and very creepy. Not much else to write home about but watch if you want to be creeped the fuck out.
+    similar-film: Hostel
+    ratings:
+      overall:
+        tom: 4
+        hannah: 4
+      components:
+        acting: 7
+        dialogue: 3
+        story: 3
+        entertainment: 5
+        cinematography: 3

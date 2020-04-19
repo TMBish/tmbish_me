@@ -439,3 +439,32 @@ div.col.col-2.post-date {
   align-text: right;
   max-width: 300px;
 }
+
+/* Reactable */
+
+.other-films {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.other-films a {
+  color: inherit;
+}
+
+.other-films-header {
+  border-bottom: 2px solid #555;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.other-films-header:hover {
+  background-color: #eee;
+}
+
+.number {
+  font-family: "Fira Mono", Consolas, Monaco, monospace;
+  font-size: 13.5px;
+  white-space: pre;
+}
+

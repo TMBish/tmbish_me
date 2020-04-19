@@ -1,56 +1,59 @@
 edition: 19
-films:
-  - 'Midsommar':
-      image: midsommar.png
-      genre: horror
-      pick-of-the-week: yes
-      reviewer: Tom
-      review-text: >
-        We'd been personally very excited for Ari Aster's follow up to his masterpiece *Hereditary* and *Midsommar* mostly didn't dissapoint. *Midsommar* follows a traumitized Dani on what she thinks will be a cathartic trip to Sweeden with her boyfriend and friends, one of which introduces them to his Sweedish cult. The film is beatuful to look at and is viscerally tense from start to finish. The last third of the film falls a little bit flat, however, this is still a must watch. 
-      similar-film: The Endless 
-      ratings:
-        overall:
-          tom: 8
-          hannah: 8
-        components:
-          acting: 9
-          dialogue: 8
-          story: 6
-          entertainment: 7
-          cinematography: 9
-  - 'Parasite':
-      image: parasite.png
-      genre: thriller
-      pick-of-the-week: no
-      reviewer: Tom
-      review-text: >
-        Perhaps this film falls victim to insurmountable expectations but I found it slightly dissapointing. I can't fault the acting or cinematography as it was an absolutely stunning film visually and the cast were all excellent. It felt a little bit lacking substantively to me and a little heavy handed with what it did have (perhaps this was a english translation thing though). In particular, the scenes and dialogue touching the main theme of social order / class didn't have the depth and nuance I was expecting for a film of this calibre. It was a very cool film and I enjoyed it thoroughly but grading it on the curve of Best Picture Winners I think it left a little to be desired. 
-      similar-film: Classy Snowpiercer
-      ratings:
-        overall:
-          tom: 8
-          hannah: 7
-        components:
-          acting: 8
-          dialogue: 7
-          story: 7
-          entertainment: 8
-          cinematography: 10
-  - 'Greta':
-      image: greta.png
-      genre: horror
-      pick-of-the-week: no
-      reviewer: Hannah
-      review-text: >
-        Greta started strong and was pretty good in the middle and then it was like they ran out of money for writers at the end. Horror movies can get away with a lot and still be enjoyable in my book, but the last 15-20 minutes of this movie just lost it. A woman goes missing for weeks, and both her father and roommate are very worried, but NO ONE CALLS THE POLICE? Silly. Apart from the believability of the last bit, the story had a great build and there were quite a few thrilling scenes (hard to achieve with a B grade horror like this).
-      similar-film: Shitty Misery 
-      ratings:
-        overall:
-          tom: 5
-          hannah: 5
-        components:
-          acting: 7
-          dialogue: 5
-          story: 5
-          entertainment: 7
-          cinematography: 2
+reviews:
+  - title: Midsommar
+    year: 2019
+    image: midsommar.png
+    genre: horror
+    pick-of-the-week: yes
+    reviewer: Tom
+    review-text: >
+      We'd been personally very excited for Ari Aster's follow up to his masterpiece *Hereditary* and *Midsommar* mostly didn't dissapoint. *Midsommar* follows a traumitized Dani on what she thinks will be a cathartic trip to Sweeden with her boyfriend and friends, one of which introduces them to his Sweedish cult. The film is beatuful to look at and is viscerally tense from start to finish. The last third of the film falls a little bit flat, however, this is still a must watch. 
+    similar-film: The Endless 
+    ratings:
+      overall:
+        tom: 8
+        hannah: 8
+      components:
+        acting: 9
+        dialogue: 8
+        story: 6
+        entertainment: 7
+        cinematography: 9
+  - title: Parasite
+    year: 2019
+    image: parasite.png
+    genre: thriller
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+      Perhaps this film falls victim to insurmountable expectations but I found it slightly dissapointing. I can't fault the acting or cinematography as it was an absolutely stunning film visually and the cast were all excellent. It felt a little bit lacking substantively to me and a little heavy handed with what it did have (perhaps this was a english translation thing though). In particular, the scenes and dialogue touching the main theme of social order / class didn't have the depth and nuance I was expecting for a film of this calibre. It was a very cool film and I enjoyed it thoroughly but grading it on the curve of Best Picture Winners I think it left a little to be desired. 
+    similar-film: Classy Snowpiercer
+    ratings:
+      overall:
+        tom: 8
+        hannah: 7
+      components:
+        acting: 8
+        dialogue: 7
+        story: 7
+        entertainment: 8
+        cinematography: 10
+  - title: Greta
+    year: 2018
+    image: greta.png
+    genre: horror
+    pick-of-the-week: no
+    reviewer: Hannah
+    review-text: >
+      Greta started strong and was pretty good in the middle and then it was like they ran out of money for writers at the end. Horror movies can get away with a lot and still be enjoyable in my book, but the last 15-20 minutes of this movie just lost it. A woman goes missing for weeks, and both her father and roommate are very worried, but NO ONE CALLS THE POLICE? Silly. Apart from the believability of the last bit, the story had a great build and there were quite a few thrilling scenes (hard to achieve with a B grade horror like this).
+    similar-film: Shitty Misery 
+    ratings:
+      overall:
+        tom: 5
+        hannah: 5
+      components:
+        acting: 7
+        dialogue: 5
+        story: 5
+        entertainment: 7
+        cinematography: 2

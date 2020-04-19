@@ -1,59 +1,62 @@
 edition: 13
-films:
-  - 'I, Tonya':
-      image: i-tonya.png
-      genre: drama
-      pick-of-the-week: yes
-      reviewer: Tom
-      review-text: >
-        *I, Tonya* is based on the true story of US figure skater Tonya Harding who was implicated in the decapacitating assault of competing US figure skater Nancy Kerrigan. 
-        The characters and setting are both extremely gritty and confronting; the characters' relationships are replete with emotional and physical abuse especially towards Margot Robbie's character Tonya. 
-        It's hard to watch at times but Robbie and Alison Janney are both exceptional in their roles. 
-        Not quite sure what it was missing but just didn't quite hit the spot for a top tier true story drama; still an entertaining watch.
-      similar-film: Molly's Game
-      ratings:
-        overall:
-          tom: 7
-          hannah: 6
-        components:
-          acting: 8
-          dialogue: 8
-          story: 7
-          entertainment: 7
-          cinematography: 7
-  - 'Under The Shadow':
-      image: under-the-shadow.png
-      genre: horror
-      pick-of-the-week: no
-      reviewer: Hannah
-      review-text: >
-        Under the Shadow is a unique horror film. Set in 1980's Iran, just after the revolution, a mother and daughter are haunted by an evil spirit. The backdrop of being in a war-torn area, and seeing the aftermath of the changes made to this society through an individual woman's point of view was cool, and felt a little "this is how handmaids tale began." As well as the setting being interesting, the horror aspects were done really well. Well paced, use of tension and seemingly realistic. I'm sure there are some connections to be drawn between what was happening to this woman due to society and then this evil spirit (not being able to run away from it? Being fearful for her daughter's future?) but I loved that the film didn't shove this in your face. Should be noted that it is in Persian, and so it was subtitled which for a horror movie is a bit of a downer, but still worth a watch imo.
-      similar-film: The Invitation
-      ratings:
-        overall:
-          tom: 5
-          hannah: 7
-        components:
-          acting: 8
-          dialogue: 7
-          story: 8
-          entertainment: 7
-          cinematography: 8
-  - 'BlacKKKlansmens':
-      image: blackkklansmen.png
-      genre: drama
-      pick-of-the-week: no
-      reviewer: Tom
-      review-text: >
-        *BlacKKKlansmen* follows the infiltration of a local KKK chapter by young African American cop Ron Stallworth (John Washington) and his partner Flip Zimmerman (Adam Driver). I found it really hard to get past a central and glaring plot hole that required Ron to act - on the phone - as a prospective white KKK member yet he needed to get Adam Driver to attend all in-person interactions and pretend to be him (for obvious reasons). Why Adam Driver couldn't complete both roles I really have no idea, it certainly would have saved a lot of work... Generally, the pacing was a bit slow and while it had an interesting cinematic style it lacked a meaty plot and enough humour to make it an excellent movie. The intimations to the racism of modern conservative politicians was a bit too heavy handed and could have been more impactful. Eric from that 70s show played KKK grand wizard David Duke and was excellent; his likeness to the real man is pretty wild.
-      similar-film: Django Unchained
-      ratings:
-        overall:
-          tom: 6
-          hannah: 5
-        components:
-          acting: 6
-          dialogue: 7
-          story: 6
-          entertainment: 7
-          cinematography: 8
+reviews:
+  - title: 'I, Tonya'
+    year: 2017
+    image: i-tonya.png
+    genre: drama
+    pick-of-the-week: yes
+    reviewer: Tom
+    review-text: >
+      *I, Tonya* is based on the true story of US figure skater Tonya Harding who was implicated in the decapacitating assault of competing US figure skater Nancy Kerrigan. 
+      The characters and setting are both extremely gritty and confronting; the characters' relationships are replete with emotional and physical abuse especially towards Margot Robbie's character Tonya. 
+      It's hard to watch at times but Robbie and Alison Janney are both exceptional in their roles. 
+      Not quite sure what it was missing but just didn't quite hit the spot for a top tier true story drama; still an entertaining watch.
+    similar-film: Molly's Game
+    ratings:
+      overall:
+        tom: 7
+        hannah: 6
+      components:
+        acting: 8
+        dialogue: 8
+        story: 7
+        entertainment: 7
+        cinematography: 7
+  - title: Under The Shadow
+    year: 2016
+    image: under-the-shadow.png
+    genre: horror
+    pick-of-the-week: no
+    reviewer: Hannah
+    review-text: >
+      Under the Shadow is a unique horror film. Set in 1980's Iran, just after the revolution, a mother and daughter are haunted by an evil spirit. The backdrop of being in a war-torn area, and seeing the aftermath of the changes made to this society through an individual woman's point of view was cool, and felt a little "this is how handmaids tale began." As well as the setting being interesting, the horror aspects were done really well. Well paced, use of tension and seemingly realistic. I'm sure there are some connections to be drawn between what was happening to this woman due to society and then this evil spirit (not being able to run away from it? Being fearful for her daughter's future?) but I loved that the film didn't shove this in your face. Should be noted that it is in Persian, and so it was subtitled which for a horror movie is a bit of a downer, but still worth a watch imo.
+    similar-film: The Invitation
+    ratings:
+      overall:
+        tom: 5
+        hannah: 7
+      components:
+        acting: 8
+        dialogue: 7
+        story: 8
+        entertainment: 7
+        cinematography: 8
+  - title: BlacKKKlansmens
+    year: 2018
+    image: blackkklansmen.png
+    genre: drama
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+      *BlacKKKlansmen* follows the infiltration of a local KKK chapter by young African American cop Ron Stallworth (John Washington) and his partner Flip Zimmerman (Adam Driver). I found it really hard to get past a central and glaring plot hole that required Ron to act - on the phone - as a prospective white KKK member yet he needed to get Adam Driver to attend all in-person interactions and pretend to be him (for obvious reasons). Why Adam Driver couldn't complete both roles I really have no idea, it certainly would have saved a lot of work... Generally, the pacing was a bit slow and while it had an interesting cinematic style it lacked a meaty plot and enough humour to make it an excellent movie. The intimations to the racism of modern conservative politicians was a bit too heavy handed and could have been more impactful. Eric from that 70s show played KKK grand wizard David Duke and was excellent; his likeness to the real man is pretty wild.
+    similar-film: Django Unchained
+    ratings:
+      overall:
+        tom: 6
+        hannah: 5
+      components:
+        acting: 6
+        dialogue: 7
+        story: 6
+        entertainment: 7
+        cinematography: 8

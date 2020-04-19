@@ -1,0 +1,52 @@
+---
+title: "7 Mar 20"
+author: ~
+date: '2020-03-07'
+slug: 7-mar-20
+categories: []
+tags: []
+highlight: "kate"
+description: "'Mr. Pelle's invited us to an authentic hippie midsummer at his yodeling farm.' - Mark"
+screencap: "E19"
+edition: "7 Mar 20"
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(highcharter)
+library(radarchart)
+library(yaml)
+library(shiny)
+library(purrr)
+library(glue)
+library(reactable)
+library(tidyverse)
+
+source("R/film-review-utils.R")
+       
+# Load Edition YAML
+yaml = yaml.load_file("yaml/edition-20.yaml")
+
+# Edition
+ed = yaml$edition
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+yaml %>%
+pluck("reviews") %>%
+keep(~!is.null(.$reviewer)) %>%
+map(compile_review, edition = ed) %>% 
+tagList()
+```
+
+## Other films we watched
+
+<br>
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+yaml %>%
+  pluck("reviews") %>%
+  keep(~is.null(.$reviewer)) %>%
+  compile_ratings()
+```
+

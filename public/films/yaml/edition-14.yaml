@@ -1,56 +1,59 @@
 edition: 14
-films:
-  - 'Tragedy Girls':
-      image: tragedy-girls.png
-      genre: horror
-      pick-of-the-week: yes
-      reviewer: Tom
-      review-text: >
-        Sadie and McKayla are high school aged best friends who run a true crime blog called 'Tradgedy Girls'. Enthusiasts of crime and serial murder they portray themselves as keen observers of their town’s spree of killings; however, they end up becoming more involved than the viewer initially expects. There's almost no genre I find more entertaining than horror comedy (*Tucker and Dale*, *Shaun of the Dead* etc) so I was probably pre-disposed to liking this film. I read a few negative reviews that zeroed in on a superficial and vacuous “satire” of social media but I thought it was well done and quite funny if you're not thinking too hard about it.
-      similar-film: Final Girls
-      ratings:
-        overall:
-          tom: 8
-          hannah: 7
-        components:
-          acting: 8
-          dialogue: 8
-          story: 8
-          entertainment: 9
-          cinematography: 7
-  - 'Mom and Dad':
-      image: mom-and-dad.png
-      genre: horror
-      pick-of-the-week: no
-      reviewer: Hannah
-      review-text: >
-        *Mom and Dad* had a great set up. A new take on a Zombie apocalypse where all parents want to kill their offspring. Selma Blair plays the mum, and quite well, and then we have Nicolas Cage. Very strange acting job by him, but also weird writing. He plays the dad who flips between an average joe (tickling his son, hating his job, protective of his teenage daughter) then randomly at times to some crazed maniac (having a violent mental breakdown when his wife asks him about an expensive unnecessary purchase he made, telling a highly sexual story to his very young innocent son), and this is even before all the parents are meant to go crazy. The story was cool though, and the violence was fun. It was definitely too short though and ended way before it felt it should. All round entertaining movie, just with a few screws loose.
-      similar-film: The Crazies
-      ratings:
-        overall:
-          tom: 5
-          hannah: 6
-        components:
-          acting: 6
-          dialogue: 5
-          story: 7
-          entertainment: 6
-          cinematography: 3
-  - 'Hell House LLC':
-      image: hell-house.png
-      genre: horror
-      pick-of-the-week: no
-      reviewer: Tom
-      review-text: >
-        *Hell House* has a pretty good, scary opening scene where found-footage of the opening night at a new haunted house takes you through a supernatural event which leaves 15 of the patrons dead and the haunted house closed by its regulator presumably. We then retrace the steps of the group of friends who set up the haunted house until the film loops back to events of opening scene. It got some firm positive recommendations from horror movie blogs, but it was definitively mediocre. A bit scary, had typically bad acting and the dialogue was pretty beige. Worth a watch only if you love horror films.
-      similar-film: The Visit
-      ratings:
-        overall:
-          tom: 5
-          hannah: 5
-        components:
-          acting: 5
-          dialogue: 4
-          story: 5
-          entertainment: 5
-          cinematography: 5
+reviews:
+  - title: Tragedy Girls
+    year: 2017
+    image: tragedy-girls.png
+    genre: horror
+    pick-of-the-week: yes
+    reviewer: Tom
+    review-text: >
+      Sadie and McKayla are high school aged best friends who run a true crime blog called 'Tradgedy Girls'. Enthusiasts of crime and serial murder they portray themselves as keen observers of their town’s spree of killings; however, they end up becoming more involved than the viewer initially expects. There's almost no genre I find more entertaining than horror comedy (*Tucker and Dale*, *Shaun of the Dead* etc) so I was probably pre-disposed to liking this film. I read a few negative reviews that zeroed in on a superficial and vacuous “satire” of social media but I thought it was well done and quite funny if you're not thinking too hard about it.
+    similar-film: Final Girls
+    ratings:
+      overall:
+        tom: 8
+        hannah: 7
+      components:
+        acting: 8
+        dialogue: 8
+        story: 8
+        entertainment: 9
+        cinematography: 7
+  - title: Mom and Dad
+    year: 2017
+    image: mom-and-dad.png
+    genre: horror
+    pick-of-the-week: no
+    reviewer: Hannah
+    review-text: >
+      *Mom and Dad* had a great set up. A new take on a Zombie apocalypse where all parents want to kill their offspring. Selma Blair plays the mum, and quite well, and then we have Nicolas Cage. Very strange acting job by him, but also weird writing. He plays the dad who flips between an average joe (tickling his son, hating his job, protective of his teenage daughter) then randomly at times to some crazed maniac (having a violent mental breakdown when his wife asks him about an expensive unnecessary purchase he made, telling a highly sexual story to his very young innocent son), and this is even before all the parents are meant to go crazy. The story was cool though, and the violence was fun. It was definitely too short though and ended way before it felt it should. All round entertaining movie, just with a few screws loose.
+    similar-film: The Crazies
+    ratings:
+      overall:
+        tom: 5
+        hannah: 6
+      components:
+        acting: 6
+        dialogue: 5
+        story: 7
+        entertainment: 6
+        cinematography: 3
+  - title: Hell House LLC
+    year: 2015
+    image: hell-house.png
+    genre: horror
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+      *Hell House* has a pretty good, scary opening scene where found-footage of the opening night at a new haunted house takes you through a supernatural event which leaves 15 of the patrons dead and the haunted house closed by its regulator presumably. We then retrace the steps of the group of friends who set up the haunted house until the film loops back to events of opening scene. It got some firm positive recommendations from horror movie blogs, but it was definitively mediocre. A bit scary, had typically bad acting and the dialogue was pretty beige. Worth a watch only if you love horror films.
+    similar-film: The Visit
+    ratings:
+      overall:
+        tom: 5
+        hannah: 5
+      components:
+        acting: 5
+        dialogue: 4
+        story: 5
+        entertainment: 5
+        cinematography: 5
