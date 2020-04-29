@@ -24,10 +24,41 @@ library(tidyverse)
 
 source("R/film-review-utils.R")
 
-df = read_csv("D:/googledrive/Tom and Hannah/Movies/reviews.csv")
+#df = read_csv("D:/googledrive/Tom and Hannah/Movies/reviews.csv")
+df = read_csv("C:/Users/tomwb/Desktop/reviews.csv")
+
+
+oamd_search = function(title, year) {
+  
+  endpoint = 
+    glue("http://www.omdbapi.com/?t={title}&apikey=309178b8") %>%
+    URLencode()
+  
+  meta = 
+    httr::GET(endpoint) %>%
+    httr::content(type = "application/json") %>%
+    tibble::as_tibble() %>%
+    tidyr::unnest_wider(Ratings) %>%
+    janitor::clean_names() %>%
+    filter(source == "Rotten Tomatoes")
+  
+  meta %>%
+    select(runtime, value, img_url = poster)
+
+}
 
 
 # Get Images From Open Movies
+df1 =
+  df %>%
+  mutate(
+    omdb_metadata = 
+      pmap(
+        .l = list(title, year),
+        .f = possibly(oamd_search, otherwise = NULL)
+      )
+  )
+
 
 
 
