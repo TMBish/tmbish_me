@@ -1,14 +1,14 @@
 ---
-title: "All Reviews & Ratings"
+title: "19 Apr 20"
 author: ~
-date: '2100-01-01'
-slug: all-reviews
+date: '2021-04-19'
+slug: 19-apr-20
 categories: []
 tags: []
 highlight: "kate"
-description: "All our reviews and ratings in one place."
-screencap: "ALL-1"
-edition: "All Ratings"
+description: "'Only thing more brilliant than inventing something that makes you invisible is not inventing it, but making you think he did.' - Tom Griffin"
+screencap: "E20"
+edition: "19 Apr 20"
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}

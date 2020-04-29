@@ -22,9 +22,66 @@ library(glue)
 library(reactable)
 library(tidyverse)
 
+source("R/film-review-utils.R")
 
-df = read_csv("D:/googdriv")
+df = read_csv("D:/googledrive/Tom and Hannah/Movies/reviews.csv")
 
+
+# Get Images From Open Movies
+
+
+
+```
+
+
+```{r}
+
+df %>%
+mutate(
+  img = "https://m.media-amazon.com/images/M/MV5BNzE3Mzc5NTc4M15BMl5BanBnXkFtZTgwMDYwNzM3MjI@._V1_SX300.jpg"
+) %>%
+select(-review_text, -pick_of_the_week, -acting, -story, -dialogue, -entertainment, -cinematography, -image) %>%
+select(img, title, year, everything()) %>%
+rename_all(str_to_title) %>%
+reactable(
+  compact = TRUE,
+  class = "other-films",
+  pagination = FALSE,
+  defaultColDef = colDef(
+    headerClass = "other-films-header", 
+    align = "right",
+    footerStyle = list(fontWeight = "bold")
+  ),
+  # details = 
+  #   function(index) {
+  #     film <- ratings[index, ] %>% select(acting, dialogue, cinematography, entertainment, story)
+  #     htmltools::div(
+  #       style = "padding: 16px", 
+  #       reactable(film, outlined = TRUE,
+  #       defaultColDef = colDef(header = str_to_upper)
+  #     )
+  #     )
+  #   }
+  # ,
+  columns = list(
+    Img = colDef(
+        name = "",
+        cell = function(value, index) {
+          div(
+            img(style = "height: 142px; width: 100px", class = "flag", alt = "", src = value)
+          )
+        }
+    ),
+    Tom = colDef(cell=function(value) rating_stars(value)),
+    Hannah = colDef(cell=function(value) rating_stars(value)),
+    Genre = colDef(
+    cell = function(value) {
+      htmltools::span(class = "label upper outline warning", value)
+      }  
+    )
+    
+  )
+)
 
 
 ```
