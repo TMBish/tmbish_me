@@ -218,3 +218,18 @@ compile_ratings = function(yaml_chunk) {
     )
 
 }
+
+rating_stars <- function(rating, max_rating = 10) {
+  star_icon <- function(empty = FALSE) {
+    tagAppendAttributes(shiny::icon("star"),
+                        style =  paste("color:", if (empty) "#edf0f2" else "#F7C919"),
+                        "aria-hidden" = "true"
+    )
+  }
+  rounded_rating <- floor(rating + 0.5)  # always round up
+  stars <- lapply(seq_len(max_rating), function(i) {
+    if (i <= rounded_rating) star_icon() else star_icon(empty = TRUE)
+  })
+  label <- sprintf("%s out of %s", rating, max_rating)
+  div(title = label, "aria-label" = label, role = "img", stars)
+}
