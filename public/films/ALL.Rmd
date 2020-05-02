@@ -53,7 +53,7 @@ oamd_search = function(title, year) {
     janitor::clean_names() 
   
   meta %>%
-    select(runtime, value, img_url = poster, imdb = imdb_rating, rotten_tomatoes = value)
+    select(runtime, value, img_url = poster, imdb = imdb_rating, rotten_tomatoes = value, director, actors, plot, box_office)
 
 }
 
@@ -75,20 +75,25 @@ df =
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 
-df %>%
-select(
-  -review_text, -pick_of_the_week, -acting, -story, 
-  -dialogue, -entertainment, -cinematography, -image, 
-  -reviewer, -edition, -similar_film
-) %>%
-select(img_url, title, year, genre, runtime, rotten_tomatoes, imdb, everything()) %>%
-mutate(
-  genre = genre %>% str_to_lower(),
-  rotten_tomatoes = rotten_tomatoes %>% str_remove("%") %>% as.numeric(),
-  imdb = imdb %>% as.numeric(),
-  runtime = runtime %>% str_remove(" min") %>% as.numeric()
-) %>%
+rt_input = 
+  df %>%
+  # select(
+  #   -review_text, -pick_of_the_week, -acting, -story, 
+  #   -dialogue, -entertainment, -cinematography, -image, 
+  #   -reviewer, -edition, -similar_film
+  # ) %>%
+  select(img_url, title, year, genre, runtime, rotten_tomatoes, imdb, tom, hannah) %>%
+  mutate(
+    genre = genre %>% str_to_lower(),
+    rotten_tomatoes = rotten_tomatoes %>% str_remove("%") %>% as.numeric(),
+    imdb = imdb %>% as.numeric(),
+    runtime = runtime %>% str_remove(" min") %>% as.numeric()
+  ) 
+
+rt_input %>%
 reactable(
+  # Options
+  # ___________
   compact = FALSE,
   class = "other-films",
   # Column Groups
@@ -110,7 +115,9 @@ reactable(
     align = "center",
     footerStyle = list(fontWeight = "bold")
   ),
+  
   # Column Definitions
+  # ___________
   columns = list(
     img_url = colDef(
         name = "",
@@ -150,7 +157,7 @@ reactable(
       cell=function(value) {
         p(style = "font-size: 18px",
           span(style = "color: #F7C919; font-weight: bold", value), 
-          span(style = "color: #edf0f2; font-weight: bold", " / 10")
+          span(style = "color: rgba(0, 0, 0, 0.); font-weight: bold", " / 10")
         )
       } 
     ),
@@ -159,11 +166,93 @@ reactable(
       cell=function(value) {
         p(style = "font-size: 18px",
           span(style = "color: #F7C919; font-weight: bold", value), 
-          span(style = "color: #edf0f2; font-weight: bold", " / 10")
+          span(style = "color: rgba(0, 0, 0, 0.1); font-weight: bold", " / 10")
         )
       } 
     )
-  )
+  ),
+  
+  # Row Detail
+  # ___________
+  details = function(index) {
+    
+    
+    film = df[index, ]
+
+    
+    # Feild 
+    film_detail_field = function(name, value) {
+      if (is.na(value)) {
+        NULL
+      } else {
+        tagList(
+          div(class = "film-detail-name", name), 
+          value
+        )
+      }
+    }
+    
+    detail = 
+      div(
+        class = "film-detail",
+                 
+        # Details Header
+        div(
+          class = "film-detail-header",
+          film$title,
+          span(
+            class = "film-detail-name", 
+            str_c("  ", film$year)
+          )
+        ),
+        
+        # Details
+        film_detail_field("Plot", film$plot),
+        
+        # Review
+        film_detail_field(
+          
+          glue("Our Review [{str_to_upper(film$reviewer)}]"), 
+          
+          markdown::markdownToHTML(
+            text = if(is.na(film$review_text)) "" else film$review_text, 
+            fragment.only = TRUE
+          ) %>% 
+          HTML()
+          
+        ),
+        
+        # Components
+        film_detail_field(
+          "Our Rating Components",
+          
+          reactable(
+              film %>% 
+              select(acting, dialogue, story, entertainment, cinematography) %>%
+              pivot_longer(everything(), names_to = "Component", values_to = "Score") %>%
+              mutate(Component = str_to_title(Component))
+            ,
+            pagination = FALSE,
+            defaultColDef = colDef(headerClass = "film-detail-components-header",  align = "right"),
+            fullWidth = FALSE,
+            class = "film-detail-components"
+          )
+          
+        ),
+        
+        # Director
+        film_detail_field("Director", film$director),
+        
+        # Actors
+        film_detail_field("Actors", film$actors),
+        
+        # Box Office
+        film_detail_field("Box Office", film$box_office)
+        
+    )
+
+    detail
+  }
 )
 
 
