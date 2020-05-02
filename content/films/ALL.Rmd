@@ -157,7 +157,7 @@ reactable(
       cell=function(value) {
         p(style = "font-size: 18px",
           span(style = "color: #F7C919; font-weight: bold", value), 
-          span(style = "color: rgba(0, 0, 0, 0.); font-weight: bold", " / 10")
+          span(style = "color: rgba(0, 0, 0, 0.1); font-weight: bold", " / 10")
         )
       } 
     ),
@@ -212,13 +212,13 @@ reactable(
         # Review
         film_detail_field(
           
-          glue("Our Review [{str_to_upper(film$reviewer)}]"), 
+          glue("Our Review [{str_to_upper(film$reviewer)}]"), film$review_text
           
-          markdown::markdownToHTML(
-            text = if(is.na(film$review_text)) "" else film$review_text, 
-            fragment.only = TRUE
-          ) %>% 
-          HTML()
+          # markdown::markdownToHTML(
+          #   text = if(is.na(film$review_text)) "" else film$review_text, 
+          #   fragment.only = TRUE
+          # ) %>% 
+          # htmltools::HTML()
           
         ),
         
@@ -252,6 +252,7 @@ reactable(
     )
 
     detail
+    
   }
 )
 
