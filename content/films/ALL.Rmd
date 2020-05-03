@@ -23,7 +23,7 @@ library(reactable)
 library(tidyverse)
 #library(htmltools)
 
-source("R/film-review-utils.R")
+#source("R/film-review-utils.R")
 #source("content/films/R/film-review-utils.R")
 
 #df = read_csv("D:/googledrive/Tom and Hannah/Movies/reviews.csv")
@@ -232,9 +232,10 @@ reactable(
           if (is.na(film$review_text)) {
             p()
           } else {
-            film$review_text %>%
-            markdown::markdownToHTML(text = ., fragment.only = TRUE) %>%
-            shiny::HTML()
+            p(film$review_text)
+            # markdown::markdownToHTML(text = ., fragment.only = TRUE) %>%
+            # HTML() %>%
+            # div()
           }
         ),
         
