@@ -219,7 +219,7 @@ reactable(
         # Review
         film_detail_field(
           glue("Our Review [{str_to_upper(film$reviewer)}]"),
-          p(film$review_text)
+          film$review_text
         ),
 
           # markdown::markdownToHTML(
