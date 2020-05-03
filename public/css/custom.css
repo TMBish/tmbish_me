@@ -499,7 +499,7 @@ div .other-films .rt-td {
 }
 
 .film-detail-components-header {
-  background-color: #FFFE61;
+  background-color: #F7C919;
   border-bottom-color: #50514f;
   border-bottom-width: 1px;
   color: #50514f;
@@ -507,4 +507,10 @@ div .other-films .rt-td {
 
 .rt-search {
   width: 200px
+}
+
+.rt-tbody .rt-td {
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }

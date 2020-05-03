@@ -1,5 +1,5 @@
 ---
-title: "All Reviews & Ratings"
+title: "All Film Ratings"
 author: ~
 date: '2100-01-01'
 slug: all-reviews
@@ -21,7 +21,7 @@ library(purrr)
 library(glue)
 library(reactable)
 library(tidyverse)
-library(htmltools)
+#library(htmltools)
 
 source("R/film-review-utils.R")
 #source("content/films/R/film-review-utils.R")
@@ -68,7 +68,20 @@ df =
         .f = possibly(oamd_search, otherwise = NULL)
       )
   ) %>%
-  unnest_wider(omdb_metadata)
+  unnest_wider(omdb_metadata) %>%
+  mutate(
+    genre = str_to_lower(genre),
+    genre_tag = case_when(
+      genre == "action" ~ "warning",
+      genre == "horror" ~ "error",
+      genre == "comedy" ~ "success",
+      genre == "sci-fi" ~ "black",
+      genre == "drama" ~ "focus",
+      genre == "documentary" ~ "black",
+      genre == "thiller" ~ "error",
+      TRUE ~ "default"
+    )
+  )
 
 ```
 
@@ -77,12 +90,8 @@ df =
 
 rt_input = 
   df %>%
-  # select(
-  #   -review_text, -pick_of_the_week, -acting, -story, 
-  #   -dialogue, -entertainment, -cinematography, -image, 
-  #   -reviewer, -edition, -similar_film
-  # ) %>%
-  select(img_url, title, year, genre, runtime, rotten_tomatoes, imdb, tom, hannah) %>%
+  mutate(genre = str_c(genre_tag, " ", genre)) %>%
+  select(img_url, title, year, runtime, genre, director, rotten_tomatoes, imdb, tom, hannah) %>%
   mutate(
     genre = genre %>% str_to_lower(),
     rotten_tomatoes = rotten_tomatoes %>% str_remove("%") %>% as.numeric(),
@@ -98,7 +107,7 @@ reactable(
   class = "other-films",
   # Column Groups
    columnGroups = list(
-    colGroup(name = "Info", columns = c("title", "year", "genre", "runtime")),
+    colGroup(name = "Info", columns = c("title", "year", "genre", "runtime", "director")),
     colGroup(name = "Critic Ratings", columns = c("imdb", "rotten_tomatoes")),
     colGroup(name = "Our Ratings", columns = c("tom", "hannah"))
   ),
@@ -125,23 +134,31 @@ reactable(
           div(
             img(style = "height: 142px; width: 100px", class = "flag", alt = "", src = value)
           )
-        }
+        },
+        style = list(borderRight = "1px solid hsl(0, 0%, 95%)")
     ),
     runtime = colDef(
       name = "Run Time",
       cell = function(value) {
-        value %>% str_c(" mins")
+        value %>% str_c("m")
       }
     ),
     genre = colDef(
       name = "Genre",
       cell = function(value) {
-        htmltools::span(class = "label upper outline warning", value)
+        split = str_split(value, " ", simplify = TRUE)
+        
+        htmltools::span(class = glue("label upper {split[,1]}"), split[,2])
       }  
     ),
     year = colDef(name = "Year"),
-    title = colDef(name = "Title"),
-    imdb = colDef(name = "IMDB"),
+    title = colDef(name = "Title", minWidth = 120),
+    director = colDef(style = list(borderRight = "1px solid hsl(0, 0%, 95%)")),
+    imdb = colDef(
+      name = "IMDB", 
+      maxWidth = 70,
+      style = list(borderRight = "1px solid hsl(0, 0%, 95%)")
+    ),
     rotten_tomatoes = colDef(
       name = "Rotten Tomatoes", 
       cell = function(value) {
@@ -150,25 +167,22 @@ reactable(
           TRUE ~ value %>% str_c("%")
 
         )
-      }
+      },
+      maxWidth = 70
     ),
     tom = colDef(
       name = "Tom", 
       cell=function(value) {
-        p(style = "font-size: 18px",
-          span(style = "color: #F7C919; font-weight: bold", value), 
-          span(style = "color: rgba(0, 0, 0, 0.1); font-weight: bold", " / 10")
-        )
-      } 
+         p(style = "font-size: 18px; margin-bottom: 0px", span(style = "color: #F7C919; font-weight: bold", value))
+      }, 
+      maxWidth = 70
     ),
     hannah = colDef(
       name = "Hannah", 
       cell=function(value) {
-        p(style = "font-size: 18px",
-          span(style = "color: #F7C919; font-weight: bold", value), 
-          span(style = "color: rgba(0, 0, 0, 0.1); font-weight: bold", " / 10")
-        )
-      } 
+        p(style = "font-size: 18px; margin-bottom: 0px", span(style = "color: #F7C919; font-weight: bold", value))
+      },
+      maxWidth = 70
     )
   ),
   
@@ -176,10 +190,8 @@ reactable(
   # ___________
   details = function(index) {
     
-    
     film = df[index, ]
 
-    
     # Feild 
     film_detail_field = function(name, value) {
       if (is.na(value)) {
@@ -210,17 +222,42 @@ reactable(
         film_detail_field("Plot", film$plot),
         
         # Review
-        film_detail_field(
-          
-          glue("Our Review [{str_to_upper(film$reviewer)}]"), film$review_text
-          
+        div(
+          div(class = "film-detail-name", glue("Our Review [{str_to_upper(film$reviewer)}]")), 
           # markdown::markdownToHTML(
-          #   text = if(is.na(film$review_text)) "" else film$review_text, 
+          #   text = if(is.na(film$review_text)) "<div></div>" else film$review_text,
           #   fragment.only = TRUE
-          # ) %>% 
-          # htmltools::HTML()
+          # ) %>%
           
+          if (is.na(film$review_text)) {
+            p()
+          } else {
+            film$review_text %>%
+            markdown::markdownToHTML(text = ., fragment.only = TRUE) %>%
+            shiny::HTML()
+          }
         ),
+        
+        # film_detail_field(
+        #   
+        #   glue("Our Review [{str_to_upper(film$reviewer)}]"), 
+        #   
+        #   #film$review_text
+        #   
+        #   markdown::markdownToHTML(
+        #     text = if(is.na(film$review_text)) "" else film$review_text,
+        #     fragment.only = TRUE
+        #   ) %>%
+        #   HTML() %>% 
+        #   div() %>%
+        #   tagList()
+        #   # HTML() %>%
+        #   # div()
+        #   # %>%
+        #   # htmltools::HTML() %>%
+        #   # tagList()
+        #   # 
+        # ),
         
         # Components
         film_detail_field(
