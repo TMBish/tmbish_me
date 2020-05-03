@@ -514,3 +514,11 @@ div .other-films .rt-td {
   justify-content:center;
   align-items:center;
 }
+
+.rt-next-button {
+  color: black
+}
+
+.rt-prev-button {
+  color: black
+}
