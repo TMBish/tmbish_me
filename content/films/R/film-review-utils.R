@@ -1,10 +1,10 @@
 chart_scores = function(tom, hannah) {
   
-  Tom = lapply(1:tom, function(x) {
+  Tom = lapply(1:floor(tom), function(x) {
     tibble(Name = 1, Rating = x)
   }) %>% bind_rows() %>% mutate(Max = max(Rating))
   
-  Hannah = lapply(1:hannah, function(x) {
+  Hannah = lapply(1:floor(hannah), function(x) {
     tibble(Name = 2, Rating = x)
   }) %>% bind_rows() %>% mutate(Max = max(Rating))
   

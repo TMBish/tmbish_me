@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -10,11 +10,17 @@
   <url>
     <loc>/films/</loc>
     <lastmod>2100-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
     <lastmod>2100-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/films/3-may-20/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -45,6 +51,7 @@
   <url>
     <loc>/shiny/</loc>
     <lastmod>2018-11-15T12:26:46+10:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -140,36 +147,37 @@
   <url>
     <loc>/tags/highcharter/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/javascript/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/lab/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r-markdown/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/shiny/</loc>
-    <lastmod>2017-11-23T20:40:09+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -178,43 +186,55 @@
   </url>
   
   <url>
-    <loc>/lab/bulletin-edition-1-with-source/</loc>
-    <lastmod>2017-11-23T20:40:04+00:00</lastmod>
+    <loc>/tags/shiny/</loc>
+    <lastmod>2017-11-23T20:40:09+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/dplyr/</loc>
+    <loc>/lab/bulletin-edition-1-with-source/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/dt/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dplyr/</loc>
+    <lastmod>2017-11-23T20:40:04+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/gender/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/highcharts/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/htmltools/</loc>
     <lastmod>2017-11-23T20:40:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ggplot/</loc>
-    <lastmod>2017-11-23T20:38:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/lab/r-markdown-test/</loc>
     <lastmod>2017-11-23T20:38:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ggplot/</loc>
+    <lastmod>2017-11-23T20:38:16+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -225,6 +245,7 @@
   <url>
     <loc>/bulletin/</loc>
     <lastmod>2017-09-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -249,6 +270,7 @@
   
   <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

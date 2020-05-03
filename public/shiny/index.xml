@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shinies on Tom Bishop</title>
@@ -36,7 +36,7 @@
       <pubDate>Mon, 02 Oct 2017 09:21:46 +1000</pubDate>
       
       <guid>/shiny/hhtl/</guid>
-      <description>Details Hannah&amp;rsquo;s History Time Line (HHTL) is a minimalist shiny app I built to help my wife learn and retain history. The app contains a simple timevis timeline widget with functionality to add and edit events. Technically the app includes:
+      <description> Details Hannah&amp;rsquo;s History Time Line (HHTL) is a minimalist shiny app I built to help my wife learn and retain history. The app contains a simple timevis timeline widget with functionality to add and edit events. Technically the app includes:
  A googlesheets backend using the googlesheets package UI elements from shinyWidgets and shiny.semantic Some extra interactivity with shinyjs  </description>
     </item>
     

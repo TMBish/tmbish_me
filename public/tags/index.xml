@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tom Bishop</title>
@@ -57,20 +57,20 @@
     </item>
     
     <item>
-      <title>dplyr</title>
-      <link>/tags/dplyr/</link>
-      <pubDate>Thu, 23 Nov 2017 20:40:04 +0000</pubDate>
-      
-      <guid>/tags/dplyr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>DT</title>
       <link>/tags/dt/</link>
       <pubDate>Thu, 23 Nov 2017 20:40:04 +0000</pubDate>
       
       <guid>/tags/dt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dplyr</title>
+      <link>/tags/dplyr/</link>
+      <pubDate>Thu, 23 Nov 2017 20:40:04 +0000</pubDate>
+      
+      <guid>/tags/dplyr/</guid>
       <description></description>
     </item>
     

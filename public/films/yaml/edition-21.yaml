@@ -1,0 +1,651 @@
+edition: 21
+reviews:
+  - title: Good Boys
+    year: 2019
+    image: goodboys.png
+    genre: comedy
+    pick-of-the-week: yes
+    reviewer: Tom
+    review-text: >
+      *Good Boys* was marketed as something like a *Superbad* for 8 year olds and that's pretty accurate. That I loved this movie in the face of that comparison and my regard for *Superbad* says a lot. The three boys did amazing jobs and were genuinely very funny. The narrative was well paced and entertaining throughout, and the comedic writing about primary school social dynamics was very charming. Most importantly though was that it was a genuinely very funny film. Definitely worth a watch. 
+    similar-film: Superbad 
+    ratings:
+      overall:
+        tom: 8.5
+        hannah: 8.5
+      components:
+        acting: 9
+        dialogue: 10
+        story: 7
+        entertainment: 10
+        cinematography: 9
+  - title: The Cabin in the Woods
+    year: 2012
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.0
+        hannah: 8.5
+      components:
+        story: 10.0
+        dialogue: 7.0
+        acting: 8.0
+        entertainment: 10.0
+        cinematography: 7.0
+  - title: Tucker & Dale vs Evil
+    year: 2010
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.5
+        hannah: 9.0
+      components:
+        story: 9.0
+        dialogue: 10.0
+        acting: 10.0
+        entertainment: 10.0
+        cinematography: 8.0
+  - title: Attack The Block
+    year: 2011
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.5
+        hannah: 9.0
+      components:
+        story: 9.0
+        dialogue: 10.0
+        acting: 10.0
+        entertainment: 10.0
+        cinematography: 8.0
+  - title: Saw
+    year: 2004
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.0
+        hannah: 7.5
+      components:
+        story: 9.0
+        dialogue: 6.0
+        acting: 7.0
+        entertainment: 9.0
+        cinematography: 5.0
+  - title: The Faculty
+    year: 1998
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.5
+        hannah: 4.5
+      components:
+        story: 5.0
+        dialogue: 5.0
+        acting: 4.0
+        entertainment: 7.0
+        cinematography: 3.0
+  - title: REC
+    year: 2007
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.0
+        hannah: 9.0
+      components:
+        story: 10.0
+        dialogue: 8.0
+        acting: 7.0
+        entertainment: 10.0
+        cinematography: 8.0
+  - title: Let the Right One In
+    year: 2008
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.0
+        hannah: 8.0
+      components:
+        story: 8.0
+        dialogue: 8.0
+        acting: 9.0
+        entertainment: 8.0
+        cinematography: 8.0
+  - title: V/H/S
+    year: 2012
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.0
+        hannah: 7.0
+      components:
+        story: 8.0
+        dialogue: 6.0
+        acting: 6.0
+        entertainment: 9.0
+        cinematography: 6.0
+  - title: The Snowtown Murders
+    year: 2011
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.5
+        hannah: 7.0
+      components:
+        story: 8.0
+        dialogue: 6.0
+        acting: 9.0
+        entertainment: 7.0
+        cinematography: 6.0
+  - title: Trollhunter
+    year: 2009
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.0
+        hannah: 6.5
+      components:
+        story: 8.0
+        dialogue: 5.0
+        acting: 7.0
+        entertainment: 6.0
+        cinematography: 8.0
+  - title: Paranormal Activity
+    year: 2007
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.5
+        hannah: 4.0
+      components:
+        story: 5.0
+        dialogue: 2.0
+        acting: 3.0
+        entertainment: 5.0
+        cinematography: 3.0
+  - title: Silent Hill
+    year: 2006
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.5
+        hannah: 4.5
+      components:
+        story: 6.0
+        dialogue: 3.0
+        acting: 5.0
+        entertainment: 7.0
+        cinematography: 7.0
+  - title: I Spit on Your Grave
+    year: 2011
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.5
+        hannah: 4.0
+      components:
+        story: 4.0
+        dialogue: 4.0
+        acting: 6.0
+        entertainment: 5.0
+        cinematography: 4.0
+  - title: Mama
+    year: 2013
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.0
+        hannah: 6.0
+      components:
+        story: 7.0
+        dialogue: 5.0
+        acting: 6.0
+        entertainment: 7.0
+        cinematography: 5.0
+  - title: Frozen
+    year: 2010
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.5
+        hannah: 5.0
+      components:
+        story: 6.0
+        dialogue: 3.0
+        acting: 4.0
+        entertainment: 7.0
+        cinematography: 5.0
+  - title: Human Centipede
+    year: 2009
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 3.5
+        hannah: 3.5
+      components:
+        story: 6.0
+        dialogue: 3.0
+        acting: 3.0
+        entertainment: 5.0
+        cinematography: 4.0
+  - title: I Spit on Your Grave
+    year: 1978
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 3.5
+        hannah: 3.0
+      components:
+        story: 4.0
+        dialogue: 3.0
+        acting: 6.0
+        entertainment: 4.0
+        cinematography: 3.0
+  - title: The Tall Man
+    year: 2012
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.0
+        hannah: 4.0
+      components:
+        story: 8.0
+        dialogue: 4.0
+        acting: 4.0
+        entertainment: 9.0
+        cinematography: 4.0
+  - title: 'Hostel: Part III'
+    year: 2011
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 3.0
+        hannah: 2.5
+      components:
+        story: 3.0
+        dialogue: 2.0
+        acting: 2.0
+        entertainment: 6.0
+        cinematography: 3.0
+  - title: Stake Land
+    year: 2011
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 3.0
+        hannah: 3.0
+      components:
+        story: 2.0
+        dialogue: 2.0
+        acting: 2.0
+        entertainment: 3.0
+        cinematography: 2.0
+  - title: The Woman
+    year: 2011
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 2.0
+        hannah: 2.0
+      components:
+        story: 6.0
+        dialogue: 2.0
+        acting: 2.0
+        entertainment: 7.0
+        cinematography: 3.0
+  - title: American Mary
+    year: 2012
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 1.0
+        hannah: 1.0
+      components:
+        story: 1.0
+        dialogue: 1.0
+        acting: 1.0
+        entertainment: 1.0
+        cinematography: 1.0
+  - title: The Hole
+    year: 2009
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 1.0
+        hannah: 1.0
+      components:
+        story: 1.0
+        dialogue: 1.0
+        acting: 1.0
+        entertainment: 1.0
+        cinematography: 1.0
+  - title: Splice
+    year: 2009
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 1.0
+        hannah: 3.0
+      components:
+        story: 6.0
+        dialogue: 3.0
+        acting: 4.0
+        entertainment: 3.0
+        cinematography: 4.0
+  - title: House of the Devil
+    year: 2009
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 3.0
+        hannah: 2.0
+      components:
+        story: 2.0
+        dialogue: 3.0
+        acting: 2.0
+        entertainment: 2.0
+        cinematography: 5.0
+  - title: The Orphan
+    year: 2009
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.5
+        hannah: 7.0
+      components:
+        story: 9.0
+        dialogue: 6.0
+        acting: 5.0
+        entertainment: 8.0
+        cinematography: 5.0
+  - title: Superbad
+    year: 2007
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 10.0
+        hannah: 9.5
+      components:
+        story: 10.0
+        dialogue: 10.0
+        acting: 9.0
+        entertainment: 10.0
+        cinematography: 9.0
+  - title: 50/50
+    year: 2011
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.5
+        hannah: 8.0
+      components:
+        story: 9.0
+        dialogue: 10.0
+        acting: 10.0
+        entertainment: 10.0
+        cinematography: 9.0
+  - title: It's a Disaster
+    year: 2012
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.0
+        hannah: 10.0
+      components:
+        story: 9.0
+        dialogue: 10.0
+        acting: 10.0
+        entertainment: 9.0
+        cinematography: 7.0
+  - title: Zoolander
+    year: 2001
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.5
+        hannah: 8.0
+      components:
+        story: 8.0
+        dialogue: 8.0
+        acting: 7.0
+        entertainment: 10.0
+        cinematography: 5.0
+  - title: This is the End
+    year: 2013
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.0
+        hannah: 9.0
+      components:
+        story: 8.0
+        dialogue: 10.0
+        acting: 9.0
+        entertainment: 10.0
+        cinematography: 8.0
+  - title: Knocked Up
+    year: 2007
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.5
+        hannah: 8.0
+      components:
+        story: 9.0
+        dialogue: 10.0
+        acting: 9.0
+        entertainment: 9.0
+        cinematography: 7.0
+  - title: Forgetting Sarah Marshal
+    year: 2008
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.0
+        hannah: 8.0
+      components:
+        story: 7.0
+        dialogue: 10.0
+        acting: 7.0
+        entertainment: 9.0
+        cinematography: 7.0
+  - title: Goon
+    year: 2011
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.0
+        hannah: 8.5
+      components:
+        story: 10.0
+        dialogue: 10.0
+        acting: 8.0
+        entertainment: 9.0
+        cinematography: 8.0
+  - title: Hot Rod
+    year: 2007
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.5
+        hannah: 8.0
+      components:
+        story: 8.0
+        dialogue: 10.0
+        acting: 5.0
+        entertainment: 10.0
+        cinematography: 5.0

@@ -21,13 +21,12 @@ library(purrr)
 library(glue)
 library(reactable)
 library(tidyverse)
-#library(htmltools)
 
-source("R/film-review-utils.R")
+#source("R/film-review-utils.R")
 #source("content/films/R/film-review-utils.R")
 
-#df = read_csv("D:/googledrive/Tom and Hannah/Movies/reviews.csv")
-df = read_csv("C:/Users/tomwb/Desktop/reviews.csv")
+df = read_csv("D:/googledrive/Tom and Hannah/Movies/reviews.csv")
+#df = read_csv("C:/Users/tomwb/Desktop/reviews.csv")
 
 
 oamd_search = function(title, year) {
@@ -292,7 +291,5 @@ reactable(
     
   }
 )
-
-
 
 ```
