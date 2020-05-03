@@ -39,10 +39,9 @@ map(compile_review, edition = ed) %>%
 tagList()
 ```
 
-## Other films we watched
+## Film Rating Backlog
 
 <br>
-
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 yaml %>%

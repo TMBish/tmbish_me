@@ -182,7 +182,7 @@ reviews:
         entertainment: 7.0
         cinematography: 6.0
   - title: Trollhunter
-    year: 2009
+    year: 2010
     genre: horror
     image: ~
     pick-of-the-week: 'no'
@@ -236,7 +236,7 @@ reviews:
         entertainment: 7.0
         cinematography: 7.0
   - title: I Spit on Your Grave
-    year: 2011
+    year: 2010
     genre: horror
     image: ~
     pick-of-the-week: 'no'
@@ -362,7 +362,7 @@ reviews:
         entertainment: 6.0
         cinematography: 3.0
   - title: Stake Land
-    year: 2011
+    year: 2010
     genre: horror
     image: ~
     pick-of-the-week: 'no'
@@ -469,7 +469,7 @@ reviews:
         acting: 2.0
         entertainment: 2.0
         cinematography: 5.0
-  - title: The Orphan
+  - title: Orphan
     year: 2009
     genre: horror
     image: ~
@@ -595,7 +595,7 @@ reviews:
         acting: 9.0
         entertainment: 9.0
         cinematography: 7.0
-  - title: Forgetting Sarah Marshal
+  - title: Forgetting Sarah Marshall
     year: 2008
     genre: comedy
     image: ~

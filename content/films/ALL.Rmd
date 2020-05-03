@@ -21,18 +21,16 @@ library(purrr)
 library(glue)
 library(reactable)
 library(tidyverse)
-
-#source("R/film-review-utils.R")
-#source("content/films/R/film-review-utils.R")
+library(keyring)
 
 df = read_csv("D:/googledrive/Tom and Hannah/Movies/reviews.csv")
-#df = read_csv("C:/Users/tomwb/Desktop/reviews.csv")
-
 
 oamd_search = function(title, year) {
   
+  .key = key_get(service = "omdb", username = "api_key")
+  
   endpoint = 
-    glue("http://www.omdbapi.com/?t={title}&y={year}&apikey=309178b8") %>%
+    glue("http://www.omdbapi.com/?t={title}&y={year}&apikey={.key}") %>%
     URLencode()
   
   meta = 
@@ -67,8 +65,19 @@ df =
         .f = possibly(oamd_search, otherwise = NULL)
       )
   ) %>%
-  unnest_wider(omdb_metadata) %>%
+  unnest_wider(omdb_metadata)
+
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+
+rt_input = 
+  df %>%
   mutate(
+    rotten_tomatoes = rotten_tomatoes %>% str_remove("%") %>% as.numeric(),
+    imdb = imdb %>% as.numeric(),
+    runtime = runtime %>% str_remove(" min") %>% as.numeric(),
     genre = str_to_lower(genre),
     genre_tag = case_when(
       genre == "action" ~ "warning",
@@ -79,24 +88,11 @@ df =
       genre == "documentary" ~ "black",
       genre == "thiller" ~ "error",
       TRUE ~ "default"
-    )
-  )
+    ),
+    genre = str_c(genre_tag, " ", genre)
+  ) %>%
+  select(img_url, title, year, runtime, genre, director, rotten_tomatoes, imdb, tom, hannah)
 
-```
-
-
-```{r echo=FALSE, warning=FALSE, message=FALSE}
-
-rt_input = 
-  df %>%
-  mutate(genre = str_c(genre_tag, " ", genre)) %>%
-  select(img_url, title, year, runtime, genre, director, rotten_tomatoes, imdb, tom, hannah) %>%
-  mutate(
-    genre = genre %>% str_to_lower(),
-    rotten_tomatoes = rotten_tomatoes %>% str_remove("%") %>% as.numeric(),
-    imdb = imdb %>% as.numeric(),
-    runtime = runtime %>% str_remove(" min") %>% as.numeric()
-  ) 
 
 rt_input %>%
 reactable(
@@ -221,44 +217,17 @@ reactable(
         film_detail_field("Plot", film$plot),
         
         # Review
-        div(
-          div(class = "film-detail-name", glue("Our Review [{str_to_upper(film$reviewer)}]")), 
+        film_detail_field(
+          glue("Our Review [{str_to_upper(film$reviewer)}]"),
+          p(film$review_text)
+        ),
+
           # markdown::markdownToHTML(
-          #   text = if(is.na(film$review_text)) "<div></div>" else film$review_text,
+          #   text = if(is.na(film$review_text)) "" else film$review_text,
           #   fragment.only = TRUE
           # ) %>%
-          
-          if (is.na(film$review_text)) {
-            p()
-          } else {
-            p(film$review_text)
-            # markdown::markdownToHTML(text = ., fragment.only = TRUE) %>%
-            # HTML() %>%
-            # div()
-          }
-        ),
-        
-        # film_detail_field(
-        #   
-        #   glue("Our Review [{str_to_upper(film$reviewer)}]"), 
-        #   
-        #   #film$review_text
-        #   
-        #   markdown::markdownToHTML(
-        #     text = if(is.na(film$review_text)) "" else film$review_text,
-        #     fragment.only = TRUE
-        #   ) %>%
-        #   HTML() %>% 
-        #   div() %>%
-        #   tagList()
-        #   # HTML() %>%
-        #   # div()
-        #   # %>%
-        #   # htmltools::HTML() %>%
-        #   # tagList()
-        #   # 
-        # ),
-        
+          # HTML() 
+
         # Components
         film_detail_field(
           "Our Rating Components",
@@ -270,7 +239,7 @@ reactable(
               mutate(Component = str_to_title(Component))
             ,
             pagination = FALSE,
-            defaultColDef = colDef(headerClass = "film-detail-components-header",  align = "right"),
+            defaultColDef = colDef(headerClass = "film-detail-components-header",  align = "center"),
             fullWidth = FALSE,
             class = "film-detail-components"
           )
