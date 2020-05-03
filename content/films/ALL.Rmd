@@ -231,9 +231,10 @@ reactable(
           if (is.na(film$review_text)) {
             p()
           } else {
-            film$review_text %>%
-            markdown::markdownToHTML(text = ., fragment.only = TRUE) %>%
-            shiny::HTML()
+            p(film$review_text)
+            # markdown::markdownToHTML(text = ., fragment.only = TRUE) %>%
+            # HTML() %>%
+            # div()
           }
         ),
         
