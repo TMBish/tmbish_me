@@ -49,8 +49,8 @@ reviews:
     similar-film: ARQ
     ratings:
       overall:
-        tom: 5
-        hannah: 6
+        tom: 4.5
+        hannah: 5
       components:
         acting: 5
         dialogue: 3

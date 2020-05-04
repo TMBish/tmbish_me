@@ -11,8 +11,8 @@ reviews:
     similar-film: Hollow Man 
     ratings:
       overall:
-        tom: 8
-        hannah: 8
+        tom: 8.5
+        hannah: 8.5
       components:
         acting: 9
         dialogue: 8
@@ -49,7 +49,7 @@ reviews:
     similar-film: Saving Private Ryan
     ratings:
       overall:
-        tom: 8
+        tom: 8.5
         hannah: 7
       components:
         acting: 9
@@ -68,7 +68,7 @@ reviews:
     ratings:
       overall:
         tom: 7
-        hannah: 6
+        hannah: 6.5
       components:
         acting: 7
         dialogue: 4
@@ -103,8 +103,8 @@ reviews:
     similar-film: 
     ratings:
       overall:
-        tom: 5
-        hannah: 5
+        tom: 4.5
+        hannah: 4.5
       components:
         acting: 4
         dialogue: 5
@@ -121,8 +121,8 @@ reviews:
     similar-film: 
     ratings:
       overall:
-        tom: 2
-        hannah: 2
+        tom: 1.5
+        hannah: 1.5
       components:
         acting: 1
         dialogue: 2
@@ -139,7 +139,7 @@ reviews:
     similar-film: 
     ratings:
       overall:
-        tom: 7
+        tom: 6.5
         hannah: 0
       components:
         acting: 8
@@ -158,7 +158,7 @@ reviews:
     ratings:
       overall:
         tom: 8
-        hannah: 7
+        hannah: 8
       components:
         acting: 9
         dialogue: 8

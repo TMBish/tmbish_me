@@ -11,7 +11,7 @@ reviews:
     similar-film: Final Girls
     ratings:
       overall:
-        tom: 8
+        tom: 7.5
         hannah: 7
       components:
         acting: 8
@@ -50,7 +50,7 @@ reviews:
     ratings:
       overall:
         tom: 5
-        hannah: 5
+        hannah: 4.5
       components:
         acting: 5
         dialogue: 4

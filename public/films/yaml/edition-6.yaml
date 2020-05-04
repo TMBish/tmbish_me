@@ -12,7 +12,7 @@ reviews:
     ratings:
       overall:
         tom: 8
-        hannah: 9
+        hannah: 8
       components:
         acting: 9
         dialogue: 8
@@ -30,8 +30,8 @@ reviews:
     similar-film: Snowtown
     ratings:
       overall:
-        tom: 8
-        hannah: 8
+        tom: 7.5
+        hannah: 7.5
       components:
         acting: 10
         dialogue: 7

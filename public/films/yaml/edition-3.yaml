@@ -12,7 +12,7 @@ reviews:
     ratings:
       overall:
         tom: 7
-        hannah: 7
+        hannah: 7.5
       components:
         acting: 4
         dialogue: 3
@@ -31,7 +31,7 @@ reviews:
     ratings:
       overall:
         tom: 7
-        hannah: 8
+        hannah: 7.5
       components:
         acting: 7
         dialogue: 7
@@ -49,7 +49,7 @@ reviews:
     similar-film: Your Highness
     ratings:
       overall:
-        tom: 7
+        tom: 6.5
         hannah: 6
       components:
         acting: 8

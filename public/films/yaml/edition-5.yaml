@@ -11,8 +11,8 @@ reviews:
     similar-film: Foxcatcher
     ratings:
       overall:
-        tom: 8
-        hannah: 8
+        tom: 8.5
+        hannah: 8.5
       components:
         acting: 8
         dialogue: 8
@@ -34,7 +34,7 @@ reviews:
     similar-film: The Girl With All The Gifts 
     ratings:
       overall:
-        tom: 8
+        tom: 7.5
         hannah: 7
       components:
         acting: 7

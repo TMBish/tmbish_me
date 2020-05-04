@@ -31,7 +31,7 @@ reviews:
     ratings:
       overall:
         tom: 7
-        hannah: 7
+        hannah: 7.5
       components:
         acting: 7
         dialogue: 8
@@ -49,8 +49,8 @@ reviews:
     similar-film: Tropic Thunder 
     ratings:
       overall:
-        tom: 5
-        hannah: 6
+        tom: 4.5
+        hannah: 5
       components:
         acting: 5
         dialogue: 4

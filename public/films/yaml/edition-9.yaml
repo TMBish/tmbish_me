@@ -11,7 +11,7 @@ reviews:
     similar-film: True Grit
     ratings:
       overall:
-        tom: 8
+        tom: 7.5
         hannah: 7
       components:
         acting: 8
@@ -30,7 +30,7 @@ reviews:
     similar-film: The Ritual
     ratings:
       overall:
-        tom: 8
+        tom: 7.5
         hannah: 7
       components:
         acting: 8

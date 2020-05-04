@@ -30,8 +30,8 @@ reviews:
     similar-film: The Big Sick
     ratings:
       overall:
-        tom: 8
-        hannah: 8
+        tom: 7.5
+        hannah: 7.5
       components:
         acting: 8
         dialogue: 9
@@ -49,7 +49,7 @@ reviews:
     similar-film: Life
     ratings:
       overall:
-        tom: 5
+        tom: 4.5
         hannah: 4
       components:
         acting: 7

@@ -49,8 +49,8 @@ reviews:
     similar-film: The Expendables
     ratings:
       overall:
-        tom: 2
-        hannah: 2
+        tom: 1.5
+        hannah: 1.5
       components:
         acting: 1
         dialogue: 1

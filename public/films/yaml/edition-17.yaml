@@ -11,8 +11,8 @@ reviews:
     similar-film: Dr. Strangelove
     ratings:
       overall:
-        tom: 8
-        hannah: 8
+        tom: 8.5
+        hannah: 8.5
       components:
         acting: 9
         dialogue: 9
@@ -49,8 +49,8 @@ reviews:
     similar-film: Hostel
     ratings:
       overall:
-        tom: 4
-        hannah: 4
+        tom: 3.5
+        hannah: 3.5
       components:
         acting: 7
         dialogue: 3
