@@ -33,7 +33,7 @@ reviews:
     similar-film: The Invitation
     ratings:
       overall:
-        tom: 5
+        tom: 4.5
         hannah: 7
       components:
         acting: 8
@@ -52,7 +52,7 @@ reviews:
     similar-film: Django Unchained
     ratings:
       overall:
-        tom: 6
+        tom: 6.5
         hannah: 5
       components:
         acting: 6

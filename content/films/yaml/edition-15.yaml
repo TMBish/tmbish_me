@@ -49,8 +49,8 @@ reviews:
     similar-film: Jigsaw
     ratings:
       overall:
-        tom: 6
-        hannah: 6
+        tom: 5.5
+        hannah: 5
       components:
         acting: 2
         dialogue: 2

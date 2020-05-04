@@ -30,8 +30,8 @@ reviews:
     similar-film: Veronica (2017)
     ratings:
       overall:
-        tom: 6
-        hannah: 6
+        tom: 5.5
+        hannah: 5.5
       components:
         acting: 8
         dialogue: 7
@@ -49,8 +49,8 @@ reviews:
     similar-film: A Most Violent Year
     ratings:
       overall:
-        tom: 8
-        hannah: 6
+        tom: 7.5
+        hannah: 6.5
       components:
         acting: 9
         dialogue: 5

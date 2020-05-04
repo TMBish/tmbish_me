@@ -32,7 +32,7 @@ reviews:
     ratings:
       overall:
         tom: 9
-        hannah: 8
+        hannah: 8.5
       components:
         acting: 9
         dialogue: 8
@@ -51,7 +51,7 @@ reviews:
     ratings:
       overall:
         tom: 5
-        hannah: 4
+        hannah: 3.5
       components:
         acting: 10
         dialogue: 5

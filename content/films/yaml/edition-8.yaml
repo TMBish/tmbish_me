@@ -30,8 +30,8 @@ reviews:
     similar-film: The Social Network
     ratings:
       overall:
-        tom: 8
-        hannah: 7
+        tom: 7.5
+        hannah: 6.5
       components:
         acting: 8
         dialogue: 9
@@ -50,7 +50,7 @@ reviews:
     ratings:
       overall:
         tom: 1
-        hannah: 4
+        hannah: 3.5
       components:
         acting: 4
         dialogue: 2

@@ -15,7 +15,7 @@ reviews:
     similar-film: The Witch | The Conjuring
     ratings:
       overall:
-        tom: 9
+        tom: 9.5
         hannah: 10
       components:
         acting: 10
@@ -34,8 +34,8 @@ reviews:
     similar-film: I Spit On Your Grave
     ratings:
       overall:
-        tom: 8
-        hannah: 6
+        tom: 7.5
+        hannah: 5.5
       components:
         acting: 6
         dialogue: 7
@@ -53,8 +53,8 @@ reviews:
     similar-film: Mulholland Drive
     ratings:
       overall:
-        tom: 5
-        hannah: 5
+        tom: 4.5
+        hannah: 5.5
       components:
         acting: 7
         dialogue: 4
