@@ -1,0 +1,51 @@
+---
+title: "7 June 20"
+author: ~
+date: '2020-06-07'
+slug: 7-jun-20
+categories: []
+tags: []
+highlight: "kate"
+description: "Shotgun! Just kidding, don't have one' - Amy"
+screencap: "E22"
+edition: "7 June 20"
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(highcharter)
+library(radarchart)
+library(yaml)
+library(shiny)
+library(purrr)
+library(glue)
+library(reactable)
+library(tidyverse)
+
+source("R/film-review-utils.R")
+       
+# Load Edition YAML
+yaml = yaml.load_file("yaml/edition-22.yaml")
+
+# Edition
+ed = yaml$edition
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+yaml %>%
+pluck("reviews") %>%
+keep(~!is.null(.$reviewer)) %>%
+map(compile_review, edition = ed) %>% 
+tagList()
+```
+
+## Film Rating Backlog
+
+<br>
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+yaml %>%
+  pluck("reviews") %>%
+  keep(~is.null(.$reviewer)) %>%
+  compile_ratings()
+```

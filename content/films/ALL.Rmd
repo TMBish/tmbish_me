@@ -25,6 +25,7 @@ library(keyring)
 
 df = read_csv("D:/googledrive/Tom and Hannah/Movies/reviews.csv")
 
+
 oamd_search = function(title, year) {
   
   .key = key_get(service = "omdb", username = "api_key")
@@ -53,6 +54,7 @@ oamd_search = function(title, year) {
     select(runtime, value, img_url = poster, imdb = imdb_rating, rotten_tomatoes = value, director, actors, plot, box_office)
 
 }
+
 
 
 # Get Images From Open Movies

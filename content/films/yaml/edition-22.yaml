@@ -1,0 +1,545 @@
+edition: 22
+reviews:
+  - title: Booksmart
+    year: 2019
+    image: booksmart.png
+    genre: comedy
+    pick-of-the-week: yes
+    reviewer: Tom
+    review-text: >
+       Amy and Molly are over-acheiving seniors heading off to good colleges who decide to attend their first high school party on graduation eve. *Booksmart* is Olivia Wilde's directiorial debut and was unusually divisive for Hannah and I; I thought it was top shelf and one of the better coming-of-age high scool comedies I'd seen and Hannah thought it was only a slightly above average comedy. Rotten Tomatoes is on my side here though, with a eye watering 97% rating. The writing is funny, the characters are very original, and while the story is a little derivative (it's amazingly similar to the *Superbad* plot) the performances are amazing and I found it extremely entertaining. Lastly, the main character Molly is played by Beanie Feldstein who is Jonah Hill's real life sister which I was gobsmacked by; the *Superbad* throughlines must be intentional. Watch this film.
+    similar-film: Superbad 
+    ratings:
+      overall:
+        tom: 8.5
+        hannah: 7
+      components:
+        acting: 7.5
+        dialogue: 8.5
+        story: 7
+        entertainment: 9 
+        cinematography: 7
+  - title: The Hunt
+    year: 2020
+    image: booksmart.png
+    genre: horror
+    pick-of-the-week: no
+    reviewer: Tom
+    review-text: >
+       *The Hunt* is a politically themed horror-comedy where a dozen republican / trump supporters are kidnapped and hunted for sport by democrats confirming their *Manorgate* conspiracy theory. Much like *The Oath* I reviewed a few editions ago this is an extremely current political satire with the main characters satirising the real life Qanon consipiracy cult with characters referencing referencing Qanon concepts like Soros funded crisis actors. There's a few really good and funny political satire scenes but they aren't freqent enough; the dialogue is really good but probably only enough for an excellent 30 minute film the rest is filler. The action is good fun though and it remains worth a watch.
+    similar-film: The Oath 
+    ratings:
+      overall:
+        tom: 6.5
+        hannah: 5.5
+      components:
+        acting: 6.5
+        dialogue: 7.5
+        story: 7
+        entertainment: 7 
+        cinematography: 6 
+  - title: Bombshell
+    year: 2019
+    image: bombshell.png
+    genre: drama
+    pick-of-the-week: no
+    reviewer: Hannah 
+    review-text: >
+       We watched *Bombshell* after starting the Epstein doco, which I would not recommend. It tells the story of disgusting old rapist Roger Ailes who was the CEO of Fox News. I actually didn’t know this story, so I found the ending a bit less exciting than expected, but thats probably because its real and not a Hollywood story. I think with a movie based on true events is always a better viewing experience when you have a good sense of the events/timelines. Margot Robbie was great as one of the victims/exposers, but I though Nicole Kidman and Charlize Theron were pretty mediocre. John Lithgow (3rd Rock from the Sun) played Ailes well, suitably repulsive without being cartoonish.
+    similar-film: Boy Erased 
+    ratings:
+      overall:
+        tom: 5.5
+        hannah: 5
+      components:
+        acting: 6
+        dialogue: 5 
+        story: 6
+        entertainment: 4
+        cinematography: 4
+  - title: Bombshell
+    year: 2019
+    genre: drama
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.0
+        hannah: 5.0
+      components:
+        story: 7.0
+        dialogue: 7.0
+        acting: 8.0
+        entertainment: 6.0
+        cinematography: 6.0
+  - title: Adventureland
+    year: 2009
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 4.0
+      components:
+        story: 4.0
+        dialogue: 4.0
+        acting: 5.0
+        entertainment: 6.0
+        cinematography: 4.0
+  - title: White Chicks
+    year: 2004
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 5.0
+      components:
+        story: 6.0
+        dialogue: 7.0
+        acting: 4.0
+        entertainment: 6.0
+        cinematography: 3.0
+  - title: Everything Must Go
+    year: 2010
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 4.0
+      components:
+        story: 5.0
+        dialogue: 5.0
+        acting: 6.0
+        entertainment: 5.0
+        cinematography: 3.0
+  - title: 50 First Dates
+    year: 2004
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.0
+        hannah: 4.0
+      components:
+        story: 6.0
+        dialogue: 6.0
+        acting: 4.0
+        entertainment: 5.0
+        cinematography: 3.0
+  - title: "Mac & Devin Go to High School"
+    year: 2012
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 3.5
+        hannah: 3.0
+      components:
+        story: 3.0
+        dialogue: 4.0
+        acting: 2.0
+        entertainment: 5.0
+        cinematography: 2.0
+  - title: Groundhog Day
+    year: 1993
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.0
+        hannah: 6.0
+      components:
+        story: 8.0
+        dialogue: 6.0
+        acting: 7.0
+        entertainment: 6.0
+        cinematography: 5.0
+  - title: In Bruges
+    year: 2008
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 10.0
+        hannah: 10.0
+      components:
+        story: 10.0
+        dialogue: 10.0
+        acting: 10.0
+        entertainment: 10.0
+        cinematography: 9.0
+  - title: Half Baked
+    year: 1998
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.5
+        hannah: 7.0
+      components:
+        story: 6.0
+        dialogue: 8.0
+        acting: 5.0
+        entertainment: 8.0
+        cinematography: 4.0
+  - title: Snatch
+    year: 2000
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.0
+        hannah: 9.0
+      components:
+        story: 10.0
+        dialogue: 10.0
+        acting: 10.0
+        entertainment: 10.0
+        cinematography: 7.0
+  - title: Men In Black
+    year: 1997
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.0
+        hannah: 7.0
+      components:
+        story: 8.0
+        dialogue: 7.0
+        acting: 7.0
+        entertainment: 8.0
+        cinematography: 5.0
+  - title: Jay & Silent Bob Strike Back
+    year: 2001
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.5
+        hannah: 7.0
+      components:
+        story: 7.0
+        dialogue: 8.0
+        acting: 7.0
+        entertainment: 8.0
+        cinematography: 5.0
+  - title: I Love You, Man
+    year: 2009
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.5
+        hannah: 7.5
+      components:
+        story: 7.0
+        dialogue: 7.0
+        acting: 7.0
+        entertainment: 8.0
+        cinematography: 5.0
+  - title: Zack and Miri Make a Porno
+    year: 2008
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.0
+        hannah: 6.0
+      components:
+        story: 8.0
+        dialogue: 6.0
+        acting: 5.0
+        entertainment: 7.0
+        cinematography: 4.0
+  - title: Us
+    year: 2019
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.5
+        hannah: 7.5
+      components:
+        story: 8.0
+        dialogue: 5.0
+        acting: 9.0
+        entertainment: 7.0
+        cinematography: 9.0
+  - title: Creep 2
+    year: 2017
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.0
+        hannah: 6.5
+      components:
+        story: 6.0
+        dialogue: 8.0
+        acting: 7.0
+        entertainment: 9.0
+        cinematography: 5.0
+  - title: The Descent Part 2
+    year: 2009
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.0
+        hannah: 6.0
+      components:
+        story: 5.0
+        dialogue: 4.0
+        acting: 6.0
+        entertainment: 8.0
+        cinematography: 4.0
+  - title: The Descent
+    year: 2005
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.0
+        hannah: 8.0
+      components:
+        story: 8.0
+        dialogue: 4.0
+        acting: 6.0
+        entertainment: 9.0
+        cinematography: 4.0
+  - title: Red Eye
+    year: 2005
+    genre: thriller
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.5
+        hannah: 4.0
+      components:
+        story: 6.0
+        dialogue: 3.0
+        acting: 5.0
+        entertainment: 5.0
+        cinematography: 3.0
+  - title: The Brady Bunch Movie
+    year: 1995
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.0
+        hannah: 3.0
+      components:
+        story: 5.0
+        dialogue: 7.0
+        acting: 7.0
+        entertainment: 6.0
+        cinematography: 5.0
+  - title: Rain Man
+    year: 1988
+    genre: drama
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.5
+        hannah: 8.0
+      components:
+        story: 9.0
+        dialogue: 9.0
+        acting: 10.0
+        entertainment: 8.0
+        cinematography: 6.0
+  - title: Get Him To The Greek
+    year: 2010
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.5
+        hannah: 7.0
+      components:
+        story: 7.0
+        dialogue: 6.0
+        acting: 8.0
+        entertainment: 9.0
+        cinematography: 5.0
+  - title: Extraction
+    year: 2020
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.5
+        hannah: 5.0
+      components:
+        story: 4.0
+        dialogue: 3.0
+        acting: 5.0
+        entertainment: 8.0
+        cinematography: 9.0
+  - title: 'Zombieland: Double Tap'
+    year: 2019
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 3.0
+        hannah: 2.0
+      components:
+        story: 3.0
+        dialogue: 4.0
+        acting: 5.0
+        entertainment: 6.0
+        cinematography: 3.0
+  - title: Breaking In
+    year: 2018
+    genre: thriller
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 4.0
+      components:
+        story: 6.0
+        dialogue: 2.0
+        acting: 4.0
+        entertainment: 7.0
+        cinematography: 3.0
+  - title: "The Devil's Double"
+    year: 2011
+    genre: drama
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.5
+        hannah: 4.0
+      components:
+        story: 8.0
+        dialogue: 5.0
+        acting: 6.0
+        entertainment: 8.0
+        cinematography: 5.0
+  - title: Vivarium
+    year: 2019
+    genre: sci-fi
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.0
+        hannah: 4.0
+      components:
+        story: 7.0
+        dialogue: 2.0
+        acting: 4.0
+        entertainment: 4.0
+        cinematography: 6.0
