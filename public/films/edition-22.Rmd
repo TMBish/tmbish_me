@@ -27,6 +27,7 @@ source("R/film-review-utils.R")
 # Load Edition YAML
 yaml = yaml.load_file("yaml/edition-22.yaml")
 
+
 # Edition
 ed = yaml$edition
 ```
