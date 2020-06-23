@@ -23,7 +23,7 @@
     <item>
       <title>Highcharter Cookbook</title>
       <link>/lab/highcharter-cookbook/</link>
-      <pubDate>Tue, 23 Jun 2020 15:08:30 +0000</pubDate>
+      <pubDate>Tue, 23 Jun 2020 15:13:42 +0000</pubDate>
       
       <guid>/lab/highcharter-cookbook/</guid>
       <description>OverviewWhathighcharter is an R implementation of the highcharts javascript graphing API through R’s htmlwidgets. Most of the highcharts functionality is implemented through highcharter however the documentation is a little light.</description>
