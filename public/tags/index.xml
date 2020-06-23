@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Nov 2017 20:40:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2020 14:46:55 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Highcharter</title>
       <link>/tags/highcharter/</link>
-      <pubDate>Thu, 23 Nov 2017 20:40:30 +0000</pubDate>
+      <pubDate>Tue, 23 Jun 2020 14:46:55 +0000</pubDate>
       
       <guid>/tags/highcharter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Tue, 23 Jun 2020 14:46:55 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
@@ -26,15 +35,6 @@
       <pubDate>Thu, 23 Nov 2017 20:40:30 +0000</pubDate>
       
       <guid>/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Thu, 23 Nov 2017 20:40:30 +0000</pubDate>
-      
-      <guid>/tags/r/</guid>
       <description></description>
     </item>
     

@@ -19,6 +19,35 @@
   </url>
   
   <url>
+    <loc>/tags/highcharter/</loc>
+    <lastmod>2020-06-23T14:46:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/lab/highcharter-cookbook/</loc>
+    <lastmod>2020-06-23T14:46:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/lab/</loc>
+    <lastmod>2020-06-23T14:46:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2020-06-23T14:46:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-23T14:46:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/films/7-jun-20/</loc>
     <lastmod>2020-06-07T00:00:00+00:00</lastmod>
   </url>
@@ -150,37 +179,13 @@
   </url>
   
   <url>
-    <loc>/tags/highcharter/</loc>
-    <lastmod>2017-11-23T20:40:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/javascript/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/lab/</loc>
-    <lastmod>2017-11-23T20:40:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2017-11-23T20:40:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/r-markdown/</loc>
-    <lastmod>2017-11-23T20:40:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2017-11-23T20:40:30+00:00</lastmod>
     <priority>0</priority>
   </url>
