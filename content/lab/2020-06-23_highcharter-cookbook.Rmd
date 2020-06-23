@@ -253,11 +253,11 @@ To customise a highcharter y axis you need to use the `hc_yAxis()` function. Let
 help(hc_yAxis)
 ```
 
-![](img/hc_yAxis_help.PNG)
+![](hccook/hc_yAxis_help.PNG)
 
 There is some example customisation supplied in the exaples which can be very helpful, but is still limited to a few examples. It might not click with you immediately what's required or valid as an input for the `hc_yAxis()` function. How do I know what arguments I can use for this function? Well the answer is always the API documentation. Let's check the actual highcharts API documentation for a highcharts y Axis. You can find it yourself [here](https://api.highcharts.com/highcharts/yAxis) but it looks like this:
 
-![](img/yAxis_api_doc.PNG)
+![](hccook/yAxis_api_doc.PNG)
 
 The arguments in the green rectangle (there are more than shown) is an exhaustive list of the customisation options for a highcharts y Axis. There are nearly 50 different arguments for a y axis that will change the way your charts looks or works, and you can use any of them (provided highcharter stays up to date) in your R function calls. 
 
@@ -267,7 +267,7 @@ The highcharts javascript API is expecting a JSON packet to define all y axis op
 
 Starting simply using a couple of the simple boolean chart options we can adjust the `gridLineWidth` to 10 which will make the major grid lines extremely thick and change the dash style to "shortdash". We know we can enter the string "shortdash" as a possible option for the grid line dash style because when we click on that option in the API documentation it links us to another page which shows us the valid options
 
-![](img/yaxis_dash_style.PNG)
+![](hccook/yaxis_dash_style.PNG)
 
 ```{r class.source="language-r"}
 gamelogs %>%
@@ -289,7 +289,7 @@ Without going to this page on the documentation we'd be completely in the dark a
 
 Your most common form of axis customisation will be probably be the title and labels on the axis. Here's the documentation for a Y axis title
 
-![](img/yAxis_title_api_doc.PNG)
+![](hccook/yAxis_title_api_doc.PNG)
 
 Notice the dropdown icons and nested arguments. They tell us that the axis title should be defined by it's own JSON packet within the broader y axis configuration. Further any styling you want to add to the title should be another JSON packet (we'll get to this part next). To correctly create this JSON packet in R we use named lists. 
 
@@ -358,7 +358,7 @@ Let's check the API documentation for a column graph. We'll find the specificati
 
 The specification looks like the following
 
-![](img/series_column.PNG)
+![](hccook/series_column.PNG)
 
 What we're interested in is the `series > column > data` entry which tells us the viable formats to enter the data for a column chart. The documentation says we can enter the data in 3 different ways:
 
@@ -370,7 +370,7 @@ Let's try to implement the assists chart in each of these 3 ways but without the
 
 #### Option 1: Simple Array
 
-![](img/hc_columns_data_1.PNG)
+![](hccook/hc_columns_data_1.PNG)
 
 The first option says data can be presented as a simple array of values. When we see JSON "array" we should generally think of R lists but sometimes an R vector works too. 
 
@@ -413,7 +413,7 @@ hc_xAxis(categories = namePlayer)
 
 #### Option 2: Array of Arrays
 
-![](img/hc_columns_data_2.PNG)
+![](hccook/hc_columns_data_2.PNG)
 
 So this option suggests you can provide the data as an array of x, y pairs. This isn't a perfectly natural data structure for R but we can construct a list of x, y pairs from a dataframe with the help of the `list_parse2()` function exported with highcharter. The reason this function has been created alongside these charting functions is exactly for this purpose. You often need to construct these specific list types if you're building charts this way.
 
@@ -458,7 +458,7 @@ hc_xAxis(categories = namePlayer)
 
 #### Array of Objects
 
-![](img/hc_columns_data_3.PNG)
+![](hccook/hc_columns_data_3.PNG)
 
 This is the most general and most frequently viable data specification option for a highcharts series. An array of JSON packets describing all the appropriate properties required (or possible) for the chart. In R this will be a list (array) of named lists. Let's plot it manually first like before to see what is required. We can even pass distinct column colors to illustrate that the named list configures each column independently:
 
@@ -849,7 +849,7 @@ teamFreeThrows
 
 The axis title and the chart title now look a little cramped. You can fully customise the padding and margins of highcharts chart components. Here's a visual on how that works.
 
-![](img/highcharts_margins.png)
+![](hccook/highcharts_margins.png)
 
 So we want to add a little more margin to the top of the chart.
 
