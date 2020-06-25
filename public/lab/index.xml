@@ -6,7 +6,7 @@
     <description>Recent content in Labs on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2020 13:56:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2020 15:31:32 +0000</lastBuildDate>
     
 	<atom:link href="/lab/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Highcharter Cookbook</title>
       <link>/lab/highcharter-cookbook/</link>
-      <pubDate>Thu, 25 Jun 2020 13:56:37 +0000</pubDate>
+      <pubDate>Thu, 25 Jun 2020 15:31:32 +0000</pubDate>
       
       <guid>/lab/highcharter-cookbook/</guid>
       <description>OverviewWhathighcharter is an R implementation of the highcharts javascript graphing API through R’s htmlwidgets. Most of the highcharts functionality is implemented through highcharter however the documentation is a little light.</description>
