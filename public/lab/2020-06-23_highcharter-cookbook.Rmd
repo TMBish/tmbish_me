@@ -39,9 +39,9 @@ options(
 
 ### What
 
-`highcharter` is an R implementation of the `highcharts`  javascript graphing API through R's `htmlwidgets`. Most of the `highcharts`  functionality is implemented through `highcharter` however the documentation is a little light. This guide will provide examples on how to create and customise various graphs whilst providing some tips on how to think about the package that will help you build and debug your more ambitious charts. I'll try to show and explain (to the best of my knowledge) the most common graphs and customisation options I use in my day-to-day work. I assume you're familiar with tidy data, dplyr, and R lists, as well as as simple understanding of the grammar of graphics (`ggplot` / `aes()`).
+`highcharter` is an R implementation of the `highcharts`  javascript library, enabled by R's `htmlwidgets` package. Most of the `highcharts` functionality is implemented through `highcharter` however the documentation is a little light. This guide will provide examples on how to create and customise various graphs whilst providing some tips on how to think about the package that will help you build and debug your more ambitious charts. I'll try to show and explain (to the best of my knowledge) the most common graphs and customisation options I use in my day-to-day work. I assume you're familiar with tidy data, `dplyr`, and R lists, as well as as simple understanding of the grammar of graphics (`ggplot`).
 
-Highcharts is a commercial product so you can't add these charts to a commercial product (selling to customers) without purchasing a licence but non commercial use (internal organisation / research) comes under their free license.
+`highcharts` is a commercial product so you can't add these charts to a commercial product of your own (selling to customers) without purchasing a licence but non commercial use (internal organisation / research) comes under their free license.
 
 Your most important resources should be the `highcharter` official website, and the `highcharts`  API documentation which you should bookmark in your browser:
 
@@ -53,15 +53,18 @@ Additionally get into styling your charts so a few extra resources you might wan
 * [coolors for selecting colors](https://coolors.co/app)
 * [google fonts for selecting fonts](https://fonts.google.com/)
 
-As you become more a more proficient `highcharter` user and your charting requirements become more complicated you will need to understand more about the complexities of the `highcharts`  API and you might need to learn, read and write a little javascript. This learning curve is actually the best thing about highcharter: most basic charts are as easy to create as `ggplot`, whilst complex and beautiful charts are still achievable with enough thought and tinkering.
+As you become more a more proficient `highcharter` user and your charting requirements become more complicated you will need to understand more about the complexities of the `highcharts`  API, you might need to write some complex list wrangling code, and you might need to learn a little javascript. This learning curve is actually the best thing about `highcharter`: most basic charts are as easy to create as `ggplot`, whilst complex and beautiful charts are still achievable with enough thought and tinkering.
 
 ### When & Why
 
-`highcharter` is a perfect compliment for `ggplot2`. Depending on your needs you it might not completely replace your use of that library, but it may. `ggplot` has a number of functional advantages over `highcharter` as it has simple implementations of reasonably complex chart types. I'd say I use `highcharter` for 90% of my day to day plots.
+`highcharter` is a perfect compliment for `ggplot`. Depending on your needs you it might not completely replace your use of that library, but it may. `ggplot` has a number of functional advantages over `highcharter` as it has simple implementations of reasonably complex chart types, a huge ecosymstem of satellite packages, and tons of smarts built into the charting functions. However, I'd say I use `highcharter` for 90% of my day to day plots.
 
-If you need to do any of the following or you're a gun at making `ggplots` look presentable it's I'd suggest using `ggplot`:
+If you're doing any of the following you might need to stick with `ggplot`:
+
 * Semi-complicated facetting
-* Standard statistical layers / geoms like smooths and confidence intervals / error bars etc.
+* Complicated multi chart arrangements
+* Standard statistical layers / geoms like smooths and confidence intervals and error bars etc.
+* Animations (before you get very comfortable with `highcharter`)
 
 ### Getting The Data
 
@@ -70,16 +73,16 @@ I'll be illustrating `highcharter` functionality with an NBA dataset I'll get fr
 We'll use the gamelogs (boxscores) from the most recent complete NBA season 2018-19:
 
 ```{r, warning=FALSE, message=FALSE, class.source="language-r"}
-gamelogs = game_logs(seasons = 2019)
+gamelogs = nbastatR::game_logs(seasons = 2019)
 ```
 
 ## Basic Charts
 
 ### Tidy Data
 
-Most (~90%) of your day-to-day charts can be probably written with 2-3 lines of code using the `hchart` and `hcaes` functions. These functions allow you to use the extremely powerful grammar of graphics to turn R data into interactive charts - functionality that isn't implemented natively in R `plotly` for example. Like `ggplot2` your data needs to be in tidy / long format so you'll often need to use `tidyr` for some simple data pivotting before passing it to your highchart functions.
+Most (~90%) of your day-to-day charts can be probably written with 2-3 lines of code using the `hchart` and `hcaes` functions. These functions allow you to use the extremely powerful grammar of graphics to turn R data into interactive charts - functionality that isn't implemented natively in R `plotly` for example. Like `ggplot` your data needs to be in tidy / long format so you'll often need to use `tidyr` for some simple data pivotting before passing it to your `highcharter` functions.
 
-Let's compare a simple `ggplot` call for charting the top 10 scorers in the NBA this year might vs the equivolent call in highcharter
+Let's compare a simple `ggplot` call for charting the top 10 scorers in the NBA this year might vs the equivolent call in `highcharter`.
 
 
 #### ggplot
@@ -215,9 +218,9 @@ Not yet completed...
 
 As you can see from the code for some of these charts `highcharter` is much like `ggplot` where charts are built with layers. The good thing about `highcharter` layers is that they are layered with the pipe `%>%` operator rather than `ggplots` plus operator `+`. Layering is an excellent pattern for charting as chart objects can be passed further down scripts and altered / ammended by simply taking the current chart object and piping more layers onto it.
 
-#### Layering Series (geoms)
+#### Layering Different Charts (geoms)
 
-Layering series onto the same chart works much like `ggplot`. It's a little bet less natural as the data object must be supplied each time which prevents big long data into `highcharter` chanins. The additional layers, added with `hc_add_series()` can be added with exactly the same pattern as your initial `hchart()` call. It's good practice to name your series and you can specifically add them to the legend with the `showInLegend` option.
+Layering series onto the same chart works much like `ggplot`. It's a little bet less natural as the data object must be supplied each time which prevents big long data into `highcharter` chanins. The additional layers, added with `hc_add_series()` can be added with exactly the same pattern as your initial `hchart()` call. It's good practice to name your series. You can specifically add them to the legend with the `showInLegend` option.
 
 ```{r, class.source="language-r"}
 drum = 
@@ -239,6 +242,7 @@ hchart(drum, "column", hcaes(x = numberGamePlayerSeason, y = dreb), name = "Defe
   hc_title(text = "Andre Drummond Rebounds")
 ```
 
+## Understanding The API
 
 The most important thing to learn about this package is how the relatively undocumented R functions map onto the actual `highcharts` javascript library. The way these `htmlwidgets` packages work is consuming R dataframes and R instructions and turning them into the javascript code, that when embedded into your output html page, will display the particular chart you wanted to create.
 
@@ -268,15 +272,23 @@ The answer is to refer to the API documentation. Let's check the actual `highcha
 
 ![](img/lab/hccook/yAxis_api_doc.PNG)
 
-The arguments in the green rectangle (there are more than shown) is an exhaustive list of the customisation options for a `highcharts`  y Axis. There are nearly 50 different arguments for a y axis that will change the way your charts looks or works. You can use any of them (provided `highcharter` stays up to date) in your R function calls. 
+The arguments in the green rectangle (there are more than shown) is an exhaustive list of the customisation options for a `highcharts`  y axis. There are nearly 50 different arguments for a y axis that will change the way your charts looks or works. You can use any of them (provided `highcharter` stays up to date) in your R function calls. 
 
 * **These don't look like R arguments, how do I write then into my R function?**
 
-The `highcharts`  javascript API is expecting a JSON packet to define all y axis options. In other words: some options are single strings, some are booleans, some are numbers, but some are arrays of numbers or strings, and some are more JSON packets. `highcharter` will make conversion provided you supply the options as an appropriately structured and named R list. It's easiest to see this in an example.
+The `highcharts`  javascript API is expecting a JSON packet to define all y axis options. In other words:
+
+* Some options are single strings
+* Some are booleans
+* Some are numbers
+* But some are arrays of numbers or strings
+* A=nd and some are yet more self-contained JSON packets
+
+`highcharter` will make the conversion provided you supply the options as an appropriately structured and named R list. It's easiest to see this in an example.
 
 #### Simple Arguments
 
-Starting simply using a couple of the simple boolean chart options we can adjust the `gridLineWidth` to 10 which will make the major grid lines extremely thick and change the dash style to "shortdash". We know we can enter the string "shortdash" as a possible option for the grid line dash style because when we click on that option in the API documentation it links us to another page which shows us the valid options:
+Starting simply using a couple of the simple boolean chart options we can adjust the `gridLineWidth` to 10 which will make the major grid lines extremely thick and change the dash style to `shortdash`. We know we can enter the string `shortdash` as a possible option for the grid line dash style because when we click on that option in the API documentation it links us to another page which shows us the valid options:
 
 ![](img/lab/hccook/yaxis_dash_style.PNG)
 
@@ -632,19 +644,38 @@ highchart() %>%
 
 ### Conclusion
 
-Hopefully what you should understand after these examples is that `highcharts`  on the javascript side are just giant JSON configuration objects. Even the data is nested within the `series > data` slot in the appropriately structured format. On the R side a set of functions and helpers enable you to create this JSON often with only 1 or 2 lines of code. Most of the time you simply pass `hchart()` a tidy dataframe and let it convert your data into the JSON that will be placed inside the series config. Every now and then, though, and when you need to venture into more complicated chart types (animated charts is an example) the data specification won't be simple and easy to construct with `hchart()` and you'll need to build the raw data specification list yourself. To do so you need to know how to wrangle lists, likely with purrr, but most importantly: you need to understand the structure the javascript API needs expects. Knowing that you just fiddle around with purrr functions till your output list looks exactly right.
+Hopefully what you should understand after these examples is that `highcharts`  on the javascript side are just giant JSON configuration objects. Even the data is nested within the `series > data` slot in the appropriately structured format. On the R side a set of functions and helpers enable you to create this JSON often with only 1 or 2 lines of code. Most of the time you simply pass `hchart()` a tidy dataframe and let it convert your data into the JSON that will be placed inside the series config. Every now and then, though, and when you need to venture into more complicated chart types (animated charts is an example) the data specification won't be simple and easy to construct with `hchart()` and you'll need to build the raw data specification list yourself. To do so you need to know how to wrangle lists, likely with `purrr`, but most importantly: you need to understand the structure the javascript API needs expects. Knowing that you just fiddle around with `purrr` and `tidyr` functions till your output list looks exactly right.
 
 ## Pre-Baked `hchart()` for different R classes
 
 One of the awesome features Josh Kunst has built into `highcharter` is that, with some black box magic, `hchart()` supports charting of various standard R objects / classes out of the box.
 
-The github page currently says this function current supports: numeric, histogram, character, density, factors, ts, mts, xts, stl, ohlc, acf, forecast, mforecast, ets, igraph, dist, dendrogram, survfit classes.
+The github page currently says this function current supports:
+
+* numeric
+* histogram
+* character
+* density
+* factors
+* ts
+* mts
+* xts
+* stl
+* ohlc
+* acf
+* forecast
+* mforecast
+* ets
+* igraph
+* dist
+* dendrogram
+* survfit
 
 To see how this works lets have a look at a few examples of the functionality that i use regularly. This gamelog dataset doesn't lend itself to some of these classes so I won't show them all.
 
 ### Histograms
 
-I want to view histograms or density plots of numeric vectors very regularly. This is a simple one liner in highcharter
+I want to view histograms or density plots of numeric vectors very regularly. This is a simple one liner in `highcharter`
 
 ```{r, class.source="language-r"}
 gamelogs %>% pull(pts) %>% hchart()
@@ -662,7 +693,7 @@ gamelogs %>% pull(pts) %>%
 
 ### Densities
 
-Similarly if we were interested in this plot but in a density form (smoothed & proportion of total cases) we can simply pass `hchart()` a density object created by the base density() function
+Similarly if we were interested in this plot but in a density form (smoothed & proportion of total cases) we can simply pass `hchart()` a density object created by the base `density()` function
 
 ```{r, class.source="language-r"}
 gamelogs %>% 
@@ -712,15 +743,15 @@ gamelogs %>%
 
 Adding the right components and style to charts is my #1 rule for data visualisation. It's your job as the visualiser to make a chart that is clear, easy to understand, and purposeful. Too many charts are presented without labels, descriptions, units or fail to convey a clear message or conclusion and it's a crime (not a real crime I suppose, but a chart crime). Making your chart clean and aesthetically appealing is also a hugely underated job and has huge impact on how much effort your viewer will spend trying to absorb your chart's insight.
 
-This is where `highcharter` really shines over some of it's htmlwidget & static competitors. `highcharter` is brimming with options to customise and `highcharter` allows natural component and option layering through the pipe operator making `highcharter` charts flexible and extensible.
+This is where `highcharter` really shines over some of it's `htmlwidget` & static competitors. `highcharter` is brimming with options to customise and `highcharter` allows natural component and option layering through the pipe operator making `highcharter` charts flexible and extensible.
 
 ### Grids + Facetting
 
-This is an area `highcharter` is genuinely much inferior to `ggplot`. In `ggplot`, facetting is natural, logical and easy. Supplmentary `ggplot` packages like `cowplot` and Thomas Pedersen's new `patchwork` package enhance this process even further. Assembling a grid of `highcharts`  split by some variable or combination of variables requires a fair bit more code. Like most things in highcharter, though, it is largely possible.
+This is an area `highcharter` is genuinely much inferior to `ggplot`. In `ggplot`, facetting is natural, logical and easy. Supplmentary `ggplot` packages like `cowplot` and Thomas Pedersen's new `patchwork` package enhance this process even further. Assembling a grid of `highcharts`  split by some variable or combination of variables requires a fair bit more code. Like most things in `highcharter`, though, it is largely possible.
 
 Splitting charts vertically is easy with the concept of multiple axes. Axes can be assembled with different heights / sizes to make vertical grids within charts plotting different series. You use the `hc_yAxis_multiples()` function instead of the single `hc_yAxis()` function to do this. 
 
-You can either specify the options for each yAxis with named R lists like the following. When creating the initial series or adding additional series you also need to define which axis you want to chart the data against. You do this with a y axis index, obsersving that javascript is a language where indicies start at 0.
+You can either specify the options for each y axis with named R lists like the following. When creating the initial series or adding additional series you also need to define which axis you want to chart the data against. You do this with a y axis index, obsersving that javascript is a language where indicies start at 0.
 
 2 Axes:
 ```{r, class.source="language-r"}
@@ -1655,8 +1686,6 @@ hc_theme_hcCookbook =
   )
 ```
 
-If you're trying to replicate these charts or any fancy `highcharter` attempts you see online I'd really recommend splitting the data manipulation and the chart code in your head. Oftentimes the data steps are reasonably complicated R code that takes you a while to get your head around. But if you assume you can create the data for a moment and just focus on what's happening in the chart logic I think it'll enhance your understanding of the `highcharter` code.
-
 ### Packed Bubble
 
 * To show you how you can work backwards directly from charts made purely for the highcharts javascript library I went to the [demos page](https://www.highcharts.com/demo) and tried to replicate [this packed bubble chart](https://www.highcharts.com/demo/packed-bubble-split)
@@ -1824,7 +1853,7 @@ donutList %>% head(2)
 
 #### Chart
 
-```{r}
+```{r, class.source="language-r"}
 hchart(
   donutList,
   "pie",
@@ -1958,7 +1987,7 @@ playerSeries[[1]]$sequence[[1]]
 
 #### Chart
 
-```{r}
+```{r, class.source="language-r"}
 
 highchart() %>% 
   hc_chart(type = "scatter") %>% 
