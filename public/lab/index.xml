@@ -6,7 +6,7 @@
     <description>Recent content in Labs on Tom Bishop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jun 2020 14:55:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 09:23:51 +0000</lastBuildDate>
     
 	<atom:link href="/lab/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>Highcharter Cookbook</title>
       <link>/lab/highcharter-cookbook/</link>
-      <pubDate>Mon, 29 Jun 2020 14:55:06 +0000</pubDate>
+      <pubDate>Tue, 30 Jun 2020 09:23:51 +0000</pubDate>
       
       <guid>/lab/highcharter-cookbook/</guid>
-      <description>OverviewWhatWhen &amp;amp; WhyGetting The DataBasic ChartsTidy DataChart TypesTreemapMapsLayering ElementsUnderstanding The APIA Simple ExampleChart DataConclusionPre-Baked hchart() for different R classesHistogramsDensitiesCharacter / Factor CountsForecastCorrelation MatrixComponents + StyleGrids + FacettingAxesAxes TransformsUnit FormattingTitlesChart Padding and SpacingFontsTooltipPlot AreaAnnotationsPlot Lines and BandsDatalabelsAdvanced LabelsAdvanced TooltipsNested ChartsDates + DatetimesPackaged ThemesCustom ThemesHarder Charts / ShowcasePacked BubbleDonut TooltipAnimationOverviewWhathighcharter is an R implementation of the highcharts javascript graphing API through R’s htmlwidgets.</description>
+      <description>OverviewWhatWhen &amp;amp; WhyGetting The DataBasic ChartsTidy DataChart TypesTreemapMapsLayering ElementsA Simple ExampleChart DataConclusionPre-Baked hchart() for different R classesHistogramsDensitiesCharacter / Factor CountsForecastCorrelation MatrixComponents + StyleGrids + FacettingAxesAxes TransformsUnit FormattingTitlesChart Padding and SpacingFontsTooltipPlot AreaAnnotationsPlot Lines and BandsDatalabelsAdvanced LabelsAdvanced TooltipsNested ChartsDates + DatetimesPackaged ThemesCustom ThemesHarder Charts / ShowcasePacked BubbleFixed TooltipAnimationOverviewWhathighcharter is an R implementation of the highcharts javascript graphing API through R’s htmlwidgets.</description>
     </item>
     
     <item>
