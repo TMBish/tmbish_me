@@ -65,6 +65,13 @@ If you're doing any of the following you might need to stick with `ggplot`:
 * Complicated multi chart arrangements
 * Standard statistical layers / geoms like smooths and confidence intervals and error bars etc.
 * Animations (before you get very comfortable with `highcharter`)
+* Many more
+
+So why would you use `highcharter` at all then? 
+The answer is that it has a huge number of functional and stylistic advantages over it's static counterparts. 
+Data analytics & data science outputs are becoming almost exclusively viewable through web browsers so it's extremely valuable to be able to create charts that are built to be viewed in a web browser. `ggvis` was supposed to be this solution and a successor to `ggplot` but it is half built and it's development has been delayed indefinitely.
+`highcharter` is somewhat limited compared with `ggplot`, however, that's not an indictment because `ggplot` is probably the most mature charting library in data analytics history.
+The most important point to emphasise though is impact. The impact of suprising your stakeholders with interactive, clean, and aesthetically appealing charts is hugely underated and you're exponentionally more likely to get buy-in on your technical work if you can pair good solid technical analysis with really shiny packaging.
 
 ### Getting The Data
 
@@ -282,7 +289,7 @@ The `highcharts`  javascript API is expecting a JSON packet to define all y axis
 * Some are booleans
 * Some are numbers
 * But some are arrays of numbers or strings
-* A=nd and some are yet more self-contained JSON packets
+* And and some are yet more self-contained JSON packets
 
 `highcharter` will make the conversion provided you supply the options as an appropriately structured and named R list. It's easiest to see this in an example.
 
@@ -1875,8 +1882,8 @@ hc_tooltip(
             list(
               value = leagueTS,
               zIndex = -100,
-              color = "#C9CFCC",
-              label = list(text = "League Average", align = "right", style = list(fontWeight = "bold", color = "#C9CFCC")
+              color = "rgba(212, 217, 214, 0.4)",
+              label = list(text = "League Average", align = "right", style = list(fontWeight = "bold", color = "rgba(212, 217, 214, 0.4)")
               )
             )
           )
