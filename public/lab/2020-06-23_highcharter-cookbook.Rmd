@@ -1882,8 +1882,8 @@ hc_tooltip(
             list(
               value = leagueTS,
               zIndex = -100,
-              color = "rgba(212, 217, 214, 0.4)",
-              label = list(text = "League Average", align = "right", style = list(fontWeight = "bold", color = "rgba(212, 217, 214, 0.4)")
+              color = "rgba(212, 217, 214, 0.7)",
+              label = list(text = "League Average", align = "right", style = list(fontWeight = "bold", color = "rgba(212, 217, 214, 0.7)")
               )
             )
           )
