@@ -4,7 +4,7 @@ reviews:
     year: 2019
     genre: thriller
     image: luce.png
-    pick-of-the-week: 'yes'
+    pick-of-the-week: yes
     reviewer: Hannah
     review-text: >
        Luce is a thriller/drama focused on an adopted Eritrean teen, Luce, and his relationships with those around him. The movie was about stereotypes/racism, and the many ways in which these ideas can play out. I think movies focused on these topics can often be heavy handed (Green Book, Crash etc) but I thought this was much more subtle. Each of the characters were not what you would typically call racist, or even 'bad' people. All were fairly complex and the writing did a good job of showing them as genuine people coming to terms with how their subconscious ideas affect their judgements. Luce is adapted from a play which makes sense as the sense of tension is created purely by the dense dialogue and pretty great acting. I especially loved the main guy - Kelvin Harrison Jr. who was also in It Come at Night. Octavia Spencer was also great but I feel like she plays the same role very often.
@@ -23,7 +23,7 @@ reviews:
     year: 2020
     genre: horror
     image: relic.png
-    pick-of-the-week: 'no'
+    pick-of-the-week: no
     reviewer: Tom
     review-text: >
        *Relic* is an Australian horror film about the search for a family's eldery matriarch going missing from her home. The film's thematic and symbolically revolves around the grandmother's dementia and her transformation from the woman the family used to know. It’s the directorial debut of Natalie James and is a really impressive horror film. There has been many very impressive Australian horror films in recent years including *The Babadook*, *The Loved Ones*, and *Killing Ground*. Hopefully, this becomes our cinematic niche!
@@ -42,7 +42,7 @@ reviews:
     year: 2019
     genre: horror
     image: ready-or-not.png
-    pick-of-the-week: 'no'
+    pick-of-the-week: no
     reviewer: Tom
     review-text: >
        *Ready Or Not* is a comedy horror that follows the wedding night of Grace (Australian Samara Weaving) as she's coldly welcomed to the board-game enriched Le Domas family. Grace learns the family is steeped in various traditions and one every wedding night they must play an unusual card game. It's a reasonably funny and very entertaining film, but the best part is definitely the uncertain build up. The sets, characters and costumes are all very good.
@@ -201,7 +201,7 @@ reviews:
         acting: 6.0
         entertainment: 8.0
         cinematography: 6.0
-  - title: 'Mission: Impossible 2'
+  - title: 'Mission: Impossible II'
     year: 2000
     genre: action
     image: ~
@@ -597,7 +597,7 @@ reviews:
         acting: 6.0
         entertainment: 8.0
         cinematography: 4.0
-  - title: A Simple Favour
+  - title: A Simple Favor
     year: 2018
     genre: thriller
     image: ~

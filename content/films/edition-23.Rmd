@@ -6,7 +6,7 @@ slug: 16-aug-20
 categories: []
 tags: []
 highlight: "kate"
-description: "It's like I solely get to be a saint or a monster.' - Luce"
+description: "It's like I solely get to be a saint or a monster. - Luce"
 screencap: "E23"
 edition: "16 Aug 20"
 ---
@@ -26,6 +26,7 @@ source("R/film-review-utils.R")
        
 # Load Edition YAML
 yaml = yaml.load_file("yaml/edition-23.yaml")
+
 
 # Edition
 ed = yaml$edition
