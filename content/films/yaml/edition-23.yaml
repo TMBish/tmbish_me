@@ -1,0 +1,797 @@
+edition: 23
+reviews:
+  - title: Luce
+    year: 2019
+    genre: thriller
+    image: luce.png
+    pick-of-the-week: 'yes'
+    reviewer: Hannah
+    review-text: >
+       Luce is a thriller/drama focused on an adopted Eritrean teen, Luce, and his relationships with those around him. The movie was about stereotypes/racism, and the many ways in which these ideas can play out. I think movies focused on these topics can often be heavy handed (Green Book, Crash etc) but I thought this was much more subtle. Each of the characters were not what you would typically call racist, or even 'bad' people. All were fairly complex and the writing did a good job of showing them as genuine people coming to terms with how their subconscious ideas affect their judgements. Luce is adapted from a play which makes sense as the sense of tension is created purely by the dense dialogue and pretty great acting. I especially loved the main guy - Kelvin Harrison Jr. who was also in It Come at Night. Octavia Spencer was also great but I feel like she plays the same role very often.
+    similar-film: Get Out
+    ratings:
+      overall:
+        tom: 8.0
+        hannah: 8.5
+      components:
+        story: 10.0
+        dialogue: 9.0
+        acting: 9.0
+        entertainment: 8.0
+        cinematography: 7.0
+  - title: Relic
+    year: 2020
+    genre: horror
+    image: relic.png
+    pick-of-the-week: 'no'
+    reviewer: Tom
+    review-text: >
+       *Relic* is an Australian horror film about the search for a family's eldery matriarch going missing from her home. The film's thematic and symbolically revolves around the grandmother's dementia and her transformation from the woman the family used to know. It’s the directorial debut of Natalie James and is a really impressive horror film. There has been many very impressive Australian horror films in recent years including *The Babadook*, *The Loved Ones*, and *Killing Ground*. Hopefully, this becomes our cinematic niche!
+    similar-film: The Babadook
+    ratings:
+      overall:
+        tom: 7.5
+        hannah: 7.5
+      components:
+        story: 7.0
+        dialogue: 6.0
+        acting: 8.0
+        entertainment: 7.0
+        cinematography: 8.0
+  - title: Ready Or Not
+    year: 2019
+    genre: horror
+    image: ready-or-not.png
+    pick-of-the-week: 'no'
+    reviewer: Tom
+    review-text: >
+       *Ready Or Not* is a comedy horror that follows the wedding night of Grace (Australian Samara Weaving) as she's coldly welcomed to the board-game enriched Le Domas family. Grace learns the family is steeped in various traditions and one every wedding night they must play an unusual card game. It's a reasonably funny and very entertaining film, but the best part is definitely the uncertain build up. The sets, characters and costumes are all very good.
+    similar-film: You're Next 
+    ratings:
+      overall:
+        tom: 7.5
+        hannah: 6.5
+      components:
+        story: 9.0
+        dialogue: 7.0
+        acting: 7.0
+        entertainment: 7.0
+        cinematography: 7.0
+  - title: It Comes At Night
+    year: 2017
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.5
+        hannah: 8.0
+      components:
+        story: 8.0
+        dialogue: 7.0
+        acting: 9.0
+        entertainment: 7.0
+        cinematography: 8.0
+  - title: Jack Reacher
+    year: 2012
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.0
+        hannah: 8.5
+      components:
+        story: 8.0
+        dialogue: 4.0
+        acting: 7.0
+        entertainment: 10.0
+        cinematography: 7.0
+  - title: Inception
+    year: 2010
+    genre: sci-fi
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.5
+        hannah: 8.0
+      components:
+        story: 9.0
+        dialogue: 7.0
+        acting: 8.0
+        entertainment: 10.0
+        cinematography: 9.0
+  - title: Limitless
+    year: 2011
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.5
+        hannah: 8.0
+      components:
+        story: 8.0
+        dialogue: 5.0
+        acting: 7.0
+        entertainment: 10.0
+        cinematography: 6.0
+  - title: Braveheart
+    year: 1995
+    genre: war
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.0
+        hannah: 4.0
+      components:
+        story: 5.0
+        dialogue: 4.0
+        acting: 5.0
+        entertainment: 3.0
+        cinematography: 5.0
+  - title: Red Dragon
+    year: 2002
+    genre: thriller
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.0
+        hannah: 6.0
+      components:
+        story: 6.0
+        dialogue: 8.0
+        acting: 7.0
+        entertainment: 7.0
+        cinematography: 6.0
+  - title: Hannibal
+    year: 2001
+    genre: thriller
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.5
+        hannah: 9.0
+      components:
+        story: 7.0
+        dialogue: 9.0
+        acting: 8.0
+        entertainment: 8.0
+        cinematography: 6.0
+  - title: 'Mission: Impossible'
+    year: 1996
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.0
+        hannah: 5.0
+      components:
+        story: 6.0
+        dialogue: 5.0
+        acting: 6.0
+        entertainment: 8.0
+        cinematography: 6.0
+  - title: 'Mission: Impossible 2'
+    year: 2000
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 4.0
+      components:
+        story: 5.0
+        dialogue: 5.0
+        acting: 6.0
+        entertainment: 7.0
+        cinematography: 3.0
+  - title: 'Mission: Impossible III'
+    year: 2006
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.5
+        hannah: 5.0
+      components:
+        story: 7.0
+        dialogue: 5.0
+        acting: 6.0
+        entertainment: 9.0
+        cinematography: 5.0
+  - title: 'Mission: Impossible - Ghost Protocol'
+    year: 2011
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.0
+        hannah: 5.5
+      components:
+        story: 7.0
+        dialogue: 5.0
+        acting: 6.0
+        entertainment: 9.0
+        cinematography: 6.0
+  - title: 'Mission: Impossible - Rogue Nation'
+    year: 2015
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.5
+        hannah: 5.0
+      components:
+        story: 7.0
+        dialogue: 5.0
+        acting: 6.0
+        entertainment: 8.0
+        cinematography: 7.0
+  - title: The Hunger Games
+    year: 2012
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.0
+        hannah: 6.5
+      components:
+        story: 8.0
+        dialogue: 3.0
+        acting: 5.0
+        entertainment: 6.0
+        cinematography: 5.0
+  - title: 'The Hunger Games: Catching Fire'
+    year: 2013
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.5
+        hannah: 6.0
+      components:
+        story: 8.0
+        dialogue: 3.0
+        acting: 4.0
+        entertainment: 6.0
+        cinematography: 6.0
+  - title: 'The Hunger Games: Mockingjay - Part 1'
+    year: 2014
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 5.0
+      components:
+        story: 6.0
+        dialogue: 3.0
+        acting: 4.0
+        entertainment: 5.0
+        cinematography: 5.0
+  - title: 'The Hunger Games: Mockingjay - Part 2'
+    year: 2015
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 4.0
+      components:
+        story: 6.0
+        dialogue: 3.0
+        acting: 4.0
+        entertainment: 5.0
+        cinematography: 4.0
+  - title: It Chapter Two
+    year: 2019
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.0
+        hannah: 4.5
+      components:
+        story: 4.0
+        dialogue: 3.0
+        acting: 6.0
+        entertainment: 5.0
+        cinematography: 7.0
+  - title: Doctor Sleep
+    year: 2019
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 5.0
+      components:
+        story: 6.0
+        dialogue: 6.0
+        acting: 7.0
+        entertainment: 6.0
+        cinematography: 6.0
+  - title: Piercing
+    year: 2018
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.0
+        hannah: 4.0
+      components:
+        story: 5.0
+        dialogue: 4.0
+        acting: 5.0
+        entertainment: 5.0
+        cinematography: 4.0
+  - title: The Goldfinch
+    year: 2019
+    genre: drama
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.0
+        hannah: 4.5
+      components:
+        story: 4.0
+        dialogue: 5.0
+        acting: 5.0
+        entertainment: 4.0
+        cinematography: 4.0
+  - title: Ma
+    year: 2019
+    genre: thriller
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.5
+        hannah: 6.5
+      components:
+        story: 7.0
+        dialogue: 4.0
+        acting: 5.0
+        entertainment: 8.0
+        cinematography: 5.0
+  - title: Fractured
+    year: 2019
+    genre: thriller
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.5
+        hannah: 4.0
+      components:
+        story: 5.0
+        dialogue: 3.0
+        acting: 3.0
+        entertainment: 7.0
+        cinematography: 4.0
+  - title: Rear Window
+    year: 1954
+    genre: thriller
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.0
+        hannah: 8.0
+      components:
+        story: 8.0
+        dialogue: 8.0
+        acting: 8.0
+        entertainment: 5.0
+        cinematography: 7.0
+  - title: The Old Guard
+    year: 2020
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.0
+        hannah: 7.0
+      components:
+        story: 9.0
+        dialogue: 5.0
+        acting: 6.0
+        entertainment: 7.0
+        cinematography: 6.0
+  - title: Wolfen
+    year: 1981
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 3.0
+      components:
+        story: 5.0
+        dialogue: 3.0
+        acting: 2.0
+        entertainment: 4.0
+        cinematography: 2.0
+  - title: The Beach House
+    year: 2019
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.0
+        hannah: 4.0
+      components:
+        story: 3.0
+        dialogue: 2.0
+        acting: 2.0
+        entertainment: 6.0
+        cinematography: 2.0
+  - title: The Angels' Share
+    year: 2012
+    genre: drama
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.5
+        hannah: 5.5
+      components:
+        story: 4.0
+        dialogue: 5.0
+        acting: 5.0
+        entertainment: 5.0
+        cinematography: 6.0
+  - title: Macbeth
+    year: 2015
+    genre: drama
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.0
+        hannah: 6.0
+      components:
+        story: 10.0
+        dialogue: 10.0
+        acting: 10.0
+        entertainment: 6.0
+        cinematography: 7.0
+  - title: Luce
+    year: 2019
+    genre: thriller
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 8.0
+        hannah: 8.5
+      components:
+        story: 10.0
+        dialogue: 9.0
+        acting: 9.0
+        entertainment: 8.0
+        cinematography: 7.0
+  - title: Billy Madison
+    year: 1995
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.0
+        hannah: 7.0
+      components:
+        story: 6.0
+        dialogue: 7.0
+        acting: 6.0
+        entertainment: 8.0
+        cinematography: 4.0
+  - title: A Simple Favour
+    year: 2018
+    genre: thriller
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.0
+        hannah: 6.0
+      components:
+        story: 6.5
+        dialogue: 5.0
+        acting: 6.0
+        entertainment: 7.0
+        cinematography: 6.0
+  - title: Replicas
+    year: 2018
+    genre: thriller
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 3.0
+        hannah: 3.0
+      components:
+        story: 2.0
+        dialogue: 3.0
+        acting: 3.0
+        entertainment: 2.0
+        cinematography: 3.0
+  - title: The 40-Year-Old Virgin
+    year: 2005
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 9.0
+        hannah: 9.0
+      components:
+        story: 8.0
+        dialogue: 9.0
+        acting: 9.0
+        entertainment: 10.0
+        cinematography: 5.0
+  - title: The Dictator
+    year: 2012
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 6.0
+      components:
+        story: 3.0
+        dialogue: 6.0
+        acting: 6.0
+        entertainment: 6.0
+        cinematography: 4.0
+  - title: I Feel Pretty
+    year: 2018
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 5.0
+        hannah: 5.0
+      components:
+        story: 6.0
+        dialogue: 7.0
+        acting: 6.0
+        entertainment: 6.0
+        cinematography: 5.0
+  - title: The Green Hornet
+    year: 2011
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.0
+        hannah: 5.5
+      components:
+        story: 5.0
+        dialogue: 7.0
+        acting: 6.0
+        entertainment: 7.0
+        cinematography: 6.0
+  - title: 'Jumanji: Welcome To The Jungle'
+    year: 2017
+    genre: comedy
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 6.5
+        hannah: 5.5
+      components:
+        story: 6.0
+        dialogue: 4.0
+        acting: 7.0
+        entertainment: 7.0
+        cinematography: 6.0
+  - title: Ocean's 8
+    year: 2018
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.0
+        hannah: 6.5
+      components:
+        story: 7.0
+        dialogue: 5.0
+        acting: 7.0
+        entertainment: 8.0
+        cinematography: 7.0
+  - title: The Poughkeepsie Tapes
+    year: 2007
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 3.5
+        hannah: 4.0
+      components:
+        story: 4.0
+        dialogue: 4.0
+        acting: 6.0
+        entertainment: 5.0
+        cinematography: 3.0
+  - title: When a Stranger Calls
+    year: 2006
+    genre: horror
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 4.5
+        hannah: 4.0
+      components:
+        story: 2.0
+        dialogue: 2.0
+        acting: 5.0
+        entertainment: 6.0
+        cinematography: 3.0
+  - title: Taken
+    year: 2008
+    genre: action
+    image: ~
+    pick-of-the-week: 'no'
+    reviewer: ~
+    review-text: ~
+    similar-film: ~
+    ratings:
+      overall:
+        tom: 7.5
+        hannah: 7.5
+      components:
+        story: 7.0
+        dialogue: 5.0
+        acting: 4.0
+        entertainment: 9.0
+        cinematography: 3.0
