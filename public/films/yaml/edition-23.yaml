@@ -45,7 +45,7 @@ reviews:
     pick-of-the-week: no
     reviewer: Tom
     review-text: >
-       *Ready Or Not* is a comedy horror that follows the wedding night of Grace (Australian Samara Weaving) as she's coldly welcomed to the board-game enriched Le Domas family. Grace learns the family is steeped in various traditions and one every wedding night they must play an unusual card game. It's a reasonably funny and very entertaining film, but the best part is definitely the uncertain build up. The sets, characters and costumes are all very good.
+       *Ready Or Not* is a comedy horror that follows the wedding night of Grace (Australian Samara Weaving) as she's coldly welcomed to the board-game enriched Le Domas family. Grace learns the family is steeped in various traditions and on every wedding night they must play an unusual card game. It's a reasonably funny and very entertaining film, but the best part is definitely the uncertain build up. The sets, characters and costumes are all very good.
     similar-film: You're Next 
     ratings:
       overall:
@@ -560,24 +560,6 @@ reviews:
         dialogue: 10.0
         acting: 10.0
         entertainment: 6.0
-        cinematography: 7.0
-  - title: Luce
-    year: 2019
-    genre: thriller
-    image: ~
-    pick-of-the-week: 'no'
-    reviewer: ~
-    review-text: ~
-    similar-film: ~
-    ratings:
-      overall:
-        tom: 8.0
-        hannah: 8.5
-      components:
-        story: 10.0
-        dialogue: 9.0
-        acting: 9.0
-        entertainment: 8.0
         cinematography: 7.0
   - title: Billy Madison
     year: 1995

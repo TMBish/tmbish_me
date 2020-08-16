@@ -211,8 +211,8 @@ reviews:
     similar-film: ~
     ratings:
       overall:
-        tom: 9.0
-        hannah: 9.0
+        tom: 9.5
+        hannah: 9.5
       components:
         story: 10.0
         dialogue: 10.0
